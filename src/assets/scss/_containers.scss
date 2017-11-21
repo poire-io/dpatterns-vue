@@ -5,11 +5,11 @@
 
 /* ++++ Body Container ++++ */
 .main-content {
-    margin-left: 16.5rem;
     padding: 1.75rem;
     min-height: 100%;
+    padding-left: 18rem;
     &.main-content-collapsed {
-		margin-left: 6rem;
+		padding-left: 7.5rem;
 	}
 }
 
