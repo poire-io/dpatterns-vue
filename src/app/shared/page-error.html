@@ -1,0 +1,10 @@
+<div class="row mb-2" *ngIf="this.route.snapshot.data['errors']">
+	<div class="col-md-12">
+		<div class="alert alert-danger">
+			<h4>Errors have occured</h4>
+            <ul>
+				<li [innerHTML]="this.route.snapshot.data['errors']"></li>
+            </ul>
+		</div>
+	</div>
+</div>

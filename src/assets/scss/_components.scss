@@ -1,0 +1,146 @@
+/*
+    Components
+    Created on 11/20/2017 by Corey O'Brien.
+*/
+
+/* ++++ Header Bar ++++ */
+
+/* ++++ Nav Bar ++++ */
+.sidebar {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    // left: -12.5rem;
+    z-index: 1000;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: $navy;
+    // border-right: 0.0625rem solid darken($navy, 10%);
+    width: 16rem;
+    max-width: 16rem;
+    padding-left: 0;
+    padding-right: 0;
+    // text-align: center;
+    color: $white;
+    font-family: $base-font-medium;
+    &.sidebar-collapsed {
+        width: 5.625rem;
+        max-width: 5.625rem;
+        // left: -10.4rem;
+        .sidebar-toggle {
+            right: 2.1rem;
+        }
+        .brand {
+            width: 2.5rem;
+            background-position: 0.15rem;
+        }
+        .page-title {
+            display: none;
+        }
+        nav {
+            ul {
+                li {
+                    a {
+                        span {
+                            display: none;
+                        }
+                        i {
+                            right: -1.1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .brand {
+        background: url(#{$img-path}logo.png) no-repeat;
+        background-size: cover;
+        height: 2.25rem;
+        width: 12.38rem;
+        margin: 3.5rem auto 5.5rem auto;
+    }
+    .sidebar-toggle {
+        position: absolute;
+        right: 1.25rem;
+        top: 0.625rem;
+        font-size: 1.6rem;
+        color: $white;
+        // padding: 0.7rem 1.2rem 0.7rem 0.3rem;
+        z-index: 1000;
+    }
+    .page-title {
+        font-size: 0.875rem;
+        font-family: $base-font-light;
+        position: absolute;
+        top: 7rem;
+        left: 3rem;
+    }
+    nav {
+        text-align: left;
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li {
+                padding: 0;
+                margin: 0;
+                a {
+                    border-top: 0.0625rem solid $white;
+                    border-bottom: 0.0625rem solid $white;
+                    border-left: 3px solid $navy;
+                    padding: 1rem 0 1rem 0.8rem;
+                    color: $white;
+                    font-family: $base-font-light;
+                    font-weight: normal;
+                    font-size: 0.875rem;
+                    text-transform: uppercase;
+                    display: block;
+                    margin-bottom: -0.0625rem;
+                    i {
+                        margin-right: 0.625rem;
+                        font-size: 1.32rem;
+                        top: 0.1rem;
+                        position: relative;
+                        right: 0rem;
+                    }
+                    &:active,
+                    &:focus,
+                    &:hover {
+                        background: $sky_blue;
+                        text-decoration: none;
+                        border-left: 3px solid $red;
+                    }
+                    &.active {
+                        background: $light_gray;
+                        border-top: 0.0625rem solid $navy;
+                        border-bottom: 0.0625rem solid $navy;
+                        border-left: 3px solid $red;
+                        position: relative;
+                        color: $navy;
+                    }
+                    &.active {
+                        i.fa-chevron-right {
+                            float: right;
+                            position: relative;
+                            top: 0.29rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ++++ Footer ++++ */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: $charcoal;
+    height: 0.625rem;
+    width: 100%;
+}

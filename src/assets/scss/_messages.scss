@@ -1,0 +1,31 @@
+/*
+    Messages
+    Created on 11/20/2017 by Corey O'Brien.
+*/
+
+/* ++++ Alerts ++++ */
+.alert {
+    &.alert-danger {
+        h4 {
+            font-family: $base-font-bold;
+        }
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li {
+                margin: 0.125rem 0;
+                &:before {
+                    display: inline-block;
+                    font: normal normal normal 14px/1 FontAwesome;
+                    font-size: inherit;
+                    text-rendering: auto;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                    content: "\F00D";
+                    margin-right: 0.625rem;
+                }
+            }
+        }
+    }
+}

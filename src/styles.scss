@@ -1,0 +1,26 @@
+/*
+	PA Pattern Library Base Theme
+	Created on 11/20/2017 by Corey O'Brien.
+*/
+
+@import './assets/scss/variables'; // core colors, paths
+
+@import '../node_modules/bootstrap/scss/bootstrap'; // core bootstrap css
+
+@import "../node_modules/font-awesome/scss/font-awesome.scss"; // core font awesome fonts
+
+@import "../node_modules/cdomkokao-fonts/scss/cdomkokao-fonts-opensans.scss"; // core font awesome fonts
+
+@import './assets/scss/_fonts'; // fonts
+
+@import './assets/scss/_main'; // base HTML tag styling
+
+@import './assets/scss/_messages'; // alert and error messaging colors
+
+@import './assets/scss/_components'; // styling for components, navigation, header, etc.
+
+@import './assets/scss/_containers'; // styling for tables, cards, etc.
+
+@import './assets/scss/_forms'; // styling for forms and buttons.
+
+@import './assets/scss/_utility'; // utility styling for doing common things
