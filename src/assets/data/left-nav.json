@@ -1,0 +1,58 @@
+[
+    {
+        "label": "Introduction",
+        "icon": "fa-home",
+        "link": "/introduction",
+        "position": 0,
+        "right_item": "",
+        "right_icon": ""
+    },
+    {
+        "label": "Structure & Layout",
+        "icon": "fa-th",
+        "link": "/structure",
+        "position": 0,
+        "right_item": "",
+        "right_icon": ""
+    },
+    {
+        "label": "Style",
+        "icon": "fa-list-ul",
+        "link": "/style",
+        "position": 0,
+        "right_item": "",
+        "right_icon": ""
+    },
+    {
+        "label": "Navigation",
+        "icon": "fa-link",
+        "link": "/navigation",
+        "position": 0,
+        "right_item": "",
+        "right_icon": ""
+    },
+    {
+        "label": "Components",
+        "icon": "fa-th-large",
+        "link": "/components",
+        "position": 0,
+        "right_item": "",
+        "right_icon": ""
+    },
+    {
+        "label": "System Notifications",
+        "icon": "fa-exclamation-circle",
+        "link": "/notifications",
+        "position": 0,
+        "right_item": "",
+        "right_icon": ""
+    },
+    {
+        "label": "Design Examples",
+        "icon": "fa-lightbulb-o",
+        "link": "/examples",
+        "position": 0,
+        "right_item": "",
+        "right_icon": ""
+    }
+]

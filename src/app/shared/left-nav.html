@@ -9,16 +9,33 @@
 	<div class="row">
 		<div class="col-md-12">
 			<nav class="left-nav" role="navigation">
-				<ul>
-					<li><a [routerLinkActive]="['active']" routerLink="/introduction" href="Javascript:;"><i class="fa fa-home"></i><span>Introduction</span></a></li>
-					<li><a routerLink="/structure" href="Javascript:;"><i class="fa fa-th"></i><span>Structure & Layout</span></a></li>
-					<li><a routerLink="/style" href="Javascript:;"><i class="fa fa-list-ul"></i><span>Style</span></a></li>
-					<li><a routerLink="/navigation" href="Javascript:;"><i class="fa fa-link"></i><span>Navigation</span></a></li>
-					<li><a routerLink="/components" href="Javascript:;"><i class="fa fa-th-large"></i><span>Components</span></a></li>
-					<li><a routerLink="/notifications" href="Javascript:;"><i class="fa fa-exclamation-circle"></i><span>System Notifications</span></a></li>
-					<li><a routerLink="/examples" href="Javascript:;"><i class="fa fa-lightbulb-o"></i><span>Design Examples</span></a></li>
+				<ul *ngFor="let item of data; let i = index">
+					<li><a [routerLinkActive]="['active']" routerLink="{{item.link}}" href="Javascript:;"><i class="fa {{item.icon}}"></i><span>{{item.label}}</span></a></li>
 				</ul>
 			</nav>
+		</div>
+	</div>
+	<div class="user-menu">
+		<div class="row">
+			<div class="col-md-12">
+				<nav class="left-nav" role="navigation">
+					<ul>
+						<li>
+							<a routerLink="/notifications" href="Javascript:;">
+								<i class="fa fa-sitemap"></i>
+								<span>Site Map</span>
+							</a>
+						</li>
+						<li>
+							<a routerLink="/examples" href="Javascript:;">
+								<i class="fa fa-question-circle"></i>
+								<span>Help</span>
+							</a>
+						</li>
+						<li><a routerLink="/user" href="Javascript:;"><i class="fa fa-user-circle-o"></i><span>Corey O'Brien</span></a><a class="user-settings" routerLink="/settings" href="Javascript:;"><i class="fa fa-cog"></i></a></li>
+					</ul>
+				</nav>
+			</div>
 		</div>
 	</div>
 </div>
