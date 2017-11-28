@@ -7,7 +7,7 @@
 
 /* ++++ Nav Bar ++++ */
 .sidebar {
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
@@ -47,6 +47,17 @@
                         }
                         i {
                             right: -1.1rem;
+                        }
+                    }
+                }
+            }
+        }
+        .user-menu {
+            ul {
+                li {
+                    a {
+                        &.user-settings {
+                            display: none;
                         }
                     }
                 }
@@ -130,17 +141,48 @@
             }
         }
     }
+    .user-menu {
+        bottom: 0.0625rem;
+        position: absolute;
+        width: 100%;
+        nav {
+            ul {
+                li {
+                    position: relative;
+                    a {
+                       border-bottom: none;
+                       background: $navy;
+                       &.user-settings {
+                            position: absolute;
+                            right: 0;
+                            top: 0;
+                            border: none;
+                            border-top: 0.0625rem solid $white;
+                       }
+                    }
+                }
+            }
+        }
+    }
 }
 
-/* ++++ Footer ++++ */
-.footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    z-index: 1000;
-    overflow-x: hidden;
-    overflow-y: auto;
-    background: $charcoal;
-    height: 0.625rem;
-    width: 100%;
+/* ++++ Cards ++++ */
+.card {
+    border-radius: 0.1875rem !important;
+    border-color: lighten($gray, 20%) !important;
+    box-shadow: none !important;
+    margin-top: 0 !important;
+    .card-body {
+        h4.card-title {
+            font-family: $base-font-medium;
+            color: $navy;
+            font-size: 1.25rem;
+            border-bottom: 1px solid $navy;
+            padding-bottom: 1rem;
+            margin-bottom: 1.25rem;
+        }
+        ul {
+            padding-left: 1.25rem;
+        }
+    }
 }

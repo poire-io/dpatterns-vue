@@ -1,10 +1,52 @@
 <div class="row mb-2" *ngIf="this.route.snapshot.data['errors']">
 	<div class="col-md-12">
-		<div class="alert alert-danger">
-			<h4>Errors have occured</h4>
-            <ul>
+		<alert type="danger">
+			<button type="button" class="close" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			<h4>Error Message:</h4>
+			<ul>
 				<li [innerHTML]="this.route.snapshot.data['errors']"></li>
-            </ul>
-		</div>
+			</ul>
+		</alert>
+	</div>
+</div>
+<div class="row mb-2" *ngIf="this.route.snapshot.data['warnings']">
+	<div class="col-md-12">
+		<alert type="warning">
+			<button type="button" class="close" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			<h4>Warning Message:</h4>
+			<ul>
+				<li [innerHTML]="this.route.snapshot.data['warnings']"></li>
+			</ul>
+		</alert>
+	</div>
+</div>
+<div class="row mb-2" *ngIf="this.route.snapshot.data['info']">
+	<div class="col-md-12">
+		<alert type="info">
+			<button type="button" class="close" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			<h4>Notice:</h4>
+			<ul>
+				<li [innerHTML]="this.route.snapshot.data['info']"></li>
+			</ul>
+		</alert>
+	</div>
+</div>
+<div class="row mb-2" *ngIf="this.route.snapshot.data['success']">
+	<div class="col-md-12">
+		<alert type="success">
+			<button type="button" class="close" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			<h4>Success Message:</h4>
+			<ul>
+				<li [innerHTML]="this.route.snapshot.data['success']"></li>
+			</ul>
+		</alert>
 	</div>
 </div>

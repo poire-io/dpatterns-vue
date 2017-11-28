@@ -9,9 +9,8 @@ form {
 }
 
 label {
-    font-size: 0.7rem;
-    font-family: $base-font-light;
-    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-family: $base-font-medium;
     &+.read-only-field {
         margin-top: -0.3rem;
         font-size: 0.9rem;
@@ -111,14 +110,19 @@ fieldset {
 }
 
 /* ++++ Buttons ++++ */
+.btn-bar {
+    margin-left: -0.625rem;
+    margin-bottom: 1.3125rem;
+}
+
 .btn {
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    font-family: $base-font-light;
+    font-size: 0.875rem;
+    font-family: $base-font;
     letter-spacing: 0.05rem;
-    padding: 0.55rem 0.75rem 0.75rem 0.75rem;
-    border-radius: 0.125rem;
-    margin-left: 0.2rem;
+    padding: 0.5rem 0.75rem 0.4rem 0.75rem;
+    border-radius: 0.1875rem;
+    margin-left: 0.625rem;
+    min-width: 7.5rem;
     cursor: pointer;
     i {
         margin-right: 0.3rem;
@@ -130,25 +134,26 @@ fieldset {
         }
     }
     &.btn-primary {
-        border-color: darken($orange, 5%);
-        background: $orange;
-        &:hover,
-        &:active,
-        &:focus {
-            background: darken($orange, 10%);
-            color: $white;
-        }
-    }
-    &.btn-secondary {
-        border-color: $navy;
-        background: $white;
-        color: $navy;
+        border-color: darken($sky_blue, 5%);
+        background: $sky_blue;
         &:hover,
         &:active,
         &:focus {
             border-color: darken($navy, 5%);
-            background: $navy;
+            background: darken($navy, 10%);
             color: $white;
+        }
+    }
+    &.btn-secondary {
+        border-color: $sky_blue;
+        background: $white;
+        color: $sky_blue;
+        &:hover,
+        &:active,
+        &:focus {
+            border-color: darken($navy, 5%);
+            background: $white;
+            color: $navy;
         }
     }
 }

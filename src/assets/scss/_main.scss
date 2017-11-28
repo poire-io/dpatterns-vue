@@ -29,20 +29,28 @@ h1 {
 h2 {
     color: $navy;
     font-size: 1.125rem;
-    text-transform: uppercase;
     font-family: $base-font-medium;
+    margin: 0 0 1.5rem 0;
 }
 
 h3 {
     color: $navy;
     font-size: 1rem;
     font-family: $base-font-medium;
+    margin: 0 0 1.5rem 0;
 }
 
 h4 {
     color: $charcoal;
     font-size: 1rem;
-    text-transform: uppercase;
+    margin: 0 0 1.5rem 0;
+}
+
+h5 {
+    font-family: $base-font;
+    color: $charcoal;
+    font-size: 1rem;
+    margin: 0 0 1rem 0;
 }
 
 /* ++++ Text Styles ++++ */
