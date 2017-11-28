@@ -14,6 +14,11 @@
           "glob": "jquery.min.js",
           "input": "../node_modules/jquery/dist",
           "output": "./assets/js"
+        },
+        {
+          "glob": "masonry.pkgd.min.js",
+          "input": "../node_modules/masonry-layout/dist",
+          "output": "./assets/js"
         }
       ],
       "index": "index.html",
