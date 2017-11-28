@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { AlertModule } from 'ngx-bootstrap/alert';
 import { routing } from './app.routing';
@@ -9,7 +11,9 @@ import { GlobalHeader } from './shared/header';
 import { LeftNav } from './shared/left-nav';
 import { PageHeader } from './shared/page-header';
 import { PageError } from './shared/page-error';
-import { IntroductionDashboard } from './dashboards/introduction.dashboard';
+import { IntroductionDashboard } from './pages/introduction.dashboard';
+import { StructureDashboard } from './pages/structure.dashboard';
+import { StyleDashboard } from './pages/style.dashboard';
 
 @NgModule({
   declarations: [
@@ -18,10 +22,14 @@ import { IntroductionDashboard } from './dashboards/introduction.dashboard';
     LeftNav,
     PageHeader,
     PageError,
-    IntroductionDashboard
+    IntroductionDashboard,
+    StructureDashboard,
+    StyleDashboard
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    HttpModule,
     BsDropdownModule.forRoot(),
     AlertModule.forRoot(),
     routing
