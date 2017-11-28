@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router, ActivatedRoute, Params, Data } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component ({
     selector : 'page-header',
@@ -8,11 +8,11 @@ import { Router, ActivatedRoute, Params, Data } from '@angular/router';
 
 export class PageHeader implements OnInit {
   constructor(
-    private route: ActivatedRoute,
-    private router: Router
+    private route: ActivatedRoute
 
   ) { }
   ngOnInit() {
-    console.log("Data via params: ",this.route.snapshot.data['page_header']);
+    // console.log(this.route.snapshot.data);
+    // console.log("Data via params: ",this.route.snapshot.data['page_header']);
   }
 }

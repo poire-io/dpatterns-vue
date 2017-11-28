@@ -3,7 +3,7 @@
 	<div class="row">
 		<div class="col-md-12">
 			<div class="brand"></div>
-			<div class="page-title">Dashboard</div>
+			<div class="page-title" [innerHTML]="this.route.snapshot.data['page_header']"></div>
 		</div>
 	</div>
 	<div class="row">

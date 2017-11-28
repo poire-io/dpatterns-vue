@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router, ActivatedRoute, Params, Data } from '@angular/router';
+import { Router, ActivatedRoute} from '@angular/router';
 
 @Component ({
     selector : 'page-error',
@@ -8,11 +8,9 @@ import { Router, ActivatedRoute, Params, Data } from '@angular/router';
 
 export class PageError implements OnInit {
   constructor(
-    private route: ActivatedRoute,
-    private router: Router
-
+    private route: ActivatedRoute
   ) { }
   ngOnInit() {
-    console.log("Data via params: ",this.route.snapshot.data['errors']);
+    // console.log("Data via params: ", this.route.snapshot.data['page_header']);
   }
 }
