@@ -6,7 +6,6 @@ import { routing } from './app.routing';
 
 import { AppComponent } from './app.component';
 import { GlobalHeader } from './shared/header';
-import { GlobalFooter } from './shared/footer';
 import { LeftNav } from './shared/left-nav';
 import { PageHeader } from './shared/page-header';
 import { PageError } from './shared/page-error';
@@ -16,7 +15,6 @@ import { IntroductionDashboard } from './dashboards/introduction.dashboard';
   declarations: [
     AppComponent,
     GlobalHeader,
-    GlobalFooter,
     LeftNav,
     PageHeader,
     PageError,
