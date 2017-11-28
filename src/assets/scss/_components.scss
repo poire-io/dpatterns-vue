@@ -7,6 +7,7 @@
 
 /* ++++ Nav Bar ++++ */
 .sidebar {
+    transition: 0.3s;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -25,6 +26,7 @@
     color: $white;
     font-family: $base-font-medium;
     &.sidebar-collapsed {
+        transition: 0.3s;
         width: 5.625rem;
         max-width: 5.625rem;
         // left: -10.4rem;
