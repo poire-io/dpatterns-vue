@@ -3,6 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { IntroductionDashboard } from './pages/introduction.dashboard';
 import { StructureDashboard } from './pages/structure.dashboard';
 import { StyleDashboard } from './pages/style.dashboard';
+import { ComponentsDashboard } from './pages/components.dashboard';
+import { MessagesDashboard } from './pages/messages.dashboard';
 
 const appRoutes: Routes = [
     {
@@ -27,17 +29,43 @@ const appRoutes: Routes = [
         }
     },
     {
+        path: 'components',
+        component: ComponentsDashboard,
+        data: {
+            page_header: "Components"
+        }
+    },
+    {
         path: 'messages',
+        component: MessagesDashboard,
+        data: {
+            page_header: "Messages & Notifications"
+        }
+    },
+    {
+        path: 'errors',
         component: IntroductionDashboard,
         data: {
-            page_header: "Introduction with Errors",
+            page_header: "Introduction",
             errors: "Sample errors.",
             warnings: "Sample warnings.",
             success: "Sample success message.",
             info: "Sample notice message."
         }
     },
-    { path: '', pathMatch: 'full', redirectTo: 'all' }
+    {
+        path: '',
+        redirectTo: '/introduction',
+        pathMatch: 'full'
+    },    
+    {
+        path: '**',
+        component: IntroductionDashboard,
+        data: {
+            page_header: "Page Not Found",
+            errors: "The page you are trying to reach was not found. Please check your URL or link and try again."
+        }
+    }
 ];
 
 export const routing = RouterModule.forRoot(appRoutes);

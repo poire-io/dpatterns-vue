@@ -14,6 +14,8 @@ import { PageError } from './shared/page-error';
 import { IntroductionDashboard } from './pages/introduction.dashboard';
 import { StructureDashboard } from './pages/structure.dashboard';
 import { StyleDashboard } from './pages/style.dashboard';
+import { ComponentsDashboard } from './pages/components.dashboard';
+import { MessagesDashboard } from './pages/messages.dashboard';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { StyleDashboard } from './pages/style.dashboard';
     PageError,
     IntroductionDashboard,
     StructureDashboard,
-    StyleDashboard
+    StyleDashboard,
+    ComponentsDashboard,
+    MessagesDashboard
   ],
   imports: [
     BrowserModule,

@@ -40,9 +40,9 @@
         "right_icon": ""
     },
     {
-        "label": "System Notifications",
+        "label": "Messaging",
         "icon": "fa-exclamation-circle",
-        "link": "/notifications",
+        "link": "/messages",
         "position": 0,
         "right_item": "",
         "right_icon": ""
