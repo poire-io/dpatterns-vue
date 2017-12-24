@@ -7,7 +7,6 @@ import { AlertModule } from 'ngx-bootstrap/alert';
 import { routing } from './app.routing';
 
 import { AppComponent } from './app.component';
-import { GlobalHeader } from './shared/header';
 import { LeftNav } from './shared/left-nav';
 import { PageHeader } from './shared/page-header';
 import { PageError } from './shared/page-error';
@@ -16,11 +15,12 @@ import { StructureDashboard } from './pages/structure.dashboard';
 import { StyleDashboard } from './pages/style.dashboard';
 import { ComponentsDashboard } from './pages/components.dashboard';
 import { MessagesDashboard } from './pages/messages.dashboard';
+import { ApplicationHeaderComponent } from './shared/application-header/application-header.component';
+import { NavigationComponent } from './shared/navigation/navigation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GlobalHeader,
     LeftNav,
     PageHeader,
     PageError,
@@ -28,7 +28,9 @@ import { MessagesDashboard } from './pages/messages.dashboard';
     StructureDashboard,
     StyleDashboard,
     ComponentsDashboard,
-    MessagesDashboard
+    MessagesDashboard,
+    ApplicationHeaderComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,

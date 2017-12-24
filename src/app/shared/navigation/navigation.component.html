@@ -1,0 +1,41 @@
+<div class="sidebar {{navClass}}">
+	<a href="Javascript:;" id="sidebar-toggle" class="sidebar-toggle" title="Toggle Main Menu"><i class="fa fa-arrow-circle-left"><span class="sr-only sr-focusable">Toggle Menu</span></i></a>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="brand"></div>
+			<div class="page-title" [innerHTML]="this.route.snapshot.data['page_header']"></div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<nav class="left-nav" role="navigation">
+				<ul *ngFor="let item of data; let i = index">
+					<li><a [routerLinkActive]="['active']" routerLink="{{item.link}}" href="Javascript:;"><i class="fa {{item.icon}}"></i><span>{{item.label}}</span></a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div class="user-menu">
+		<div class="row">
+			<div class="col-md-12">
+				<nav class="left-nav" role="navigation">
+					<ul>
+						<li>
+							<a routerLink="/notifications" href="Javascript:;">
+								<i class="fa fa-sitemap"></i>
+								<span>Site Map</span>
+							</a>
+						</li>
+						<li>
+							<a routerLink="/examples" href="Javascript:;">
+								<i class="fa fa-question-circle"></i>
+								<span>Help</span>
+							</a>
+						</li>
+						<li><a routerLink="/user" href="Javascript:;"><i class="fa fa-user-circle-o"></i><span>Corey O'Brien</span></a><a class="user-settings" routerLink="/settings" href="Javascript:;"><i class="fa fa-cog"></i></a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</div>
