@@ -1,4 +1,5 @@
-<left-nav></left-nav>
+<app-application-header></app-application-header>
+<app-navigation></app-navigation>
 <page-header></page-header>
 <page-error></page-error>
 <div class="row">
@@ -15,7 +16,7 @@
     </div>
 </div>
 <div class="row">
-    <div class="col-sm-4">
+    <div class="col-sm-6">
         <div class="card">
             <div class="card-body">
                 <h4 class="card-title">Sample Card Heading
@@ -39,7 +40,7 @@
     </div>
 </div>
 <div class="row">
-    <div class="col-sm-4">
+    <div class="col-sm-6">
         <div class="card card-alternate card-lavender">
             <div class="card-body">
                 <h4 class="card-title">Sample Card Heading
@@ -48,67 +49,34 @@
                 <p class="card-text">Text for the card goes here.</p>
             </div>
             <div class="card-footer text-right">
-                    <a href="Javascript:;">Configure<i class="fa fa-cog pull-right" aria-hidden="true"></i></a>
+                <button class="btn btn-primary">Card Button</button>
             </div>
         </div>
     </div>
 </div>
 <div class="row">
     <div class="col-sm-12">
-        <h2>Tables</h2>
+        <h2>Standard Table</h2>
         <!-- TODO: Fix the description of tables. This doesn't describe tables at all. -->
         <p>Tables make it easy to display content into different rows. The following table showcases the minimum spacing measurements.
         Each column should be measured accordingly to the content at hand. This is dependent on how long the content is. The padding
         measurements should start from the longest piece of content.</p>
+        <app-table [summary]="'Example table summary. This should be something that helps a blind user understand the table.'" [styles]="'table table-striped table-hover'"></app-table>
     </div>
 </div>
-<div class="row">
+<div class="row mt-3">
     <div class="col-sm-12">
-        <table class="table table-striped table-hover">
-            <thead>
-                <th scope="col">Sample Heading 1</th>
-                <th scope="col">Sample Heading 2</th>
-                <th scope="col">Sample Heading 3</th>
-                <th scope="col">Sample Heading 4</th>
-                <th scope="col">Sample Heading 5</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">Sample Row Header 1</th>
-                    <td>Sample Data</td>
-                    <td>Sample Data</td>
-                    <td>Sample Data</td>
-                    <td>Sample Data</td>
-                </tr>
-                <tr>
-                    <th scope="row">Sample Row Header 2</th>
-                    <td>Sample Data</td>
-                    <td>Sample Data</td>
-                    <td>Sample Data</td>
-                    <td>Sample Data</td>
-                </tr>
-                <tr>
-                    <th scope="row">Sample Row Header 3</th>
-                    <td>Sample Data</td>
-                    <td>Sample Data</td>
-                    <td>Sample Data</td>
-                    <td>Sample Data</td>
-                </tr>
-                <tr>
-                    <th scope="row">Sample Row Header 4</th>
-                    <td>Sample Data</td>
-                    <td>Sample Data</td>
-                    <td>Sample Data</td>
-                    <td>Sample Data</td>
-                </tr>
-                <tr>
-                    <th scope="row">Sample Row Header 5</th>
-                    <td>Sample Data</td>
-                    <td>Sample Data</td>
-                    <td>Sample Data</td>
-                    <td>Sample Data</td>
-                </tr>
-            </tbody>
-        </table>
+        <h2>Table Inside of a Component</h2>
+        <p>Tables can be included inside of cards. Example below.</p>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Sample Inside of Card</h4>
+                        <app-table [summary]="'Example table summary. This should be something that helps a blind user understand the table.'" [styles]="'table table-striped table-hover'"></app-table>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

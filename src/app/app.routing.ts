@@ -5,6 +5,8 @@ import { StructureDashboard } from './pages/structure.dashboard';
 import { StyleDashboard } from './pages/style.dashboard';
 import { ComponentsDashboard } from './pages/components.dashboard';
 import { MessagesDashboard } from './pages/messages.dashboard';
+import { NavigationDashboard } from './pages/navigation.dashboard';
+import { PageError } from './shared/page-error';
 
 const appRoutes: Routes = [
     {
@@ -43,6 +45,13 @@ const appRoutes: Routes = [
         }
     },
     {
+        path: 'navigation',
+        component: NavigationDashboard,
+        data: {
+            page_header: "Navigation"
+        }
+    },
+    {
         path: 'errors',
         component: IntroductionDashboard,
         data: {
@@ -60,7 +69,7 @@ const appRoutes: Routes = [
     },    
     {
         path: '**',
-        component: IntroductionDashboard,
+        component: PageError,
         data: {
             page_header: "Page Not Found",
             errors: "The page you are trying to reach was not found. Please check your URL or link and try again."

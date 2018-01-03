@@ -15,8 +15,10 @@ import { StructureDashboard } from './pages/structure.dashboard';
 import { StyleDashboard } from './pages/style.dashboard';
 import { ComponentsDashboard } from './pages/components.dashboard';
 import { MessagesDashboard } from './pages/messages.dashboard';
+import { NavigationDashboard } from './pages/navigation.dashboard';
 import { ApplicationHeaderComponent } from './shared/application-header/application-header.component';
 import { NavigationComponent } from './shared/navigation/navigation.component';
+import { TableComponent } from './sub-components/table/table.component';
 
 @NgModule({
   declarations: [
@@ -29,8 +31,10 @@ import { NavigationComponent } from './shared/navigation/navigation.component';
     StyleDashboard,
     ComponentsDashboard,
     MessagesDashboard,
+    NavigationDashboard,
     ApplicationHeaderComponent,
-    NavigationComponent
+    NavigationComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,
