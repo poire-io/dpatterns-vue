@@ -1,0 +1,94 @@
+/*
+    Containers
+    Created on 11/20/2017 by Corey O'Brien.
+*/
+
+/* ++++ Body Container ++++ */
+.main-content {
+    padding: 1.75rem;
+    min-height: 100%;
+    padding-left: 18rem;
+    &.main-content-collapsed {
+		padding-left: 7.5rem;
+	}
+}
+
+@media (max-width: 575.98px) {
+    .main-content {
+        padding-left: 1.75rem;
+    }
+}
+
+/* ++++ Cards ++++ */
+.card {
+    margin-top: 1.5rem;
+    margin-bottom: 2.125rem;
+    border-radius: 0.125rem;
+    border-color: $light_gray;
+    box-shadow: 0.0625rem 0.0625rem 0.125rem 0 lighten($light_gray, 7%);
+    .card-title {
+        span {
+            float: right;
+            font-size: 1.125rem;
+            color: $charcoal;
+        }
+    }
+    .card-header {
+        padding: 0;
+        margin: -1.5rem 0 0 0;
+        background: none;
+        border: none;
+    }
+    .card-footer {
+        border-top: 0.125rem solid $light_gray;
+        background: $white;
+        margin: 0;
+        padding: 0.875rem 1.25rem;
+    }
+}
+
+/* ++++ Modals ++++ */
+.modal-backdrop {
+    &.show {
+        opacity: 0.8;
+    }
+}
+.modal {
+    .modal-dialog {
+        .modal-content {
+            background: none;
+            .modal-header {
+                background: $navy;
+                border-radius: 2rem;
+                border: none;
+                margin: 0 -2rem;
+                padding: 0.5rem 1.2rem;
+                margin-bottom: 0.2rem;
+                color: $white;
+                font-family: $base-font-light;
+                h5 {
+                    font-weight: normal;
+                    font-size: 1rem;
+                    text-transform: uppercase;
+                }
+                button {
+                    opacity: 1;
+                }
+                span {
+                    color: $white;
+                    text-shadow: none;
+                }
+            }
+            .modal-body {
+                background: $white;
+            }
+            .modal-footer {
+                border-top: 0.0625rem solid $light_gray;
+                background: $light_gray;
+                .btn {
+                    padding: 0.55rem 0.75rem 0.55rem 0.75rem;
+                }
+            }
+        }
+    }
+}

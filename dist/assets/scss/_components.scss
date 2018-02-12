@@ -1,0 +1,232 @@
+/*
+    Components
+    Created on 11/20/2017 by Corey O'Brien.
+*/
+
+/* ++++ Header Bar ++++ */
+
+/* ++++ Nav Bar ++++ */
+.sidebar {
+    transition: 0.3s;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    // left: -12.5rem;
+    z-index: 1000;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: $navy;
+    // border-right: 0.0625rem solid darken($navy, 10%);
+    width: 16rem;
+    max-width: 16rem;
+    padding-left: 0;
+    padding-right: 0;
+    // text-align: center;
+    color: $white;
+    font-family: $base-font-medium;
+    &.sidebar-collapsed {
+        transition: 0.3s;
+        width: 5.625rem;
+        max-width: 5.625rem;
+        // left: -10.4rem;
+        .sidebar-toggle {
+            right: 2.1rem;
+        }
+        .brand {
+            width: 2.5rem;
+            background-position: 0.15rem;
+        }
+        .page-title {
+            display: none;
+        }
+        nav {
+            ul {
+                li {
+                    a {
+                        span {
+                            display: none;
+                        }
+                        i {
+                            right: -1.1rem;
+                        }
+                    }
+                }
+            }
+        }
+        .user-menu {
+            ul {
+                li {
+                    a {
+                        &.user-settings {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .brand {
+        background: url(#{$img-path}logo.png) no-repeat;
+        background-size: cover;
+        height: 2.25rem;
+        width: 12.38rem;
+        margin: 3.5rem auto 5.5rem auto;
+    }
+    .sidebar-toggle {
+        position: absolute;
+        right: 1.25rem;
+        top: 0.625rem;
+        font-size: 1.6rem;
+        color: $white;
+        // padding: 0.7rem 1.2rem 0.7rem 0.3rem;
+        z-index: 1000;
+    }
+    .page-title {
+        font-size: 0.875rem;
+        font-family: $base-font-light;
+        position: absolute;
+        top: 7rem;
+        left: 3rem;
+    }
+    nav {
+        text-align: left;
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li {
+                padding: 0;
+                margin: 0;
+                a {
+                    border-top: 0.0625rem solid $white;
+                    border-bottom: 0.0625rem solid $white;
+                    border-left: 3px solid $navy;
+                    padding: 1rem 0 1rem 0.8rem;
+                    color: $white;
+                    font-family: $base-font-light;
+                    font-weight: normal;
+                    font-size: 0.875rem;
+                    text-transform: uppercase;
+                    display: block;
+                    margin-bottom: -0.0625rem;
+                    i {
+                        margin-right: 0.625rem;
+                        font-size: 1.32rem;
+                        top: 0.1rem;
+                        position: relative;
+                        right: 0rem;
+                    }
+                    &:active,
+                    &:focus,
+                    &:hover {
+                        background: $sky_blue;
+                        text-decoration: none;
+                        border-left: 3px solid $red;
+                    }
+                    &.active {
+                        background: $light_gray;
+                        border-top: 0.0625rem solid $navy;
+                        border-bottom: 0.0625rem solid $navy;
+                        border-left: 3px solid $red;
+                        position: relative;
+                        color: $navy;
+                    }
+                    &.active {
+                        i.fa-chevron-right {
+                            float: right;
+                            position: relative;
+                            top: 0.29rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .user-menu {
+        bottom: 0.0625rem;
+        position: absolute;
+        width: 100%;
+        nav {
+            ul {
+                li {
+                    position: relative;
+                    a {
+                       border-bottom: none;
+                       background: $navy;
+                       &.user-settings {
+                            position: absolute;
+                            right: 0;
+                            top: 0;
+                            border: none;
+                            border-top: 0.0625rem solid $white;
+                       }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ++++ Cards ++++ */
+.card {
+    border-radius: 0.1875rem !important;
+    border-color: lighten($gray, 20%) !important;
+    box-shadow: none !important;
+    margin-top: 0 !important;
+    a.fa {
+        text-decoration: none;
+    }
+    .card-body {
+        h4.card-title {
+            font-family: $base-font-medium;
+            color: $navy;
+            font-size: 1.25rem;
+            border-bottom: 1px solid $navy;
+            padding-bottom: 1rem;
+            margin-bottom: 1.25rem;
+        }
+        ul {
+            padding-left: 1.25rem;
+        }
+    }
+    &.card-lavender {
+        background: $lavender;
+        border-color: $lavender !important;
+        a.fa {
+            color: $white;
+        }
+        h4.card-title {
+            color: $white;
+            border-bottom: 1px solid darken($white, 10%);
+        }
+        .card-body {
+            color: $white;
+        }
+        .card-footer {
+            background: $lavender;
+            border-top: 0.125rem solid lighten($lavender, 5%);
+        }
+    }
+}
+
+/* ++++ Tables ++++ */
+.table {
+    thead.thead-light {
+        th {
+            color: $charcoal;
+            font-family: $base-font-medium;
+            font-size: 0.875rem;
+            background: none;
+            border: none;
+        }
+    }
+    tbody {
+        th {
+            font-size: 0.875rem;
+        }
+        td {
+            font-size: 0.875rem;
+        }
+    }
+}
