@@ -43,22 +43,7 @@ import { TableComponent } from './sub-components/table/table.component';
     BsDropdownModule.forRoot(),
     AlertModule.forRoot(),
     routing
-  ],
-  exports: [
-    AppComponent,
-    LeftNav,
-    PageHeader,
-    PageError,
-    IntroductionDashboard,
-    StructureDashboard,
-    StyleDashboard,
-    ComponentsDashboard,
-    MessagesDashboard,
-    NavigationDashboard,
-    ApplicationHeaderComponent,
-    NavigationComponent,
-    TableComponent
-  ],
+  ], 
   providers: [],
   bootstrap: [AppComponent]
 })
