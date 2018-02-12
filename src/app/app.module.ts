@@ -44,6 +44,21 @@ import { TableComponent } from './sub-components/table/table.component';
     AlertModule.forRoot(),
     routing
   ],
+  exports: [
+    AppComponent,
+    LeftNav,
+    PageHeader,
+    PageError,
+    IntroductionDashboard,
+    StructureDashboard,
+    StyleDashboard,
+    ComponentsDashboard,
+    MessagesDashboard,
+    NavigationDashboard,
+    ApplicationHeaderComponent,
+    NavigationComponent,
+    TableComponent
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
