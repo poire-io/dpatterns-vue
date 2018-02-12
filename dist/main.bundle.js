@@ -152,6 +152,21 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_5_ngx_bootstrap_alert__["a" /* AlertModule */].forRoot(),
                 __WEBPACK_IMPORTED_MODULE_6__app_routing__["a" /* routing */]
             ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* AppComponent */],
+                __WEBPACK_IMPORTED_MODULE_8__shared_left_nav__["a" /* LeftNav */],
+                __WEBPACK_IMPORTED_MODULE_9__shared_page_header__["a" /* PageHeader */],
+                __WEBPACK_IMPORTED_MODULE_10__shared_page_error__["a" /* PageError */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_introduction_dashboard__["a" /* IntroductionDashboard */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_structure_dashboard__["a" /* StructureDashboard */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_style_dashboard__["a" /* StyleDashboard */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_components_dashboard__["a" /* ComponentsDashboard */],
+                __WEBPACK_IMPORTED_MODULE_15__pages_messages_dashboard__["a" /* MessagesDashboard */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_navigation_dashboard__["a" /* NavigationDashboard */],
+                __WEBPACK_IMPORTED_MODULE_17__shared_application_header_application_header_component__["a" /* ApplicationHeaderComponent */],
+                __WEBPACK_IMPORTED_MODULE_18__shared_navigation_navigation_component__["a" /* NavigationComponent */],
+                __WEBPACK_IMPORTED_MODULE_19__sub_components_table_table_component__["a" /* TableComponent */]
+            ],
             providers: [],
             bootstrap: [__WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* AppComponent */]]
         })
