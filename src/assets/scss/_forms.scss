@@ -27,6 +27,14 @@ label {
             }
         }
     }
+    span {
+        &.optional {
+            color: $orange;
+            font-family: $base-font-light;
+            font-size: 0.7rem;
+            margin-left: 0.3rem;
+        }
+    }
 }
 
 .form-group {
