@@ -8,9 +8,6 @@ $img-path: "./assets/images/";
 $font-path: "../node_modules/cdomkokao-fonts/fonts/";
 $fa-font-path: "../node_modules/font-awesome/fonts";
 
-/* ++++ Bootstrap Overrides ++++ */
-$grid-gutter-width: 1.875rem;
-
 /* ++++ Primary Colors ++++ */
 $navy: #154570;
 $sky_blue: #3497DA;
@@ -32,3 +29,7 @@ $green: #90A25B;
 $black: #000000;
 $white: #FFFFFF;
 $red: #FF0000;
+
+/* ++++ Bootstrap Overrides ++++ */
+$grid-gutter-width: 1.875rem;
+$danger: $rusted_red;
