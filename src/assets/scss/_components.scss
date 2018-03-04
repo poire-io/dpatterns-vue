@@ -3,8 +3,6 @@
     Created on 11/20/2017 by Corey O'Brien.
 */
 
-/* ++++ Header Bar ++++ */
-
 /* ++++ Nav Bar ++++ */
 .sidebar {
     transition: 0.3s;
@@ -192,6 +190,27 @@
         }
         ul {
             padding-left: 1.25rem;
+        }
+    }
+    &.card-content-header {
+        .card-body {
+            padding: 0.9375rem 1.125rem 0 1.125rem;
+        }
+        .close {
+            line-height: 0.9375rem;
+            color: $white;
+            position: absolute;
+            right: 1rem;
+            top: 0.9rem;
+        }
+        p {
+            margin: 0 0 0.9375rem;
+            line-height: 0.9375rem;
+            font-family: $base-font-light;
+            span {
+                font-family: $base-font-medium;
+                margin-left: 0.5rem;
+            }
         }
     }
     &.card-lavender {
