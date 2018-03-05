@@ -10,11 +10,11 @@
     padding-left: 18rem;
     &.main-content-collapsed {
 		padding-left: 7.5rem;
-	}
-}
-
-@media (max-width: 575.98px) {
-    .main-content {
+    }
+    @media (max-width: 768px) {
+        padding-left: 7.5rem;
+    }
+    @media (max-width: 575.98px) {
         padding-left: 1.75rem;
     }
 }
