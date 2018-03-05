@@ -1,6 +1,6 @@
 {
   "name": "pa-pattern-library",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "license": "UNLICENSED",
   "scripts": {
     "ng": "ng",
