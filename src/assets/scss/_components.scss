@@ -94,7 +94,7 @@
                 a {
                     border-top: 0.0625rem solid $white;
                     border-bottom: 0.0625rem solid $white;
-                    border-left: 3px solid $navy;
+                    border-left: 0.1875rem solid $navy;
                     padding: 1rem 0 1rem 0.8rem;
                     color: $white;
                     font-family: $base-font-light;
@@ -115,13 +115,13 @@
                     &:hover {
                         background: $sky_blue;
                         text-decoration: none;
-                        border-left: 3px solid $red;
+                        border-left: 0.1875rem solid $red;
                     }
                     &.active {
                         background: $light_gray;
                         border-top: 0.0625rem solid $navy;
                         border-bottom: 0.0625rem solid $navy;
-                        border-left: 3px solid $red;
+                        border-left: 0.1875rem solid $red;
                         position: relative;
                         color: $navy;
                     }
@@ -216,7 +216,7 @@
             font-family: $base-font-medium;
             color: $navy;
             font-size: 1.25rem;
-            border-bottom: 1px solid $navy;
+            border-bottom: 0.0625rem solid $navy;
             padding-bottom: 1rem;
             margin-bottom: 1.25rem;
         }
@@ -257,7 +257,7 @@
         }
         h2.card-title {
             color: $white;
-            border-bottom: 1px solid darken($white, 10%);
+            border-bottom: 0.0625rem solid darken($white, 10%);
         }
         .card-body {
             color: $white;
@@ -275,7 +275,7 @@
         }
         h2.card-title {
             color: $white;
-            border-bottom: 1px solid darken($white, 10%);
+            border-bottom: 0.0625rem solid darken($white, 10%);
         }
         .card-body {
             color: $white;
@@ -310,21 +310,23 @@
 
 /* ++++ Tables ++++ */
 .table {
-    thead.thead-light {
+    thead {
         th {
             color: $charcoal;
             font-family: $base-font-medium;
             font-size: 0.875rem;
             background: none;
             border: none;
+            padding: 0.4rem 0.4rem 1rem 0.4rem;
         }
     }
     tbody {
-        th {
+        th,td {
+            padding: 0.4rem;
             font-size: 0.875rem;
         }
-        td {
-            font-size: 0.875rem;
+        th {
+            font-family: $base-font-medium;
         }
     }
 }
