@@ -3,4 +3,12 @@
     Created on 11/20/2017 by Corey O'Brien.
 */
 
-// Styles that are used across the application for utility purposes go here.
+// style used to allow any component to expand to full screen.
+.fullscreen {
+    z-index: 9999; 
+    width: 98%; 
+    height: 98%; 
+    position: fixed; 
+    top: 1%; 
+    left: 1%; 
+}
