@@ -331,10 +331,27 @@
     }
 }
 
+/* ++++ Notes Styles  ++++ */
+.notes {
+    font-size: 0.75rem;
+    dt {
+        margin: 0 0 0.3125rem 0;
+    }
+    dd {
+        font-family: $base-font;
+        margin: 0 0 1.25rem 0;
+    }
+}
+
 /* ++++ ng-usy Overide Styles  ++++ */
+.ng-busy > * {
+    position: fixed;
+}
+
 .ng-busy-backdrop {
     background: $light_gray;
     opacity: .8;
+    position: fixed;
 }
 
 .ng-busy-default-sign {
