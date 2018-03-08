@@ -21,10 +21,10 @@
 
 /* ++++ Cards ++++ */
 .card {
-    border-radius: 0.1875rem !important;
-    border-color: lighten($gray, 20%) !important;
-    box-shadow: none !important;
-    margin-top: 0 !important;
+    border-radius: 0.1875rem;
+    border-color: lighten($gray, 20%);
+    box-shadow: none;
+    margin-top: 0;
     margin-bottom: 2.125rem;
     a.fa {
         text-decoration: none;
@@ -141,6 +141,108 @@
         }
         .card-footer {
             border-top: none;
+        }
+    }
+	&.card-task {
+		min-height: 13.5rem;
+		.card-header {
+			margin: 1rem 1rem 0 1rem;
+			h3 {
+				font-size: 0.625rem;
+				font-family: $base-font;
+                color: $charcoal;
+                margin-bottom: 0.65rem;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+        }
+			a {
+				display: block;
+				font-size: 1rem;
+                margin-top: 0.125rem;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+			}
+			.card-type {
+				font-size: 0.625rem;
+				text-align: center;
+				float: right;
+				position: relative;
+				top: 0.12rem;
+				i {
+					font-size: 1rem;
+                    display: block;
+                    margin-top: -0.1250rem;
+				}
+			}
+        }
+        .card-body {
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            .form-group {
+                margin-bottom: 0;
+                label {
+                    font-size: 0.625rem;
+                    font-family: $base-font-light;
+                }
+                p {
+                    font-size: 0.75rem;
+                    margin-top: -0.5rem;
+                    margin-bottom: 0.5rem;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    font-family: $base-font-medium;
+                }
+            }
+        }
+		.card-footer {
+			border-top: 0.0625rem solid $light_gray;
+			padding: 0.1rem 0;
+			ul {
+				list-style: none;
+				margin: 0;
+				padding: 0 0 0.1rem 0;
+				li {
+					font-size: 0.75rem;
+					text-transform: uppercase;
+					display: inline-block;
+					border-right: 0.0625rem solid $light_gray;
+					margin-right: 0.4rem;
+                    padding-right: 0.6rem;
+                    margin-bottom: 0.325rem;
+					&:last-child {
+						border-right: none;
+						margin-right: 0;
+						padding-right: 0;
+					}
+				}
+			}
+		}
+		&.card-priority {
+            .card-header {
+                border-bottom: 0.125rem solid $red;			
+                .card-type {
+					color: $red;
+				}
+			}
+		}
+		.card-block {
+			padding: 0 1rem 0.3rem 1rem; 
+		}
+    }
+    &.fullscreen {
+        overflow-y: auto;
+        .card-task {
+            .card-body {
+                .form-group {
+                    p {
+                        white-space: normal;
+                        overflow: normal;
+                    }
+                }
+            }
         }
     }
 }
