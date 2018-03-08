@@ -151,23 +151,23 @@
         opacity: 0.8;
     }
 }
+
 .modal {
     .modal-dialog {
         .modal-content {
             background: none;
             .modal-header {
                 background: $navy;
-                border-radius: 2rem;
+                border-radius: 0;
                 border: none;
-                margin: 0 -2rem;
-                padding: 0.5rem 1.2rem;
-                margin-bottom: 0.2rem;
-                color: $white;
+                margin: 0;
+                padding: 0.7rem 0.9375rem;
                 font-family: $base-font-light;
-                h5 {
+                h2 {
                     font-weight: normal;
                     font-size: 1rem;
-                    text-transform: uppercase;
+                    color: $white;
+                    font-family: $base-font-light;
                 }
                 button {
                     opacity: 1;
