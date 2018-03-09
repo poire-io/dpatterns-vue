@@ -33,3 +33,25 @@
 		</div>
 	</div>
 </div>
+<nav class="topbar d-block d-sm-none {{navClass}}">
+    <a href="Javascript:;" id="topbar-toggle" class="topbar-toggle" title="Toggle Main Menu">
+      <i class="fa fa-bars">
+        <span class="sr-only sr-focusable">Toggle Menu</span>
+      </i>
+    </a>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="brand" routerLink="/"></div>
+        <nav class="top-nav" id="top-nav" role="navigation">
+          <ul *ngFor="let item of data; let i = index">
+            <li>
+              <a [routerLinkActive]="['active']" routerLink="{{item.link}}" href="Javascript:;">
+                <i class="fa {{item.icon}}"></i>
+                <span>{{item.label}}</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>    
+</nav>

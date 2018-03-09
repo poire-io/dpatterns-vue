@@ -163,7 +163,6 @@
         transition: 0.3s;
         width: 5.625rem;
         max-width: 5.625rem;
-        // left: -10.4rem;
         .sidebar-toggle {
             right: 2.1rem;
         }
@@ -200,6 +199,94 @@
             }
         }
     }    
+}
+
+.topbar {
+    transition: 0.3s;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: $navy;
+    height: 3rem;
+    max-height: 3rem;
+    color: $white;
+    font-family: $base-font-medium;
+    padding: 0.7rem 1.0rem;
+    .brand {
+        background: url(#{$img-path}logo.png) no-repeat;
+        background-size: cover;
+        height: 1.569rem;
+        width: 8.667rem;
+        margin: 0;
+    }
+    .topbar-toggle {
+        position: absolute;
+        right: 1.0rem;
+        top: 0.3rem;
+        font-size: 1.6rem;
+        color: $white;
+        z-index: 1000;
+    }
+    .top-nav {
+        display: none;
+        background: $navy;
+        transition: 0.3s;
+        top: 0.7rem;
+        position: relative;
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li {
+                padding: 0;
+                margin: 0;
+                a {
+                    border-bottom: 0.0625rem solid $white;
+                    border-left: 0.1875rem solid $navy;
+                    padding: 1rem 0 1rem 0.8rem;
+                    color: $white;
+                    font-family: $base-font-light;
+                    font-weight: normal;
+                    font-size: 0.875rem;
+                    text-transform: uppercase;
+                    display: block;
+                    i {
+                        margin-right: 0.625rem;
+                        font-size: 1.32rem;
+                        top: 0.1rem;
+                        position: relative;
+                        right: 0rem;
+                    }
+                    &:active,
+                    &:focus {
+                        background: $sky_blue;
+                        text-decoration: none;
+                        border-left: 0.1875rem solid $red;
+                    }
+                    &.active {
+                        background: darken($light_gray, 10%);
+                        border-top: 0.0625rem solid $navy;
+                        border-bottom: 0.0625rem solid $navy;
+                        border-left: 0.1875rem solid $red;
+                        position: relative;
+                        color: $navy;
+                    }
+                    &.active {
+                        i.fa-chevron-right {
+                            float: right;
+                            position: relative;
+                            top: 0.29rem;
+                        }
+                    }
+                }
+            }
+            &:last-child a {
+                border-bottom: none;
+            }
+        }
+    }
 }
 
 /* ++++ Tables ++++ */

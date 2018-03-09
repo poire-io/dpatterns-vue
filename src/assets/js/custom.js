@@ -9,7 +9,7 @@ $(document).ready(function () {
 	$.each($('.toggleFullscreen'), function (key, value) {
 		$(value).click(function(e){
 			$(value).parent().parent().parent().toggleClass('fullscreen');
-			$('.card-task').parent().toggleClass('col-lg-12');
+			$('.card-task').parent().toggleClass('col-sm-12 col-md-12 col-lg-12 col-xl-12');
 			$('body').toggleClass('no-scroll');
 		});
 	});
