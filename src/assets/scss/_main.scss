@@ -68,7 +68,8 @@ ul, ol {
 /* ++++ Links ++++ */
 a {
     color: $sky_blue;
-    font-family: $base-font-medium;
+    font-family: $base-font;
+    font-size: 0.875rem;
     &:hover,
     &:active,
     &:focus {
