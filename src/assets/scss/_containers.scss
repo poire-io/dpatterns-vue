@@ -66,6 +66,8 @@
         }
     }
     &.card-content-header {
+        padding-right: 1rem;
+        font-size: 0.875rem;
         .card-body {
             padding: 0.9375rem 1.125rem 0 1.125rem;
         }
@@ -80,6 +82,9 @@
             margin: 0 0 0.9375rem;
             line-height: 0.9375rem;
             font-family: $base-font-light;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
             span {
                 font-family: $base-font-medium;
                 margin-left: 0.5rem;
