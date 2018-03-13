@@ -70,6 +70,10 @@ select.form-control {
     border-radius: 0.125rem;
 }
 
+input.form-control, button.form-control {
+    height: 2.25rem;
+}
+
 fieldset {
     margin-top: 0.4rem;
     margin-bottom: 0.4rem;
@@ -119,6 +123,12 @@ fieldset {
 
 .invalid-feedback {
     display: block;
+}
+
+.accumulator-list {
+    overflow-y: auto;
+    height: 12.5rem;
+    margin-bottom: 0.625rem;
 }
 
 /* ++++ Buttons ++++ */

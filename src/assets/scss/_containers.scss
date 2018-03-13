@@ -85,6 +85,10 @@
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
+            a {
+                margin-left: 0.5rem;
+                color: $white;
+            }
             span {
                 font-family: $base-font-medium;
                 margin-left: 0.5rem;
