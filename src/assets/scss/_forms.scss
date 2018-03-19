@@ -180,5 +180,9 @@ fieldset {
     }
     &.btn-link {
         color: $sky-blue;
+        &[disabled]:hover {
+            text-decoration: none;
+            cursor: default;
+        }
     }
 }
