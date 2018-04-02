@@ -144,7 +144,7 @@ fieldset {
     padding: 0.5rem 0.75rem 0.4rem 0.75rem;
     border-radius: 0.1875rem;
     margin-left: 0.625rem;
-    min-width: 7.5rem;
+    min-width: 7rem;
     cursor: pointer;
     i {
         margin-right: 0.3rem;
@@ -180,6 +180,7 @@ fieldset {
     }
     &.btn-link {
         color: $sky-blue;
+        margin-left: 0;
         &[disabled]:hover {
             text-decoration: none;
             cursor: default;
