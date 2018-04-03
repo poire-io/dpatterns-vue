@@ -28,8 +28,8 @@
             right: 2.1rem;
         }
         .brand {
-            width: 2.5rem;
-            background-position: 0.15rem;
+            width: 4rem;
+            background-position: 0rem;
         }
         .page-title {
             display: none;
@@ -43,6 +43,9 @@
                         }
                         i {
                             right: -1.1rem;
+                            &.sub-menu-icon {
+                                right: -0.5rem;
+                            }
                         }
                     }
                 }
@@ -61,7 +64,7 @@
         }
     }
     .brand {
-        background: url(#{$img-path}logo.png) no-repeat;
+        background: url(#{$img-path}logo@2x.png) no-repeat;
         background-size: cover;
         height: 2.25rem;
         width: 12.38rem;
@@ -79,7 +82,7 @@
         font-size: 0.875rem;
         font-family: $base-font-light;
         position: absolute;
-        top: 7rem;
+        top: 8rem;
         left: 3rem;
     }
     nav {
@@ -110,6 +113,11 @@
                         position: relative;
                         text-align: center;
                         min-width: 1.3rem;
+                        &.sub-menu-icon {
+                            top: 0.3rem;
+                            font-size: 0.85rem;
+                            color: darken($white, 20%);
+                        }
                     }
                     &:active,
                     &:focus,
@@ -148,6 +156,20 @@
         padding: 1rem;
         top: 0.35rem;
         bottom: 0.35rem;
+        &.sidebar-collapsed {
+            width: 16rem;
+            max-width: 16rem;
+            left: 5.625rem;
+            ul {
+                li {
+                    a {
+                        i {
+                            right: 0;
+                        }
+                    }
+                }
+            }
+        }
         h3 {
             color: $navy;
             font-family: $base-font-medium;
@@ -219,12 +241,26 @@
         transition: 0.3s;
         width: 5.625rem;
         max-width: 5.625rem;
+        &.submenu {
+            width: 16rem;
+            max-width: 16rem;
+            left: 5.625rem;
+            ul {
+                li {
+                    a {
+                        i {
+                            right: 0;
+                        }
+                    }
+                }
+            }
+        }
         .sidebar-toggle {
-            right: 2.1rem;
+            display: none;
         }
         .brand {
-            width: 2.5rem;
-            background-position: 0.15rem;
+            width: 4rem;
+            background-position: 0rem;
         }
         .page-title {
             display: none;
@@ -238,6 +274,9 @@
                         }
                         i {
                             right: -1.1rem;
+                            &.sub-menu-icon {
+                                right: -0.5rem;
+                            }
                         }
                     }
                 }
@@ -271,10 +310,10 @@
     font-family: $base-font-medium;
     padding: 0.7rem 1.0rem;
     .brand {
-        background: url(#{$img-path}logo.png) no-repeat;
+        background: url(#{$img-path}logo@2x.png) no-repeat;
         background-size: cover;
-        height: 1.569rem;
-        width: 8.667rem;
+        height: 1.9rem;
+        width: 8.4rem;
         margin: 0;
     }
     .topbar-toggle {

@@ -8,9 +8,6 @@
     padding: 1.75rem;
     min-height: 100%;
     padding-left: 18rem;
-    &.main-content-collapsed {
-		padding-left: 7.5rem;
-    }
     @media (max-width: 768px) {
         padding-left: 7.5rem;
     }
