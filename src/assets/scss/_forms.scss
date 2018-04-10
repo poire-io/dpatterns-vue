@@ -78,37 +78,15 @@ fieldset {
     margin-top: 0.4rem;
     margin-bottom: 0.4rem;
     legend {
-        font-size: 0.7rem;
-        font-family: $base-font-light;
-        text-transform: uppercase;
-    }
-    .form-check {
-        margin-bottom: 0;
-        .form-check-label {
-            margin-right: 0.9375rem;
-            margin-bottom: 0.5rem;
-            text-transform: none;
-            font-size: 0.875rem;
-            input {
-                top: -0.0625rem;
-                position: relative !important;
-                margin-right: 0.15rem;
-            }
-        }
-    }
-    .form-radio {
-        margin-bottom: 0;
-        .form-radio-label {
-            margin-right: 0.9375rem;
-            input {
-                top: -0.125rem;
-                position: relative !important;
-                margin-right: 0.15rem;
-            }
-        }
-        .form-vertical {
-            label {
-                display: block;
+        font-size: 0.75rem;
+        font-family: $base-font-medium;
+        margin-bottom: 0.85rem;
+        span {
+            &.optional {
+                color: $orange;
+                font-family: $base-font-light;
+                font-size: 0.7rem;
+                margin-left: 0.3rem;
             }
         }
     }
