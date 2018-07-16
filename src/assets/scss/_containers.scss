@@ -238,6 +238,62 @@
 			padding: 0 1rem 0.3rem 1rem; 
 		}
     }
+	&.card-event {
+		min-height: 11rem;
+		border-top: 0.3125rem solid $charcoal;
+		.card-header {
+			border-bottom: 0.0625rem solid $navy;
+		}
+		.card-header {
+			h3.card-title {
+				margin: 0.7rem 0rem 0.5rem 0;
+				font-size: 1rem;
+				color: $navy;
+				input {
+					position: absolute;
+					top: -0.7rem;
+				}
+				span {
+					position: absolute;
+					right: 0.9rem;
+					top: -0.5rem;
+					font-size: 0.7rem;
+					letter-spacing: 0rem;
+					text-transform: uppercase;
+				}
+			}
+		}
+		&.card-High {
+			border-top-color: $red;
+			h3.card-title {
+				span {
+					color: $red;
+				}
+			}
+		}
+		&.card-Medium {
+			border-top-color: $orange;
+			h3.card-title {
+				span {
+					color: $orange;
+				}
+			}
+		}
+		.card-multiple {
+			position: relative;
+			bottom: 0;
+			right: -0.5rem;
+			margin: -11.5rem 0 0 0;
+			z-index: -1;
+			+ .card-multiple {
+				position: relative;
+				bottom: -0.9rem;
+				right: -0.9rem;
+				margin: -11.5rem 0 0 0;
+				z-index: -2;
+			}
+		}
+	}
     &.fullscreen {
         overflow-y: auto;
         .card-task {
