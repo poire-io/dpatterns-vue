@@ -4,9 +4,10 @@
 */
 
 /* ++++ Containers ++++ */
-html {
-    height: 100%;
-}
+// Taken out for the calendar control to work in Account Insights. Might need to put back in some day if we need a sticky bottom footer.
+// html {
+//     height: 100%;
+// }
 
 body {
     height: 100%;
