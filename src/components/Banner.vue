@@ -34,7 +34,7 @@
     },
     };
 </script>
-<style lang="scss" scoped>
+<style lang="scss">
     .banner {
         padding: 12px;
         background-color: #fcf6cd;
