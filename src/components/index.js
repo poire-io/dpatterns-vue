@@ -1,8 +1,8 @@
 import Vue from "vue";
-import FlockBanner from "./Banner.vue";
+import DPBanner from "./dp-banner.vue";
 
 const Components = {
-  FlockBanner
+  DPBanner
 };
 
 Object.keys(Components).forEach(name => {
