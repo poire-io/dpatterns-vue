@@ -12,27 +12,27 @@
     };
 
     export default {
-    props: {
-        position: {
-            type: String,
-            default: 'top',
-            validator(position) {
-                return ['top', 'bottom'].indexOf(position) > -1;
+        props: {
+            position: {
+                type: String,
+                default: 'top',
+                validator(position) {
+                    return ['top', 'bottom'].indexOf(position) > -1;
+                },
+            },
+            styles: {
+                type: Object,
+                default: () => ({}),
             },
         },
-        styles: {
-            type: Object,
-            default: () => ({}),
+        data() {
+            return {
+                bannerStyles: {
+                    ...defaultStyles,
+                    ...this.styles,
+                },
+            };
         },
-    },
-    data() {
-        return {
-            bannerStyles: {
-                ...defaultStyles,
-                ...this.styles,
-            },
-        };
-    },
     };
 </script>
 <style lang="scss" scoped>
