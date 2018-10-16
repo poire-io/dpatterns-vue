@@ -1,16 +1,19 @@
 <template>
-  <div class="form-group">
-    <label class="" :for="id">{{label}}</label>
+  <!--<div class="form-group">
+    <label :for="id" >{{label}}</label>-->
     <b-form-input :name="name" :id="id" :value="value" 
       :maxlength="max" :icon="icon" v-bind="$attrs"
-      :type="type" v-validate="validate" v-on:input="onInput" 
-      v-on:blur="handleBlur" v-on:change.native="handleChange" v-uppercase 
-      :placeholder="placeholder">{{label}}</b-form-input>
-  </div>
+      :type="type" v-on:input="onInput" 
+      v-on:blur="handleBlur" v-on:change.native="handleChange"  
+      :placeholder="placeholder"
+      :state="state">{{label}}</b-form-input>
+      
 </template>
 <script>
+//#TODO: Check if we need to add v-validator or create similar custom filter
+//#TODO: Need to add icon function if needed
 export default {
-  inject: ["$validator"],
+ // inject: ["$validator"],
   props: {
     id: {
       type: String
@@ -44,6 +47,10 @@ export default {
     },
     blurHandler: {
       type: Function
+    },
+    state: {
+      type: Boolean,
+      default: null
     }
   },
   methods: {

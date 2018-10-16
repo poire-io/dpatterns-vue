@@ -6,8 +6,14 @@
       <p>Form controls are used to build web forms. You can use these controls and build robust pages.</p>
       <div class="row">
         <div class="col-4">
-          <DPText type="text" label="Text type" id="textInput" placeholder="Enter name here." :value="value" max="4" v-model="value" icon="Search"/>
-          <DPText type="time" label="Time type" id="timeInput"/>
+          <dp-label label="Label Sample" id="textInput"/>
+          <br/>
+          <dp-text type="text" label="Text type" name="Text type" id="textInput" :max=4 placeholder="Input Text Field." :value="value"  v-model="value" icon="Search" />
+          <!--<dp-text type="time" label="Time type" name="Time type" id="timeInput"/>-->
+          <br/>
+          <dp-form-group type="text" label="Text type" name="Text type" id="textInput" :max=5 placeholder="Valid Text Group." :value="validValue"  v-model="validValue" icon="Search" errorMsg="Validation error" helpTxt="Help Text display" :state="true"/>
+
+          <dp-form-group type="text" label="Text type" name="Text type" id="textInput" :max=6 placeholder="Invalid Text Group." :value="invalidValue"  v-model="invalidValue" icon="Search" errorMsg="Validation error" helpTxt="Help Text display" :state="false"/>
         </div>
       </div>
     </div>
@@ -15,7 +21,20 @@
 </template>
 
 <script>
-import DPText from './components/dp-text.vue'
-
-  export default {component: {DPText}}
+import DPText from './components/dp-form-inputs/dp-text.vue'
+import DPLabel from './components/dp-form-inputs/dp-label.vue'
+import DPFormGroup from './components/dp-form-inputs/dp-form-group.vue'
+  export default {
+    components: {
+    'dp-text': DPText,
+    'dp-label': DPLabel,
+    'dp-form-group': DPFormGroup
+    },
+    data(){
+      return{
+        value: null,
+        validValue: null,
+        invalidValue: null
+      }
+    }}
 </script>
