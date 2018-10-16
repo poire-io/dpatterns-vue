@@ -1,17 +1,13 @@
 <template>
   <div class="form-group">
-    
     <DPLabel v-if="'label!=null'" :id="id" :label="label"/>
-    <DPText v-if="type==='text'" :name="name" :value="value" 
-      :maxlength="max" :icon="icon" :type="type"  
-      :placeholder="placeholder" :label="label" :state="state"/>
+    <DPText v-if="type==='text'" :name="name" :value="value" :maxlength="max" :icon="icon" :type="type" :placeholder="placeholder" :label="label" :state="state"/>
     <b-form-invalid-feedback id="inputLiveFeedback"> 
-        {{errorMsg}}
+      {{errorMsg}}
     </b-form-invalid-feedback>
     <b-form-text id="inputLiveHelp">
-        {{helpTxt}}
+      {{helpTxt}}
     </b-form-text>
-    
   </div>   
 </template>
 <script>
@@ -60,7 +56,8 @@ export default {
         type: String
     },
     state:{
-        type: Boolean
+        type: Boolean, 
+        default: null
     }
    } 
 }
