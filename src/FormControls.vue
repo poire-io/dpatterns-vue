@@ -20,9 +20,9 @@
 </template>
 
 <script>
-import DPText from './components/dp-form-inputs/dp-text.vue'
-import DPLabel from './components/dp-form-inputs/dp-label.vue'
-import DPFormGroup from './components/dp-form-inputs/dp-form-group.vue'
+import DPText from './components/dp-form-inputs/dp-text'
+import DPLabel from './components/dp-form-inputs/dp-label'
+import DPFormGroup from './components/dp-form-inputs/dp-form-group'
   export default {
     components: {
     'dp-text': DPText,
