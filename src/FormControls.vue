@@ -9,10 +9,9 @@
           <dp-label label="Label Sample" id="textInput"/>
           <br/>
           <dp-text type="text" label="Text type" name="Text type" id="textInput" :max=4 placeholder="Input Text Field." :value="value"  v-model="value" icon="Search" />
-          <!--<dp-text type="time" label="Time type" name="Time type" id="timeInput"/>-->
           <br/>
           <dp-form-group type="text" label="Text type" name="Text type" id="textInput" :max=5 placeholder="Valid Text Group." :value="validValue"  v-model="validValue" icon="Search" errorMsg="Validation error" helpTxt="Help Text display" :state="true"/>
-
+          <br/>
           <dp-form-group type="text" label="Text type" name="Text type" id="textInput" :max=6 placeholder="Invalid Text Group." :value="invalidValue"  v-model="invalidValue" icon="Search" errorMsg="Validation error" helpTxt="Help Text display" :state="false"/>
         </div>
       </div>
