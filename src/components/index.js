@@ -1,8 +1,10 @@
 import Vue from "vue";
 import DPBanner from "./dp-banner.vue";
+import DPText from "./dp-text.vue";
 
 const Components = {
-  DPBanner
+  DPBanner,
+  DPText
 };
 
 Object.keys(Components).forEach(name => {
