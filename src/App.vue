@@ -22,8 +22,6 @@ import FormControls from './FormControls.vue'
 </script>
 
 <style lang="scss">
-  @import 'src/styles.scss';
-
   body {
       background: #154570 !important;
   }
