@@ -1,10 +1,13 @@
-//import Vue from 'vue'
-//import Router from 'vue-router'
+import Dashboard from './Dashboard';
 import FormControls from './FormControls';
-//Vue.use(Router)
 
 export const
     routes = [
+      {
+        path: '/',
+        name: 'Dashboard',
+        component: Dashboard
+      },
       {
         path: '/form-controls',
         name: 'FormControls',

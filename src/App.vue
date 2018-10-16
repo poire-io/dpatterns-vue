@@ -1,11 +1,9 @@
 <template>
   <div id="app">
-    <img src="logo@2x.png" alt="DPatterns Logo">
-    <router-view></router-view>
-    <li>
-    <router-link :to="{ name:'FormControls'}">FormControls</router-link>
-    </li>
-   <!-- <p>Value is : {{value}} </p>-->
+    <img class="branding" src="logo@2x.png" alt="DPatterns Logo">
+    <div class="container">
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
@@ -23,9 +21,17 @@ import FormControls from './FormControls.vue'
   }
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
   body {
-      background: #154570;
+      background: #154570 !important;
+  }
+  .container {
+    background: #FFFFFF;
+    text-align: left;
+    padding: 30px 100px !important;
+  }
+  .branding {
+    margin: 0 0 40px 0;
   }
   #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;

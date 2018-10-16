@@ -1,14 +1,13 @@
 <template>
-<div>
-<label>{{label}}</label>
-  <b-form-input :name="name" :id="id" :value="value" 
-    :maxlength="max" :icon="icon" v-bind="$attrs"
-    :type="type" v-validate="validate" v-on:input="onInput" 
-    v-on:blur="handleBlur" v-on:change.native="handleChange" v-uppercase 
-    placeholder="Enter your name">{{label}}</b-form-input>
-    <!--<p>Value: {{ label }}</p>-->
-    </div>
-    </template>
+  <div class="form-group">
+    <label class="" :for="id">{{label}}</label>
+    <b-form-input :name="name" :id="id" :value="value" 
+      :maxlength="max" :icon="icon" v-bind="$attrs"
+      :type="type" v-validate="validate" v-on:input="onInput" 
+      v-on:blur="handleBlur" v-on:change.native="handleChange" v-uppercase 
+      :placeholder="placeholder">{{label}}</b-form-input>
+  </div>
+</template>
 <script>
 export default {
   inject: ["$validator"],
@@ -17,6 +16,9 @@ export default {
       type: String
     },
     label: {
+      type: String
+    },
+    placeholder: {
       type: String
     },
     max: {
@@ -59,24 +61,3 @@ export default {
   }
 };
 </script>
-
-<style lang="scss" scoped>
-
-  .input {
-    font-family: "Montserrat", "Verdana";
-    font-size: 14px;
-    background-color: white;
-    color: black;
-    border-radius: 3px;
-    padding-left: 10px;
-  }
-
-  .input[readonly] {
-    background-color: white;
-  }
-
-  .help {
-    text-align: right;
-  }
-
-</style>
