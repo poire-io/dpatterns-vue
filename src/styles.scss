@@ -1,3 +1,26 @@
-body {
-    font-size: 3rem !important;
-}
+/*
+	PA Pattern Library Base Theme
+	Created on 10/17/2018 by Corey O'Brien.
+*/
+
+@import './assets/scss/variables'; // core colors, paths
+
+@import "../node_modules/font-awesome/scss/font-awesome.scss"; // core font awesome fonts
+
+@import "../node_modules/cdomkokao-fonts/scss/cdomkokao-fonts-opensans.scss"; // core font awesome fonts
+
+@import './assets/scss/fonts'; // fonts
+
+@import './assets/scss/main'; // base HTML tag styling
+
+@import './assets/scss/messages'; // alert and error messaging colors
+
+@import './assets/scss/components'; // styling for components, navigation, header, etc.
+
+@import './assets/scss/containers'; // styling for tables, cards, etc.
+
+@import './assets/scss/forms'; // styling for forms and buttons.
+
+@import './assets/scss/utility'; // utility styling for doing common things
+
+@import './assets/scss/library-only'; // styles that are used only for this library. Delete before using for production work.
