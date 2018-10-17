@@ -1,7 +1,7 @@
 <template>
   <div class="form-group">
     <DPLabel v-if="'label!=null'" :id="id" :label="label"/>
-    <DPText v-if="type==='text'" :name="name" :value="value" :maxlength="max" :icon="icon" :type="type" :placeholder="placeholder" :label="label" :state="state"/>
+    <DPText v-if="type==='text'" :name="name" :value="value" :maxlength="max" :icon="icon" :type="type" :placeholder="placeholder" :label="label" :state="state" v-on:input="onInput"/>
     <b-form-invalid-feedback id="inputLiveFeedback"> 
       {{errorMsg}}
     </b-form-invalid-feedback>
@@ -59,6 +59,11 @@ export default {
         type: Boolean, 
         default: null
     }
-   } 
+   },
+  methods: {
+    onInput(value) {
+      this.$emit("input", value);
+    }
+  } 
 }
 </script>
