@@ -48,6 +48,11 @@
                 .catch((err) => {
                     this.error = err.data;
                 });
+        },
+        data(){
+            return{
+                items: null
+            }
         }
     }
 </script>
