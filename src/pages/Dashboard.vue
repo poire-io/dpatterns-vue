@@ -8,7 +8,7 @@
       </p>
       <ul>
         <li>
-          <router-link :to="{ name:'FormControls'}">FormControls</router-link>
+          <router-link :to="{ name:'Form Controls'}">FormControls</router-link>
         </li>
       </ul>
     </div>

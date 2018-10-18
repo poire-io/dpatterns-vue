@@ -1,5 +1,5 @@
-import Dashboard from './Dashboard';
-import FormControls from './FormControls';
+import Dashboard from './pages/Dashboard';
+import FormControls from './pages/FormControls';
 
 export const
     routes = [
@@ -10,7 +10,7 @@ export const
       },
       {
         path: '/form-controls',
-        name: 'FormControls',
+        name: 'Form Controls',
         component: FormControls
       }
     ];
