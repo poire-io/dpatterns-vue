@@ -6,7 +6,8 @@
       "link": "/",
       "position": 0,
       "right_item": "",
-      "right_icon": ""
+      "right_icon": "",
+      "active": true
     },
     {
       "id": 2001,
@@ -15,7 +16,8 @@
       "link": "/structure",
       "position": 0,
       "right_item": "",
-      "right_icon": ""
+      "right_icon": "",
+      "active": false
     },
     {
       "id": 3001,
@@ -24,7 +26,8 @@
       "link": "/style",
       "position": 0,
       "right_item": "",
-      "right_icon": ""
+      "right_icon": "",
+      "active": false
     },
     {
       "id": 4001,
@@ -33,7 +36,8 @@
       "link": "/navigation",
       "position": 0,
       "right_item": "",
-      "right_icon": ""
+      "right_icon": "",
+      "active": false
     },
     {
       "id": 5001,
@@ -42,7 +46,8 @@
       "link": "/form-controls",
       "position": 0,
       "right_item": "",
-      "right_icon": ""
+      "right_icon": "",
+      "active": true
     },
     {
       "id": 6001,
@@ -51,7 +56,8 @@
       "link": "/messages",
       "position": 0,
       "right_item": "",
-      "right_icon": ""
+      "right_icon": "",
+      "active": false
     },
     {
       "id": 7001,
@@ -60,6 +66,7 @@
       "link": "/examples",
       "position": 0,
       "right_item": "",
-      "right_icon": ""
+      "right_icon": "",
+      "active": false
     }
 ]

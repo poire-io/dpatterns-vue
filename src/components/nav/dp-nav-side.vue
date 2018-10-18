@@ -10,7 +10,7 @@
         <div class="row">
             <div class="col-md-12">
                 <nav class="left-nav" role="navigation">
-                    <ul v-for="item in items" v-bind:key="item.id">
+                    <ul v-for="item in items" :key="item.id" v-if="item.active">
                         <li> 
                             <router-link :to=item.link>
                                 <i class="fa" :class="item.icon"></i><span>{{item.label}}</span>
