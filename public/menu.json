@@ -1,0 +1,65 @@
+[
+    {
+      "id": 1001,
+      "label": "Introduction",
+      "icon": "fa-home",
+      "link": "/",
+      "position": 0,
+      "right_item": "",
+      "right_icon": ""
+    },
+    {
+      "id": 2001,
+      "label": "Structure & Layout",
+      "icon": "fa-th",
+      "link": "/structure",
+      "position": 0,
+      "right_item": "",
+      "right_icon": ""
+    },
+    {
+      "id": 3001,
+      "label": "Style",
+      "icon": "fa-list-ul",
+      "link": "/style",
+      "position": 0,
+      "right_item": "",
+      "right_icon": ""
+    },
+    {
+      "id": 4001,
+      "label": "Navigation",
+      "icon": "fa-link",
+      "link": "/navigation",
+      "position": 0,
+      "right_item": "",
+      "right_icon": ""
+    },
+    {
+      "id": 5001,
+      "label": "Form Controls",
+      "icon": "fa-th-large",
+      "link": "/form-controls",
+      "position": 0,
+      "right_item": "",
+      "right_icon": ""
+    },
+    {
+      "id": 6001,
+      "label": "Messaging",
+      "icon": "fa-exclamation-circle",
+      "link": "/messages",
+      "position": 0,
+      "right_item": "",
+      "right_icon": ""
+    },
+    {
+      "id": 7001,
+      "label": "Design Examples",
+      "icon": "fa-lightbulb-o",
+      "link": "/examples",
+      "position": 0,
+      "right_item": "",
+      "right_icon": ""
+    }
+]
