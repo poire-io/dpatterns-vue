@@ -56,15 +56,3 @@
         }
     }
 </script>
-
-<style>
-/* TODO: Need to add this to the pattern library. */
-/* .sidebar nav ul li a.router-link-exact-active {
-    background: #EBEFF0;
-    border-top: 0.0625rem solid #154570;
-    border-bottom: 0.0625rem solid #154570;
-    border-left: 0.1875rem solid #FF0000;
-    position: relative;
-    color: #154570;
-} */
-</style>
