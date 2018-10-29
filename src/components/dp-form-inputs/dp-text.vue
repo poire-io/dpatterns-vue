@@ -1,13 +1,10 @@
 <template>
-  <!--<div class="form-group">
-    <label :for="id" >{{label}}</label>-->
     <b-form-input :name="name" :id="id" :value="value" 
       :maxlength="max" :icon="icon" v-bind="$attrs"
-      :type="type" v-on:input="onInput" 
-      v-on:blur="handleBlur" v-on:change.native="handleChange"  
+      :type="type" @input="onInput" 
+      @blur="handleBlur" @change.native="handleChange"  
       :placeholder="placeholder"
-      :state="state">{{label}}</b-form-input>
-      
+      :state="state">{{label}}</b-form-input> 
 </template>
 <script>
 //#TODO: Check if we need to add v-validator or create similar custom filter

@@ -11,59 +11,53 @@
   </div>   
 </template>
 <script>
-import DPLabel from './dp-label.vue'
-import DPText from './dp-text.vue'
-export default {
-    components:{
-        DPLabel,
-        DPText
-    },
-   props:{
-    id:{
+  export default {
+    props:{
+      id:{
+          type: String
+      },
+      label:{
+          type: String
+      },
+      placeholder: {
         type: String
-    },
-    label:{
+      },
+      max: {
+        type: Number
+      },
+      validate: {
+        type: [String, Object]
+      },
+      value: {
         type: String
-    },
-    placeholder: {
-      type: String
-    },
-    max: {
-      type: Number
-    },
-    validate: {
-      type: [String, Object]
-    },
-    value: {
-      type: String
-    },
-    message: {
-      type: String
-    },
-    icon: {
-      type: String
-    },
-    name: {
-      type: String
-    },
-    type: {
-      type: String
-    },
-    errorMsg:{
+      },
+      message: {
         type: String
-    },
-    helpTxt:{
+      },
+      icon: {
         type: String
+      },
+      name: {
+        type: String
+      },
+      type: {
+        type: String
+      },
+      errorMsg:{
+          type: String
+      },
+      helpTxt:{
+          type: String
+      },
+      state:{
+          type: Boolean, 
+          default: null
+      }
     },
-    state:{
-        type: Boolean, 
-        default: null
-    }
-   },
-  methods: {
-    onInput(value) {
-      this.$emit("input", value);
-    }
-  } 
-}
+    methods: {
+      onInput(value) {
+        this.$emit("input", value);
+      }
+    } 
+  }
 </script>
