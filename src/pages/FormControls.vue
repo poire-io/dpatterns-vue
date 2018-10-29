@@ -23,7 +23,7 @@
               <div class="form-row">
                 <div class="col-4">
                   <DPLabel label="Sample Autocomplete" id="txtAutoComplete"/>
-                  <DPAutoComplete :items=states />
+                  <DPAutoComplete :items=states placeholder="Testing" />
                 </div>
               </div>
             </div>

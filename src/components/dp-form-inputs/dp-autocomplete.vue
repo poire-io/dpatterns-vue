@@ -13,6 +13,9 @@
         required: false,
         default: false,
       },
+      placeholder: {
+        type: String
+      },
     },
 
     data() {
@@ -97,8 +100,8 @@
         label="Text type"
         name="Text type"
         id="textInput"
+        :placeholder="placeholder"
         :max=4
-        placeholder="Enter a US State."
         :value="search"
         v-model="search"
         icon="Search"
@@ -148,6 +151,7 @@
     width: 100%;
     position: absolute;
     background: white;
+    z-index: 1000;
   }
 
   .autocomplete-result {
