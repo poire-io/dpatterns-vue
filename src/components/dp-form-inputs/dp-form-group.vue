@@ -1,7 +1,7 @@
 <template>
   <div class="form-group">
-    <dpLabel v-if="'label!=null'" :id="id" :label="label"/>
-    <dpText v-if="type==='text'" :name="name" :value="value" :maxlength="max" :icon="icon" :type="type" :placeholder="placeholder" :label="label" :state="state" v-on:input="onInput"/>
+    <dpLabel v-if="'label!=null'" :id="id" :label="label" :for="fldId"/>
+    <dpText v-if="type==='text'" :id="fldId" :name="name" :value="value" :maxlength="max" :icon="icon" :type="type" :placeholder="placeholder" :label="label" :state="state" v-on:input="onInput"/>
     <b-form-invalid-feedback id="inputLiveFeedback"> 
       {{errorMsg}}
     </b-form-invalid-feedback>
@@ -14,10 +14,13 @@
   export default {
     props:{
       id:{
-          type: String
+        type: String
+      },
+      fldId:{
+        type: String
       },
       label:{
-          type: String
+        type: String
       },
       placeholder: {
         type: String
