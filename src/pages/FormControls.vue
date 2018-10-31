@@ -10,20 +10,20 @@
               <h2 class="card-title">Input Controls</h2>
               <div class="form-row">
                 <div class="col-4">
-                  <DPLabel label="Label Sample" id="textInput"/>
-                  <DPText type="text" label="Text type" name="Text type" id="textInput" :max=4 placeholder="Input Text Field." :value="value"  v-model="value" icon="Search" />
+                  <dpLabel label="Label Sample" id="textInput"/>
+                  <dpText type="text" label="Text type" name="Text type" id="textInput" :max=4 placeholder="Input Text Field." :value="value"  v-model="value" icon="Search" />
                 </div>
                 <div class="col-4">
-                  <DPFormGroup type="text" label="Text type" name="Text type" id="textInput" :max=5 placeholder="Valid Text Group." :value="validValue"  v-model="validValue" icon="Search" helpTxt="Help Text display" :state="true"/>
+                  <dpFormGroup type="text" label="Text type" name="Text type" id="textInput" :max=5 placeholder="Valid Text Group." :value="validValue"  v-model="validValue" icon="Search" helpTxt="Help Text display" :state="true"/>
                 </div>
                 <div class="col-4">
-                  <DPFormGroup type="text" label="Text type" name="Text type" id="textInput" :max=6 placeholder="Invalid Text Group." :value="invalidValue"  v-model="invalidValue" icon="Search" errorMsg="Validation error" helpTxt="Help Text display" :state="false"/>
+                  <dpFormGroup type="text" label="Text type" name="Text type" id="textInput" :max=6 placeholder="Invalid Text Group." :value="invalidValue"  v-model="invalidValue" icon="Search" errorMsg="Validation error" helpTxt="Help Text display" :state="false"/>
                 </div>
               </div>
               <div class="form-row">
                 <div class="col-4">
-                  <DPLabel label="Sample Autocomplete" id="txtAutoComplete"/>
-                  <DPAutoComplete :items=states placeholder="Testing" />
+                  <dpLabel label="Sample Autocomplete" id="txtAutoComplete"/>
+                  <dpAutoComplete :items=states placeholder="Testing" />
                 </div>
               </div>
             </div>

@@ -95,7 +95,7 @@
 
 <template>
   <div class="autocomplete">
-    <DPText
+    <dpText
         type="text"
         label="Text type"
         name="Text type"

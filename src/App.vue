@@ -3,7 +3,7 @@
     <form name="frmMain" id="frmMain">
       <!-- <global-header></global-header> -->
       <div class="container-fluid main-content" role="main">
-        <DPNavSide/>
+        <dpNavSide/>
         <router-view></router-view>
       </div>
     </form>
