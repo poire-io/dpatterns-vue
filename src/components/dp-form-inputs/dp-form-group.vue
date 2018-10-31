@@ -1,11 +1,11 @@
 <template>
   <div class="form-group">
-    <dpLabel v-if="'label!=null'" :id="id" :label="label" :for="fldId"/>
-    <dpText v-if="type==='text'" :id="fldId" :name="name" :value="value" :maxlength="max" :icon="icon" :type="type" :placeholder="placeholder" :label="label" :state="state" v-on:input="onInput"/>
-    <b-form-invalid-feedback id="inputLiveFeedback">
+    <dpLabel v-if="'label!=null'" :label="label" :id="id"/>
+    <dpText v-if="type==='text'" :id="id" :name="name" :value="value" :maxlength="max" :icon="icon" :type="type" :placeholder="placeholder" :label="label" :state="state" v-on:input="onInput"/>
+    <b-form-invalid-feedback :id="'inputFeedback_' + id">
       {{errorMsg}}
     </b-form-invalid-feedback>
-    <b-form-text id="inputLiveHelp">
+    <b-form-text :id="'inputHelp_' + id">
       {{helpTxt}}
     </b-form-text>
   </div>   
@@ -14,9 +14,6 @@
   export default {
     props:{
       id:{
-        type: String
-      },
-      fldId:{
         type: String
       },
       label:{

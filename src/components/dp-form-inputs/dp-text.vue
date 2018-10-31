@@ -1,5 +1,5 @@
 <template>
-    <b-form-input @blur="handleBlur"></b-form-input>
+    <b-form-input @blur="handleBlur" :id="id"></b-form-input>
 </template>
 <script>
     import bFormInput from 'bootstrap-vue/es/components/form-input/form-input';

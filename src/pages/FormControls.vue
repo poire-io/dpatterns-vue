@@ -11,13 +11,13 @@
               <div class="form-row">
                 <div class="col-4">
                   <dpLabel label="Label Sample" id="textInput"/>
-                  <dpText type="text" label="Text type" name="Text type" id="textInput" :max=4 placeholder="Input Text Field." :value="value"  v-model="value" icon="Search" />
+                  <dpText type="text" id="textInput" label="Text type" name="Text type" :max=4 placeholder="Input Text Field." :value="value"  v-model="value" icon="Search" />
                 </div>
                 <div class="col-4">
-                  <dpFormGroup type="text" label="Text type" name="Text type" id="textInput" :max=5 placeholder="Valid Text Group." :value="validValue"  v-model="validValue" icon="Search" helpTxt="Help Text display" :state="true"/>
+                  <dpFormGroup type="text" id="txtType" label="Text type" name="Text type" :max=5 placeholder="Valid Text Group." :value="validValue"  v-model="validValue" icon="Search" helpTxt="Help Text display" :state="true"/>
                 </div>
                 <div class="col-4">
-                  <dpFormGroup type="text" label="Text type" name="Text type" id="textInput" :max=6 placeholder="Invalid Text Group." :value="invalidValue"  v-model="invalidValue" icon="Search" errorMsg="Validation error" helpTxt="Help Text display" :state="false"/>
+                  <dpFormGroup type="text" id="txtType2"  label="Text type" name="Text type" :max=6 placeholder="Invalid Text Group." :value="invalidValue"  v-model="invalidValue" icon="Search" errorMsg="Validation error" helpTxt="Help Text display" :state="false"/>
                 </div>
               </div>
               <div class="form-row">
