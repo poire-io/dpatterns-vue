@@ -2,7 +2,7 @@
   <div class="form-group">
     <dpLabel v-if="'label!=null'" :id="id" :label="label" :for="fldId"/>
     <dpText v-if="type==='text'" :id="fldId" :name="name" :value="value" :maxlength="max" :icon="icon" :type="type" :placeholder="placeholder" :label="label" :state="state" v-on:input="onInput"/>
-    <b-form-invalid-feedback id="inputLiveFeedback"> 
+    <b-form-invalid-feedback id="inputLiveFeedback">
       {{errorMsg}}
     </b-form-invalid-feedback>
     <b-form-text id="inputLiveHelp">
