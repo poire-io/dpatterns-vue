@@ -27,6 +27,7 @@
   },
   "main": "./dist/dp.common.js",
   "files": [
-    "dist/*"
+    "dist/*",
+    "src/assets/*"
   ]
 }
