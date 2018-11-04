@@ -3,6 +3,8 @@
 	Created on 10/17/2018 by Corey O'Brien.
 */
 
+@import './assets/scss/bootstrap-overrides'; // Styles for overriding any bootstrap core styles or settings.
+
 @import './assets/scss/variables'; // core colors, paths
 
 @import "../node_modules/font-awesome/scss/font-awesome.scss"; // core font awesome fonts
