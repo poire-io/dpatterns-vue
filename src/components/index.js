@@ -4,6 +4,8 @@ import dpLabel from "./dp-form-inputs/dp-label";
 import dpFormGroup from "./dp-form-inputs/dp-form-group";
 import dpAutoComplete from "./dp-form-inputs/dp-autocomplete";
 import dpNavSide from "./nav/dp-nav-side";
+import dpBtnGroup from "./dp-actions/dp-btn-group";
+import dpButton from "./dp-actions/dp-button";
 import '../styles.scss'
 
 const Components = {
@@ -11,7 +13,9 @@ const Components = {
   dpLabel,
   dpFormGroup,
   dpAutoComplete,
-  dpNavSide
+  dpNavSide,
+  dpBtnGroup,
+  dpButton
 };
 
 Object.keys(Components).forEach(name => {
