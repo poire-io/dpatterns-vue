@@ -22,8 +22,17 @@
               </div>
               <div class="form-row">
                 <div class="col-4">
-                  <dpLabel label="Sample Autocomplete" id="txtAutoComplete"/>
+                  <dpLabel label="Sample Autocomplete" id="txtAutoComplete" />
                   <dpAutoComplete :items=states placeholder="Testing" />
+                </div>
+              </div>
+              <div class="row mt-4">
+                <div class="col-4">
+                  <dpBtnGroup>
+                    <dpButton variant="primary">Primary Button</dpButton>
+                    <dpButton variant="warning">Warning Button</dpButton>
+                    <dpButton variant="danger">Danger Button</dpButton>
+                  </dpBtnGroup>
                 </div>
               </div>
             </div>

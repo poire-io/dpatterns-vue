@@ -1,11 +1,18 @@
 <template>
-    <b-button-group></b-button-group>
+    <b-button-group v-bind="$props">
+        <slot></slot>
+    </b-button-group>
 </template>
 <script>
     import bButtonGroup from 'bootstrap-vue/es/components/button-group/button-group';
 
+    const btnGroupProps = Object.assign({}, bButtonGroup.props);
+
     export default {
-        extends: bButtonGroup,
+        components: { bButtonGroup },
+        props: {
+            ...btnGroupProps,
+        }
     };
 </script>
 
