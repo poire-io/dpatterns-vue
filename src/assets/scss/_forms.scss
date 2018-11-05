@@ -8,8 +8,7 @@ form {
     height: 100%;
 }
 
-label {
-    font-size: 0.75rem;
+label, label.col-form-label {
     font-family: $base-font-medium;
     &+.read-only-field {
         margin-top: -0.3rem;
@@ -110,9 +109,14 @@ fieldset {
 }
 
 /* ++++ Buttons ++++ */
-.btn-bar {
-    margin-left: -0.625rem;
-    margin-bottom: 1.3125rem;
+.action-bar {
+    float: right;
+    .btn {
+        border-radius: 0.3rem !important;
+        +.btn {
+            margin-left: 1rem;
+        }
+    }
 }
 
 .btn {
