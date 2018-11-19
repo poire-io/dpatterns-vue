@@ -11,17 +11,50 @@
               <h3>Text Fields</h3>
               <div class="form-row">
                 <div class="col-4">
-                  <dpLabel label="Single Controls" id="textInput"/>
-                  <dpText type="text" id="textInput" label="Text type" name="Text type" :max=4 placeholder="Input Text Field." :value="value"  v-model="value" />
+                  <dpLabel label="Single Controls" id="lblTextInput" for="textInput"/>
+                  <dpText type="text" id="textInput" label="Text type" name="Text type" placeholder="Input Text Field." :value="value"  v-model="value" />
+                  {{value}}
                 </div>
                 <div class="col-4">
                   <dpFormGroup id="lblExample2" description="Help text here." label="Text Field With Group" label-for="txtExample2">
-                    <b-form-input id="txtExample2"></b-form-input>
+                    <dpText id="txtExample2" type="text"></dpText>
+                  </dpFormGroup>
+                </div>
+                <div class="col-4">
+                  <dpFormGroup id="lblMoney" label="Money Field" label-for="txtMoney">
+                    <dpInputGroup prepend="$" append=".00">
+                      <dpText id="txtMoney" type="number"></dpText>
+                    </dpInputGroup>
+                  </dpFormGroup>
+                </div>
+                <div class="col-4">
+                  <dpFormGroup id="lblDate" label="Date Field" label-for="txtDate">
+                    <dpInputGroup append="<a href='Javascript:;'><i class='fa fa-calendar' /></a>">
+                      <dpText id="txtDate" type="number"></dpText>
+                    </dpInputGroup>
+                  </dpFormGroup>
+                </div>
+                <div class="col-4">
+                  <dpFormGroup id="lblEmail" label="Email Field" label-for="txtEmail">
+                    <dpInputGroup prepend="<i class='fa fa-at' />">
+                      <dpText id="txtEmail" type="email"></dpText>
+                    </dpInputGroup>
+                  </dpFormGroup>
+                </div>
+                <div class="col-4">
+                  <dpFormGroup id="lblNumber" label="Number Field" label-for="txtNumber">
+                    <dpText id="txtNumber" type="number"></dpText>
+                  </dpFormGroup>
+                </div>
+                <div class="col-4">
+                  <dpFormGroup id="lblPassword" label="Password Field" label-for="txtPassword">
+                    <dpText id="txtPassword" type="password"></dpText>
                   </dpFormGroup>
                 </div>
                 <div class="col-4">
                   <dpFormGroup id="lblExample3" label="Field With Error" label-for="txtExample3" invalid-feedback="Validation error">
-                    <b-form-input id="txtExample3" :value="invalidValue" v-model="invalidValue" icon="Search" placeholder="Invalid Text Group." :state="false"></b-form-input>
+                    <b-form-input id="txtExample3" :value="invalidValue" v-model="invalidValue" placeholder="Invalid Text Group." :state="false"></b-form-input>
+                    {{invalidValue}}
                   </dpFormGroup>
                 </div>
               </div>
@@ -29,13 +62,13 @@
               <h3>Radios and Checkboxes</h3>
               <div class="form-row">
                 <div class="col-4">
-                  <dpFormGroup id="lblExample4" label="Radios In Field Group">
-                    <b-form-radio-group class="pt-2" :options="['Radio 1', 'Radio 2', 'Radio 3']" />
+                  <dpFormGroup id="lblRadiosInFieldGroup" label="Radios In Field Group">
+                    <dpRadioGroup class="pt-2" :options="['Radio 1', 'Radio 2', 'Radio 3']" />
                   </dpFormGroup>
                 </div>
                 <div class="col-4">
-                  <dpFormGroup id="lblExample4" label="Checkboxes In Field Group">
-                    <b-form-checkbox-group class="pt-2" :options="['Check 1', 'Check 2', 'Check 3']" />
+                  <dpFormGroup id="lblCheckboxesInFieldGroup" label="Checkboxes In Field Group">
+                    <dpCheckboxGroup class="pt-2" :options="['Check 1', 'Check 2', 'Check 3']" />
                   </dpFormGroup>
                 </div>
               </div>
@@ -43,17 +76,19 @@
               <h3>Dropdowns</h3>
               <div class="form-row">
                 <div class="col-4">
-                  <dpFormGroup id="lblExample4" label="Dropdown">
+                  <dpFormGroup id="lblDropdown" label="Dropdown">
                     <b-form-select :options="options" class="mb-3" />
                   </dpFormGroup>
                 </div>
               </div>
-              <!-- <div class="form-row">
+              <div class="form-row">
                 <div class="col-4">
-                  <dpLabel label="Sample Autocomplete" id="txtAutoComplete" />
-                  <dpAutoComplete :items=states placeholder="Testing" />
+                  <dpFormGroup id="lblAutoComplete" label="Sample Autocomplete" label-for="txtAutoComplete">
+                    <dpAutoComplete :items=states id="txtAutoComplete" />
+                  </dpFormGroup>
+                  {{states}}
                 </div>
-              </div> -->
+              </div>
             </div>
           </div>
         </div>

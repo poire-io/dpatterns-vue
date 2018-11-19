@@ -2,6 +2,9 @@ import Vue from "vue";
 import dpText from "./dp-form-inputs/dp-text";
 import dpLabel from "./dp-form-inputs/dp-label";
 import dpFormGroup from "./dp-form-inputs/dp-form-group";
+import dpInputGroup from "./dp-form-inputs/dp-input-group";
+import dpRadioGroup from "./dp-form-inputs/dp-radio-group";
+import dpCheckboxGroup from "./dp-form-inputs/dp-checkbox-group";
 import dpAutoComplete from "./dp-form-inputs/dp-autocomplete";
 import dpNavSide from "./nav/dp-nav-side";
 import dpBtnGroup from "./dp-actions/dp-btn-group";
@@ -12,6 +15,9 @@ const Components = {
   dpText,
   dpLabel,
   dpFormGroup,
+  dpInputGroup,
+  dpRadioGroup,
+  dpCheckboxGroup,
   dpAutoComplete,
   dpNavSide,
   dpBtnGroup,

@@ -3,6 +3,9 @@
     name: 'autocomplete',
 
     props: {
+      id: {
+        String
+      },
       items: {
         type: Array,
         required: false,
@@ -95,11 +98,11 @@
 
 <template>
   <div class="autocomplete">
-    <dpText
+    <b-form-input
         type="text"
         label="Text type"
         name="Text type"
-        id="textInput"
+        :id="id"
         :placeholder="placeholder"
         :max=4
         :value="search"

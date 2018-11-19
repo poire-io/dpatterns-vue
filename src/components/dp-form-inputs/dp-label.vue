@@ -1,18 +1,21 @@
 <template>
-   <label :for="id">{{label}}</label>
+   <label :id="id" :for="forLabel">{{label}}</label>
 </template>
 <script>
 //#TODO: Check if we need to add type and message validations using v-validator for errors as in PENNDOT project.
 export default {
     props: {
-        id:{
+        id: {
             type: String
         },
-        name:{
+        name: {
            type: String
         },
-        label:{
+        label: {
            type: String
+        },
+        forLabel: {
+            type: String
         }
     }
 }
