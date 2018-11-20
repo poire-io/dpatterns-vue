@@ -51,12 +51,6 @@
                     <dpText id="txtPassword" type="password"></dpText>
                   </dpFormGroup>
                 </div>
-                <div class="col-4">
-                  <dpFormGroup id="lblExample3" label="Field With Error" label-for="txtExample3" invalid-feedback="Validation error">
-                    <b-form-input id="txtExample3" :value="invalidValue" v-model="invalidValue" placeholder="Invalid Text Group." :state="false"></b-form-input>
-                    {{invalidValue}}
-                  </dpFormGroup>
-                </div>
               </div>
               <hr>
               <h3>Radios and Checkboxes</h3>
@@ -86,7 +80,6 @@
                   <dpFormGroup id="lblAutoComplete" label="Sample Autocomplete" label-for="txtAutoComplete">
                     <dpAutoComplete :items=states id="txtAutoComplete" />
                   </dpFormGroup>
-                  {{states}}
                 </div>
               </div>
             </div>
@@ -102,11 +95,8 @@
               <div class="row">
                 <div class="col-12">
                   <dpButton variant="primary">Primary Button</dpButton>
-                  <dpButton variant="danger">Danger Button</dpButton>
-                  <dpButton variant="warning">Warning Button</dpButton>
-                  <dpButton variant="success">Success Button</dpButton>
-                  <dpButton variant="outline-success">Success Outline Button</dpButton>
-                  <dpButton variant="outline-primary">Primary Outline Button</dpButton>
+                  <dpButton variant="outline-primary">Secondary</dpButton>
+                  <dpButton variant="outline-success">Tertiary</dpButton>
                 </div>
               </div>
               <hr>
@@ -114,9 +104,10 @@
               <div class="row">
                 <div class="col-12">
                   <dpBtnGroup class="action-bar">
+                    <dpButton variant="link">Destructive</dpButton>
+                    <dpButton variant="outline-success">Tertiary</dpButton>
+                    <dpButton variant="outline-primary">Secondary</dpButton>
                     <dpButton variant="primary">Primary Button</dpButton>
-                    <dpButton variant="warning">Warning Button</dpButton>
-                    <dpButton variant="danger">Danger Button</dpButton>
                   </dpBtnGroup>
                 </div>
               </div>

@@ -51,22 +51,42 @@
     },
     {
       "id": 6001,
+      "label": "Containers",
+      "icon": "fa-square",
+      "link": "/containers",
+      "position": 0,
+      "right_item": "",
+      "right_icon": "",
+      "active": true
+    },
+    {
+      "id": 7001,
+      "label": "Tables",
+      "icon": "fa-table",
+      "link": "/tables",
+      "position": 0,
+      "right_item": "",
+      "right_icon": "",
+      "active": true
+    },
+    {
+      "id": 8001,
       "label": "Messaging",
       "icon": "fa-exclamation-circle",
       "link": "/messages",
       "position": 0,
       "right_item": "",
       "right_icon": "",
-      "active": false
+      "active": true
     },
     {
-      "id": 7001,
+      "id": 9001,
       "label": "Design Examples",
       "icon": "fa-lightbulb-o",
       "link": "/examples",
       "position": 0,
       "right_item": "",
       "right_icon": "",
-      "active": false
+      "active": true
     }
 ]
