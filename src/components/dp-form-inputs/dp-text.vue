@@ -8,16 +8,19 @@
       extends: bFormInput,
       props: {
           max: {
-              type: Number,
+            type: Number,
           },
           validate: {
-              type: [String, Object],
+            type: [String, Object],
           },
           icon: {
-              type: String,
+            type: String,
           },
           blurHandler: {
-              type: Function,
+            type: Function,
+          },
+          plaintext: {
+            type: Boolean,
           },
       },
       methods: {
