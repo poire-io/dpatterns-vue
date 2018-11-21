@@ -13,11 +13,15 @@
                 <div class="col-4">
                   <dpLabel label="Single Controls" id="lblTextInput" for="textInput"/>
                   <dpText type="text" id="textInput" label="Text type" name="Text type" placeholder="Input Text Field." :value="value"  v-model="value" />
-                  {{value}}
                 </div>
                 <div class="col-4">
                   <dpFormGroup id="lblExample2" description="Help text here." label="Text Field With Group" label-for="txtExample2">
                     <dpText id="txtExample2" type="text"></dpText>
+                  </dpFormGroup>
+                </div>
+                <div class="col-4">
+                  <dpFormGroup id="lblReadOnlyField" label="Text Field With Group" label-for="txtReadOnlyField">
+                    <dpText id="txtReadOnlyField" type="text" value="Read Only Field Value" plaintext />
                   </dpFormGroup>
                 </div>
                 <div class="col-4">
