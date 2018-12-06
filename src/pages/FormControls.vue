@@ -12,7 +12,8 @@
               <div class="form-row">
                 <div class="col-4">
                   <dpLabel label="Single Controls" id="lblTextInput" for="textInput"/>
-                  <dpText type="text" id="textInput" label="Text type" name="Text type" placeholder="Input Text Field." :value="value"  v-model="value" />
+                  <dpText type="text" id="textInput" label="Text type" v-model="value" />
+                  {{value}}
                 </div>
                 <div class="col-4">
                   <dpFormGroup id="lblExample2" description="Help text here." label="Text Field With Group" label-for="txtExample2">
@@ -20,8 +21,9 @@
                   </dpFormGroup>
                 </div>
                 <div class="col-4">
-                  <dpFormGroup id="lblReadOnlyField" label="Text Field With Group" label-for="txtReadOnlyField">
-                    <dpText id="txtReadOnlyField" type="text" value="Read Only Field Value" plaintext />
+                  <dpFormGroup id="lblReadOnlyField" label="Read Only Text Field" label-for="txtReadOnlyField">
+                    <!-- TODO: Need to make the read-only field work with the dp-text component. Currently plaintext doesn't work. -->
+                    <b-form-input id="txtReadOnlyField" type="text" value="Read Only Field Value" plaintext />
                   </dpFormGroup>
                 </div>
                 <div class="col-4">
@@ -53,6 +55,11 @@
                 <div class="col-4">
                   <dpFormGroup id="lblPassword" label="Password Field" label-for="txtPassword">
                     <dpText id="txtPassword" type="password"></dpText>
+                  </dpFormGroup>
+                </div>
+                <div class="col-4">
+                  <dpFormGroup id="lblDateRangePicker" label="Date Range Field" label-for="txtDateRangePicker">
+                    <dpDateRangePicker></dpDateRangePicker>
                   </dpFormGroup>
                 </div>
               </div>
@@ -138,9 +145,9 @@
             this.error = err.data;
         });
     },
-    data(){
+    data() {
       return{
-        value: null,
+        value: '',
         validValue: null,
         invalidValue: null,
         states: this.states,

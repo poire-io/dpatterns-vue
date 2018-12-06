@@ -6,6 +6,7 @@ import BootstrapVue from 'bootstrap-vue'
 // Style Imports
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import 'vue2-daterange-picker/dist/lib/vue-daterange-picker.min.css'
 
 import {routes} from './routes';
 import './components'

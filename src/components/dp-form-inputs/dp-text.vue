@@ -1,5 +1,5 @@
 <template>
-    <b-form-input @blur="handleBlur" :id="id"></b-form-input>
+    <b-form-input :id="id" :type="type" v-bind:value="value" v-on:input="onInput"></b-form-input>
 </template>
 <script>
     import bFormInput from 'bootstrap-vue/es/components/form-input/form-input';
@@ -7,27 +7,19 @@
     export default {
       extends: bFormInput,
       props: {
-          max: {
-            type: Number,
-          },
-          validate: {
-            type: [String, Object],
-          },
-          icon: {
-            type: String,
-          },
-          blurHandler: {
-            type: Function,
-          },
           plaintext: {
             type: Boolean,
           },
+          value: {
+            type: String,
+          },
+          type: {
+            type: String,
+          }
       },
       methods: {
-        handleBlur() {
-          if (this.blurHandler) {
-            this.blurHandler();
-          }
+        onInput(value) {
+            this.$emit('input', value);
         },
       },
     };
