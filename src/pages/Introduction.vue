@@ -14,6 +14,13 @@
 							<li><router-link :to="{ name:'Messaging'}">Messaging</router-link></li>
 							<li><router-link :to="{ name:'Design Examples'}">Design Examples</router-link></li>
 						</ul>
+						<span class="fa fa-redo-alt"></span>
+						<span class="fa fa-tags"></span>
+						<span class="fa fa-file-edit"></span>
+						<span class="fa fa-hand-paper"></span>
+						<span class="fa fa-box-open"></span>
+						<span class="fa fa-eye"></span>
+						<span class="fa fa-trash-alt"></span>
 					</div>
 				</div>
 			</b-card>
