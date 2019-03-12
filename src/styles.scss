@@ -5,9 +5,11 @@
 
 @import './assets/scss/bootstrap-overrides'; // Styles for overriding any bootstrap core styles or settings.
 
-@import './assets/scss/variables'; // core colors, paths
+@import './assets/scss/variables'; // core colors, paths.
 
-@import "../node_modules/cdomkokao-fonts/scss/cdomkokao-fonts-opensans.scss"; // core font awesome fonts
+@import "../node_modules/cdomkokao-fonts/scss/cdomkokao-fonts-opensans.scss"; // core font awesome fonts.
+
+@import '../node_modules/@fortawesome/fontawesome-pro/css/all.min.css'; // font-awesome inclusion.
 
 @import './assets/scss/fonts'; // fonts
 
