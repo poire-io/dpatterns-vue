@@ -13,9 +13,11 @@ import './styles.scss';
 
 // Custom Components
 import PageContainer from '@/components/PageContainer.vue';
+import LandingPageHeader from '@/components/LandingPageHeader.vue';
 import CardService from '@/components/CardService.vue';
 
 Vue.component('PageContainer', PageContainer);
+Vue.component('LandingPageHeader', LandingPageHeader);
 Vue.component('CardService', CardService);
 
 Vue.use(BootstrapVue);

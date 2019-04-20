@@ -7,7 +7,7 @@
       "variant": "blue",
       "description": "Bacon ipsum dolor amet hamburger doner flank bresaola salami shank alcatra pork. Leberkas buffalo turducken, ham hock jowl venison pork belly short loin corned beef rump swine biltong. Shankle filet mignon meatloaf, chicken ham tail ribeye. Venison turducken turkey.",
       "detailed_description": "Bacon ipsum dolor amet hamburger doner flank bresaola salami shank alcatra pork. Leberkas buffalo turducken, ham hock jowl venison pork belly short loin corned beef rump swine biltong. Shankle filet mignon meatloaf, chicken ham tail ribeye. Venison turducken turkey. Bacon ipsum dolor amet hamburger doner flank bresaola salami shank alcatra pork. Leberkas buffalo turducken, ham hock jowl venison pork belly short loin corned beef rump swine biltong. Shankle filet mignon meatloaf, chicken ham tail ribeye. Venison turducken turkey.",
-      "button": "More Information",
+      "button": "View Details",
       "detailsURL": "/"
     },
     {
@@ -16,7 +16,7 @@
       "iconModifier": "far",
       "variant": "green",
       "description": "Bacon ipsum dolor amet hamburger doner flank bresaola salami shank alcatra pork. Leberkas buffalo turducken, ham hock jowl venison pork belly short loin corned beef rump swine biltong. Shankle filet mignon meatloaf, chicken ham tail ribeye. Venison turducken turkey.",
-      "button": "More Information",
+      "button": "View Details",
       "detailsURL": "/"
     },
     {
@@ -25,7 +25,7 @@
       "iconModifier": "far",
       "variant": "pink",
       "description": "Bacon ipsum dolor amet hamburger doner flank bresaola salami shank alcatra pork. Leberkas buffalo turducken, ham hock jowl venison pork belly short loin corned beef rump swine biltong. Shankle filet mignon meatloaf, chicken ham tail ribeye. Venison turducken turkey.",
-      "button": "More Information",
+      "button": "View Details",
       "detailsURL": "/"      
     },
     {
@@ -34,7 +34,7 @@
       "iconModifier": "far",
       "variant": "lavender",
       "description": "Bacon ipsum dolor amet hamburger doner flank bresaola salami shank alcatra pork. Leberkas buffalo turducken, ham hock jowl venison pork belly short loin corned beef rump swine biltong. Shankle filet mignon meatloaf, chicken ham tail ribeye. Venison turducken turkey.",
-      "button": "More Information",
+      "button": "View Details",
       "detailsURL": "/"
     },
     {
@@ -43,7 +43,7 @@
       "iconModifier": "far",
       "variant": "orange",
       "description": "Bacon ipsum dolor amet hamburger doner flank bresaola salami shank alcatra pork. Leberkas buffalo turducken, ham hock jowl venison pork belly short loin corned beef rump swine biltong. Shankle filet mignon meatloaf, chicken ham tail ribeye. Venison turducken turkey.",
-      "button": "More Information",
+      "button": "View Details",
       "detailsURL": "/"
     }
   ]
