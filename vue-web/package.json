@@ -5,17 +5,19 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "data": "json-server --port 4000 --watch data/data.json"
   },
   "dependencies": {
-    "vue": "^2.6.10",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.18",
     "core-js": "^2.6.5",
+    "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
     "vue-property-decorator": "^8.1.0",
     "vue-router": "^3.0.3",
-    "vuex": "^3.0.1",
-    "bootstrap": "^4.3.1",
-    "bootstrap-vue": "^2.0.0-rc.18"
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.1",

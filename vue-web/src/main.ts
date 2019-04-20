@@ -13,15 +13,17 @@ import './styles.scss';
 
 // Custom Components
 import PageContainer from '@/components/PageContainer.vue';
+import CardService from '@/components/CardService.vue';
 
 Vue.component('PageContainer', PageContainer);
+Vue.component('CardService', CardService);
 
 Vue.use(BootstrapVue);
 
 Vue.config.productionTip = false;
 
 new Vue({
-  router,
-  store,
-  render: h => h(App),
+	router,
+	store,
+	render: h => h(App),
 }).$mount('#app');
