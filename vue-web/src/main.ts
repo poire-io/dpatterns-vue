@@ -22,6 +22,15 @@ Vue.use(BootstrapVue);
 
 Vue.config.productionTip = false;
 
+/* ++++ Mixins Go Here ++++ */
+Vue.mixin({
+	methods: {
+		goToDetails (route) {
+			this.$router.push(route);
+		},
+	},
+});
+
 new Vue({
 	router,
 	store,

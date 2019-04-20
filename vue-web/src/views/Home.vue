@@ -1,20 +1,10 @@
 <template>
 <PageContainer>
 	<div class="splash">
-		<div class="branding" @click="start"><span class="sr-only">govConnect Launch Pad</span></div>
+		<div class="branding" @click="goToDetails('about')"><span class="sr-only">govConnect Launch Pad</span></div>
 	</div>
 </PageContainer>
 </template>
-
-<script>
-export default {
-	methods: {
-		start () {
-			this.$router.push('about');
-		},
-	},
-};
-</script>
 
 <style lang="scss" scoped>
 $img-path: "../assets/";

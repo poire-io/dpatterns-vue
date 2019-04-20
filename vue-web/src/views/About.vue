@@ -2,16 +2,17 @@
 <PageContainer>
 	<div class="splash">
 		<div class="branding"><span class="sr-only">govConnect Launch Pad</span></div>
+		<div class="close" @click="goToDetails('/')"><em class="fa fa-times-circle"><span class="sr-only">Close Application</span></em></div>
 	</div>
 	<div class="page-body">
 		<div class="row ml-3 mr-3">
-			<div class="col" v-for="card in cards" :key="card.id">
-				<CardService :title="card.title" :icon="card.icon" :iconModifier="card.iconModifier" :variant="card.variant">
+			<div class="col-md-6 col-lg-4 col-xl" v-for="card in cards" :key="card.id">
+				<CardService :title="card.title" :icon="card.icon" :iconModifier="card.iconModifier" :variant="card.variant" :buttonText="card.button" :whereTo="card.detailsURL">
 					<template slot="body">
 						<p>{{card.description}}</p>
 					</template>
-					<template slot="footer">
-						<b-button variant="outline-primary">{{card.button}}</b-button>
+					<template slot="flipped-body">
+						<p>{{card.detailed_description}}</p>
 					</template>
 				</CardService>
 			</div>
@@ -26,7 +27,7 @@ const axios = require('axios');
 export default {
 	mounted () {
 		axios
-			.get('http://localhost:4000/main_types')
+			.get('http://192.168.1.22:4000/main_types')
 			.then((response) => {
 				this.cards = response.data;
 			})
@@ -43,6 +44,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/variables'; // core colors, paths
 $img-path: "../assets/";
 
 .splash {
@@ -68,5 +70,15 @@ $img-path: "../assets/";
 
 .page-body {
 	margin-top: 430px;
+}
+
+.close {
+	em {
+		position: absolute;
+		right: 1rem;
+		top: 1rem;
+		font-size: 3rem;
+		color: $white;
+	}
 }
 </style>

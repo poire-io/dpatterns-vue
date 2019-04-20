@@ -1,20 +1,41 @@
 <template>
-<div class="card">
-	<div class="card-header" :class="variant" v-html="title" />
-	<div class="card-body">
-		<div class="row">
-			<div class="col">
-				<span class="card-icon"><em :class="iconModifier + ' ' + icon"></em></span>
+<div class="card-flip " :class="{ flipped: isFlipped }">
+	<div class="flip">
+		<div class="front">
+			<div class="card">
+				<div class="card-header" :class="variant" v-html="title" @click="flipCard" />
+				<div class="card-body" @click="flipCard">
+					<div class="row">
+						<div class="col">
+							<span class="card-icon"><em :class="iconModifier + ' fa-fw ' + icon"></em></span>
+						</div>
+					</div>
+					<div class="row front-body">
+						<div class="col">
+							<slot name="body"></slot>
+						</div>
+					</div>
+				</div>
+				<div class="card-footer">
+					<b-button variant="outline-primary" @click="goToDetails(whereTo)">{{buttonText}}</b-button>
+				</div>
 			</div>
 		</div>
-		<div class="row description">
-			<div class="col">
-				<slot name="body"></slot>
+		<div class="back">
+			<div class="card">
+				<div class="card-header" :class="variant" v-html="title" @click="flipCard" />
+				<div class="card-body" @click="flipCard">
+					<div class="row back-body">
+						<div class="col">
+							<slot name="flipped-body"></slot>
+						</div>
+					</div>
+				</div>
+				<div class="card-footer">
+					<b-button variant="primary" @click="goToDetails(whereTo)">{{buttonText}}</b-button>
+				</div>
 			</div>
 		</div>
-	</div>
-	<div class="card-footer">
-		<slot name="footer"></slot>
 	</div>
 </div>
 </template>
@@ -33,6 +54,22 @@ export default {
 		},
 		variant: {
 			type: String,
+		},
+		buttonText: {
+			type: String,
+		},
+		whereTo: {
+			type: String,
+		},
+	},
+	data () {
+		return {
+			isFlipped: false,
+		};
+	},
+	methods: {
+		flipCard () {
+			this.isFlipped = !this.isFlipped;
 		},
 	},
 };
@@ -55,21 +92,27 @@ $font-path: "../assets/fonts/" !default;
 	font-family: $base-font-bold;
 	font-size: 1.2rem;
 	padding-bottom: 0;
+
 	&:first-child {
 		border-radius: 0;
 	}
+
 	&.blue {
 		border-color: $sky_blue;
 	}
+
 	&.green {
 		border-top: 0.5rem solid $green;
 	}
+
 	&.pink {
 		border-top: 0.5rem solid $pink;
 	}
+
 	&.lavender {
 		border-top: 0.5rem solid $lavender;
 	}
+
 	&.orange {
 		border-top: 0.5rem solid $orange;
 	}
@@ -80,6 +123,7 @@ $font-path: "../assets/fonts/" !default;
 	padding-left: 2rem;
 	padding-right: 2rem;
 	padding-bottom: 0;
+
 	.description {
 		margin-top: 0.625rem;
 		font-family: $base-font-light;
@@ -96,6 +140,60 @@ $font-path: "../assets/fonts/" !default;
 .card-icon {
 	em {
 		font-size: 4rem;
+		height: 5rem;
 	}
+}
+
+.front-body {
+	height: 195px;
+	overflow: hidden;
+	overflow-y: auto;
+}
+
+.back-body {
+	height: 275px;
+	overflow: hidden;
+	overflow-y: auto;
+}
+
+.card-flip {
+  perspective: 1000px;
+//   &:hover .flip,
+//   &.hover .flip {
+//     transform: rotateY(180deg);
+//   }
+  &.flipped .flip {
+    transform: rotateY(180deg);
+  }
+}
+
+.card-flip,
+.front,
+.back {
+  width: 100%;
+  height: 456px;
+}
+
+.flip {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.front,
+.back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+
+.back {
+  transform: rotateY(180deg);
 }
 </style>
