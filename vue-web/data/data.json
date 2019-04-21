@@ -8,7 +8,7 @@
       "description": "Bacon ipsum dolor amet hamburger doner flank bresaola salami shank alcatra pork. Leberkas buffalo turducken, ham hock jowl venison pork belly short loin corned beef rump swine biltong. Shankle filet mignon meatloaf, chicken ham tail ribeye. Venison turducken turkey.",
       "detailed_description": "Bacon ipsum dolor amet hamburger doner flank bresaola salami shank alcatra pork. Leberkas buffalo turducken, ham hock jowl venison pork belly short loin corned beef rump swine biltong. Shankle filet mignon meatloaf, chicken ham tail ribeye. Venison turducken turkey. Bacon ipsum dolor amet hamburger doner flank bresaola salami shank alcatra pork. Leberkas buffalo turducken, ham hock jowl venison pork belly short loin corned beef rump swine biltong. Shankle filet mignon meatloaf, chicken ham tail ribeye. Venison turducken turkey.",
       "button": "View Details",
-      "detailsURL": "/"
+      "detailsURL": "hswa"
     },
     {
       "title": "Human Services<br>Customer App",
@@ -45,6 +45,123 @@
       "description": "Bacon ipsum dolor amet hamburger doner flank bresaola salami shank alcatra pork. Leberkas buffalo turducken, ham hock jowl venison pork belly short loin corned beef rump swine biltong. Shankle filet mignon meatloaf, chicken ham tail ribeye. Venison turducken turkey.",
       "button": "View Details",
       "detailsURL": "/"
+    }
+  ],
+  "hswa_types": [
+    {
+      "title": "Integrated<br>Eligibility",
+      "variant": "blue",
+      "description": "Bacon ipsum dolor amet hamburger doner flank bresaola salami shank.",
+      "detailed_description": "Bacon ipsum dolor amet hamburger doner flank bresaola salami shank alcatra pork. Leberkas buffalo turducken, ham hock jowl venison pork belly short loin corned beef rump swine biltong. Shankle filet mignon meatloaf, chicken ham tail ribeye. Venison turducken turkey. Bacon ipsum dolor amet hamburger doner flank bresaola salami shank alcatra pork. Leberkas buffalo turducken, ham hock jowl venison pork belly short loin corned beef rump swine biltong. Shankle filet mignon meatloaf, chicken ham tail ribeye. Venison turducken turkey.",
+      "button": "View Details",
+      "detailsURL": "integratedeligibility",
+      "cardBranding": "salesforce"
+    },
+    {
+      "title": "Child Welfare<br>(CCWIS)",
+      "variant": "blue",
+      "description": "Bacon ipsum dolor amet hamburger doner flank bresaola salami shank alcatra pork. Leberkas buffalo turducken.",
+      "button": "View Details",
+      "detailsURL": "/",
+      "cardBranding": "salesforce"
+    },
+    {
+      "title": "Child<br>Support",
+      "variant": "blue",
+      "description": "Bacon ipsum dolor amet hamburger doner flank bresaola salami shank alcatra pork. Leberkas buffalo turducken.",
+      "button": "View Details",
+      "detailsURL": "/",
+      "cardBranding": "salesforce"
+    },
+    {
+      "title": "Child<br>Care",
+      "variant": "blue",
+      "description": "Bacon ipsum dolor amet hamburger doner flank bresaola salami shank alcatra pork. Leberkas buffalo turducken.",
+      "button": "View Details",
+      "detailsURL": "/",
+      "cardBranding": "salesforce"
+    },
+    {
+      "title": "OneView with<br>Resource Engine",
+      "variant": "blue",
+      "description": "Bacon ipsum dolor amet hamburger doner flank bresaola salami shank alcatra pork. Leberkas buffalo turducken.",
+      "button": "View Details",
+      "detailsURL": "/"
+    },
+    {
+      "title": "Work<br>Requirements",
+      "variant": "blue",
+      "description": "Bacon ipsum dolor amet hamburger doner flank bresaola salami shank alcatra pork. Leberkas buffalo turducken.",
+      "button": "View Details",
+      "detailsURL": "/",
+      "cardBranding": "salesforce"
+    },
+    {
+      "title": "Health Insurance<br>Premium Program",
+      "variant": "blue",
+      "description": "Bacon ipsum dolor amet hamburger doner flank bresaola salami shank alcatra pork. Leberkas buffalo turducken.",
+      "button": "View Details",
+      "detailsURL": "/",
+      "cardBranding": "salesforce"
+    },
+    {
+      "title": "Hearings and<br>Appeals",
+      "variant": "blue",
+      "description": "Bacon ipsum dolor amet hamburger doner flank bresaola salami shank alcatra pork. Leberkas buffalo turducken.",
+      "button": "View Details",
+      "detailsURL": "/",
+      "cardBranding": "salesforce"
+    },
+    {
+      "title": "GoCase<br>Worker",
+      "variant": "blue",
+      "description": "Bacon ipsum dolor amet hamburger doner flank bresaola salami shank alcatra pork. Leberkas buffalo turducken.",
+      "button": "View Details",
+      "detailsURL": "/"
+    },
+    {
+      "title": "GoCase<br>Learning",
+      "variant": "blue",
+      "description": "Bacon ipsum dolor amet hamburger doner flank bresaola salami shank alcatra pork. Leberkas buffalo turducken.",
+      "button": "View Details",
+      "detailsURL": "/"
+    },
+    {
+      "title": "GoCase<br>VR",
+      "variant": "blue",
+      "description": "Bacon ipsum dolor amet hamburger doner flank bresaola salami shank alcatra pork. Leberkas buffalo turducken.",
+      "button": "View Details",
+      "detailsURL": "/"
+    },
+    {
+      "title": "GoCase<br>Community",
+      "variant": "blue",
+      "description": "Bacon ipsum dolor amet hamburger doner flank bresaola salami shank alcatra pork. Leberkas buffalo turducken.",
+      "button": "View Details",
+      "detailsURL": "/"
+    },
+    {
+      "title": "The Nudge<br>Ecosystem",
+      "variant": "blue",
+      "description": "Bacon ipsum dolor amet hamburger doner flank bresaola salami shank alcatra pork. Leberkas buffalo turducken.",
+      "button": "View Details",
+      "detailsURL": "/"
+    }
+  ],
+  "integrated_eligibility": [
+    {
+      "title": "HHS NextGen for IE",
+      "variant": "blue",
+      "description": "HHS NextGen is the industry leading solution for Integrated Eligibility. Implemented in over 25 states, HHS NextGen has transformed integrated case management and eligibility determination for programs such as Medicaid, SNAP, TANF, and Child Care. Today, HHS NextGen has been re-architected atop the Salesforce cloud platform and infused with the power of the govConnect platform to provide world-class user experience, scalability, and functional capability.",
+      "contact": "Sanjay Shah",
+      "imgSource": "./qual_images/1001_colorado_chats.jpg"
+    },
+    {
+      "title": "HHS NextGen for IE",
+      "variant": "blue",
+      "description": "HHS NextGen is the industry leading solution for Integrated Eligibility. Implemented in over 25 states, HHS NextGen has transformed integrated case management and eligibility determination for programs such as Medicaid, SNAP, TANF, and Child Care. Today, HHS NextGen has been re-architected atop the Salesforce cloud platform and infused with the power of the govConnect platform to provide world-class user experience, scalability, and functional capability.",
+      "contact": "Sanjay Shah",
+      "imgSource": "./qual_images/1001_colorado_chats.png"
     }
   ]
 }

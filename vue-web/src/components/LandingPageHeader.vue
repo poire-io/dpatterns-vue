@@ -2,12 +2,13 @@
 <div class="splash">
 	<div class="branding"><span class="sr-only">govConnect Launch Pad</span></div>
 	<div class="close" @click="goToDetails('/')"><em class="fa fa-times-circle"><span class="sr-only">Close Application</span></em></div>
+	<div class="go-back" @click="$router.go(-1)"><em class="fa fa-hand-point-left"><span class="sr-only">Go Back to Previous Section</span></em></div>
 </div>
 </template>
 
 <style lang="scss" scoped>
 @import '../assets/scss/variables'; // core colors, paths
-$img-path: "../assets/";
+$img-path: "../assets/images/";
 
 .splash {
 	position: absolute;
@@ -37,6 +38,16 @@ $img-path: "../assets/";
 		top: 1rem;
 		font-size: 3rem;
 		color: $white;
+	}
+}
+
+.go-back {
+	em {
+		position: absolute;
+		left: 3rem;
+		top: 1rem;
+		font-size: 3rem;
+		color: rgba( $white, .7 );
 	}
 }
 </style>
