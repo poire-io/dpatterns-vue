@@ -18,7 +18,7 @@ const store = '../store/store.ts';
 export default {
 	mounted () {
 		axios
-			.get('http://192.168.1.22:4000/integrated_eligibility')
+			.get('http://10.10.60.129:4000/integrated_eligibility')
 			.then((response) => {
 				this.details = response.data;
 			})

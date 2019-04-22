@@ -23,7 +23,7 @@ const axios = require('axios');
 export default {
 	mounted () {
 		axios
-			.get('http://192.168.1.22:4000/main_types')
+			.get('http://10.10.60.129:4000/main_types')
 			.then((response) => {
 				this.cards = response.data;
 			})
