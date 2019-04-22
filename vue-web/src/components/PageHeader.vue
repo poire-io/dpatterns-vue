@@ -1,5 +1,5 @@
 <template>
-<div class="row ml-3 mr-3 mb-3 sr-only">
+<div class="row ml-3 mr-3 mb-3" :class="{ 'sr-only': srOnly }">
 	<div class="col">
 		<h1>{{title}}</h1>
 	</div>
@@ -11,6 +11,10 @@ export default {
 	props: {
 		title: {
 			type: String,
+		},
+		srOnly: {
+			type: Boolean,
+			default: false,
 		},
 	},
 };

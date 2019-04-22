@@ -13,8 +13,6 @@
 <script>
 const axios = require('axios');
 
-const store = '../store/store.ts';
-
 export default {
 	mounted () {
 		axios

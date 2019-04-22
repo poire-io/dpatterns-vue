@@ -1,9 +1,9 @@
 <template>
-<PageContainer>
+<div class="body-content">
 	<div class="splash">
 		<div class="branding" @click="goToDetails('home')"><span class="sr-only">govConnect Launch Pad</span></div>
 	</div>
-</PageContainer>
+</div>
 </template>
 
 <style lang="scss" scoped>

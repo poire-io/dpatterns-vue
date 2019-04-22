@@ -1,12 +1,6 @@
 <template>
-<PageContainer>
-	<LandingPageHeader />
-	<div class="page-body">
-		<div class="row ml-3 mr-3 mb-3 sr-only">
-            <div class="col">
-                <h1>{{$attrs.title}}</h1>
-            </div>
-        </div>
+<PageContainer :title="$attrs.title" :srOnly="true" pageBodyHeight="520px">
+	<template slot="pageBody">
 		<div class="row ml-3 mr-3">
 			<div class="col-md-6 col-lg-4 col-xl" v-for="card in cards" :key="card.id">
 				<CardService :title="card.title" :icon="card.icon" :iconModifier="card.iconModifier" :variant="card.variant" :buttonText="card.button" :whereTo="card.detailsURL">
@@ -19,7 +13,7 @@
 				</CardService>
 			</div>
 		</div>
-	</div>
+	</template>
 </PageContainer>
 </template>
 
@@ -33,8 +27,12 @@ export default {
 			.then((response) => {
 				this.cards = response.data;
 			})
-			.catch((err) => {
-				this.error = err.data;
+			.catch((response, err) => {
+				if (response !== null) {
+					this.$store.commit('SET_SERVICE_ERRORS', response.message);
+				} else {
+					this.$store.commit('SET_SERVICE_ERRORS', err.message);
+				}
 			});
 	},
 	data () {
@@ -44,9 +42,3 @@ export default {
 	},
 };
 </script>
-
-<style lang="scss" scoped>
-.page-body {
-	margin-top: 520px;
-}
-</style>

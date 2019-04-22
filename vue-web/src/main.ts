@@ -16,11 +16,13 @@ import PageContainer from '@/components/PageContainer.vue';
 import LandingPageHeader from '@/components/LandingPageHeader.vue';
 import PageHeader from '@/components/PageHeader.vue';
 import CardService from '@/components/CardService.vue';
+import BaseCarousel from '@/components/BaseCarousel.vue';
 
 Vue.component('PageContainer', PageContainer);
 Vue.component('LandingPageHeader', LandingPageHeader);
 Vue.component('PageHeader', PageHeader);
 Vue.component('CardService', CardService);
+Vue.component('BaseCarousel', BaseCarousel);
 
 Vue.use(BootstrapVue);
 
@@ -38,5 +40,10 @@ Vue.mixin({
 new Vue({
 	router,
 	store,
+	watch: {
+		$route (from, to) {
+			this.$store.commit('SET_SERVICE_ERRORS', '');
+		},
+	},
 	render: h => h(App),
 }).$mount('#app');
