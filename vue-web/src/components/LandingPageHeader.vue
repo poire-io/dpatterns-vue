@@ -1,10 +1,23 @@
 <template>
-<div class="splash">
+<div class="splash" :style="{ height: splashHeight, backgroundPosition: '50% ' + splashBgHeight }">
 	<div class="branding"><span class="sr-only">govConnect Launch Pad</span></div>
 	<div class="close" @click="goToDetails('/')"><em class="fa fa-times-circle"><span class="sr-only">Close Application</span></em></div>
 	<div class="go-back" @click="$router.go(-1)"><em class="fa fa-hand-point-left"><span class="sr-only">Go Back to Previous Section</span></em></div>
 </div>
 </template>
+
+<script>
+export default {
+	props: {
+		splashHeight: {
+			type: String,
+		},
+		splashBgHeight: {
+			type: String,
+		},
+	},
+};
+</script>
 
 <style lang="scss" scoped>
 @import '../assets/scss/variables'; // core colors, paths
@@ -15,14 +28,15 @@ $img-path: "../assets/images/";
 	top: 0;
 	right: 0;
 	left: 0;
-	height: 20rem;
-	background: url(#{$img-path}splash.jpg) fixed 50% 700px;
+	height: 30rem;
+	background: url(#{$img-path}splash.jpg) fixed 50% 800px;
+	border-bottom: .0625rem solid rgba( $light-gray, .2 );
 }
 
 .branding {
 	position: absolute;
-	top: 50%;
-	left: 50px;
+	top: 55%;
+	left: 45px;
 	transform: translate(0, -50%);
 	background: url(#{$img-path}logo.png);
 	background-size: 18.75rem 4.3125rem;

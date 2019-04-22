@@ -1,0 +1,30 @@
+.carousel {
+	.carousel-inner {
+		.carousel-item {
+			.carousel-caption {
+                left: 5%;
+                right: 5%;
+				p {
+					text-align: left;
+                    &.contact-info {
+                        position: absolute;
+                        bottom: -1.25rem;
+                        font-family: $base-font-light;
+                        span {
+                            font-family: $base-font-medium;
+                            padding-left: 0.3125rem;
+                            color: darken($light-gray, 30%);
+                        }
+                    }
+				}
+			}
+		}
+	}
+    .carousel-indicators {
+        li {
+            &.active {
+                background-color: $green;
+            }
+        }
+    }
+}

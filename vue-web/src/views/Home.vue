@@ -47,6 +47,6 @@ export default {
 
 <style lang="scss" scoped>
 .page-body {
-	margin-top: 348px;
+	margin-top: 520px;
 }
 </style>

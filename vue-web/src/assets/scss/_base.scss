@@ -17,10 +17,10 @@ body {
 }
 
 h1 {
-    font-size: 1.5rem;
-    font-family: $base-font;
-    color: $navy;
-    padding-right: 4rem;
+    font-size: 2rem;
+    font-family: $base-font-light;
+    color: $white;
+    letter-spacing: 0.0625rem;
 }
 
 h2 {
@@ -29,15 +29,10 @@ h2 {
 }
 
 h3 {
-    font-size: 1.1rem;
+    font-size: 1.6rem;
     font-family: $base-font-medium;
-    color: $charcoal;
-    small {
-        display: block;
-        color: lighten($charcoal, 20%);
-        font-size: 0.8rem;
-        margin-top: 0.2rem;
-    }
+    color: $green;
+    text-align: left;
 }
 
 a {

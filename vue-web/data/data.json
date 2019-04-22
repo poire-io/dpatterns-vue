@@ -154,14 +154,14 @@
       "variant": "blue",
       "description": "HHS NextGen is the industry leading solution for Integrated Eligibility. Implemented in over 25 states, HHS NextGen has transformed integrated case management and eligibility determination for programs such as Medicaid, SNAP, TANF, and Child Care. Today, HHS NextGen has been re-architected atop the Salesforce cloud platform and infused with the power of the govConnect platform to provide world-class user experience, scalability, and functional capability.",
       "contact": "Sanjay Shah",
-      "imgSource": "./qual_images/1001_colorado_chats.jpg"
+      "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
     },
     {
-      "title": "HHS NextGen for IE",
+      "title": "HHS NextGen for Child Welfare",
       "variant": "blue",
-      "description": "HHS NextGen is the industry leading solution for Integrated Eligibility. Implemented in over 25 states, HHS NextGen has transformed integrated case management and eligibility determination for programs such as Medicaid, SNAP, TANF, and Child Care. Today, HHS NextGen has been re-architected atop the Salesforce cloud platform and infused with the power of the govConnect platform to provide world-class user experience, scalability, and functional capability.",
-      "contact": "Sanjay Shah",
-      "imgSource": "./qual_images/1001_colorado_chats.png"
+      "description": "HHS NextGen for Child Welfare is the country's first cloud-based comprehensive Child Welfare CRM solution in production. This innovative case management system fuses business process and operations to promote usability, achieve efficiencies, realize savings, improve workforce mobility, and increse organizational agility. The system focuses on improving child and family outcomes and adhering to Federal CCWIS regulations and principles for future certification. The flexible CRM platform, infused with the power of the govConnect platform increases the ability to react to policy and regulation changes at the Local, State, and Federal levels.",
+      "contact": "Suguna Sundaravadivel",
+      "imgSource": "./qual_images/1005_hhs_nextgen_for_child_welfare.jpg"
     }
   ]
 }

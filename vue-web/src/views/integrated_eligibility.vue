@@ -1,17 +1,12 @@
 <template>
 <PageContainer>
-	<LandingPageHeader />
+	<LandingPageHeader splashHeight="18rem" splashBgHeight="700px" />
 	<div class="page-body">
-		<div class="row ml-3 mr-3 mb-3 sr-only">
-			<div class="col">
-				<h1>{{$attrs.title}}</h1>
-			</div>
-		</div>
+		<PageHeader :title="$attrs.title" />
 		<div class="row ml-3 mr-3">
 			<div class="col">
 				<b-carousel id="carousel-1" v-model="slide" :interval="interval" controls indicators background="#ababab" img-width="1920" :img-height="height" style="text-shadow: 1px 1px 2px #333;" @sliding-start="onSlideStart" @sliding-end="onSlideEnd">
 					<b-carousel-slide :caption="detail.title" v-for="detail in details" :key="detail.id">
-						<p>{{detail.description}}</p>
 						<img
 						slot="img"
 						class="d-block img-fluid w-100"
@@ -20,11 +15,11 @@
 						:src="detail.imgSource"
 						alt="image slot"
 						>
+						<p>{{detail.description}}</p>
+						<p class="contact-info">Contact: <span>{{detail.contact}}</span></p>
 					</b-carousel-slide>
 				</b-carousel>
 			</div>
-		</div>
-		<div class="row">
 		</div>
 	</div>
 </PageContainer>
@@ -48,7 +43,7 @@ export default {
 		return {
 			details: [],
 			height: 100,
-			interval: 2000,
+			interval: 10000,
 			slide: 0,
 			sliding: null,
 		};
@@ -65,7 +60,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/variables'; // core colors, paths
+
 .page-body {
 	margin-top: 248px;
+}
+img {
+	border: .0625rem solid darken( $light-gray, 60% );
 }
 </style>
