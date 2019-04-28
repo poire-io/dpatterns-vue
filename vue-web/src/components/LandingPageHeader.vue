@@ -1,6 +1,6 @@
 <template>
 <div class="splash" :style="{ height: splashHeight, backgroundPosition: '50% ' + splashBgHeight }">
-	<div class="branding"><span class="sr-only">govConnect Launch Pad</span></div>
+	<div class="branding" @click="goToDetails('/home')"><span class="sr-only">govConnect Launch Pad</span></div>
 	<div class="close" @click="goToDetails('/')"><em class="fa fa-times-circle"><span class="sr-only">Close Application</span></em></div>
 	<div class="go-back" @click="$router.go(-1)"><em class="fa fa-hand-point-left"><span class="sr-only">Go Back to Previous Section</span></em></div>
 </div>

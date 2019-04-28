@@ -2,7 +2,8 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import Splash from './views/splash.vue';
 import Home from './views/home.vue';
-import Hswa from './views/human_services_worker_apps.vue';
+import Apps from './views/apps.vue';
+import Details from './views/app_details.vue';
 import IntegratedEligibility from './views/integrated_eligibility.vue';
 import ChildWelfareCCWIS from './views/child_welfare_ccwis.vue';
 
@@ -22,10 +23,14 @@ export default new Router({
 			props: { title: 'Home' },
 		},
 		{
-			path: '/hswa',
-			name: 'hswa',
-			component: Hswa,
-			props: { title: 'Human Services Worker Applications' },
+			path: '/apps/:id',
+			name: 'apps',
+			component: Apps,
+		},
+		{
+			path: '/details/:id',
+			name: 'details',
+			component: Details,
 		},
 		{
 			path: '/integratedeligibility',

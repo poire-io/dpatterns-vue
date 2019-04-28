@@ -16,7 +16,7 @@ const axios = require('axios');
 export default {
 	mounted () {
 		axios
-			.get('http://10.10.60.129:4000/integrated_eligibility')
+			.get('http://10.10.60.129:4000/child_welfare')
 			.then((response) => {
 				this.details = response.data;
 			})

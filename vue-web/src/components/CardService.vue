@@ -6,7 +6,7 @@
 				<div class="card-logo" :class="{ salesforce: cardBranding === 'salesforce' }"></div>
 				<div class="card-header" :class="variant" v-html="title" @click="flipCard" />
 				<div class="card-body" @click="flipCard">
-					<div class="row">
+					<div class="row card-body-icon">
 						<div class="col">
 							<span class="card-icon"><em :class="iconModifier + ' fa-fw ' + icon"></em></span>
 						</div>
@@ -89,6 +89,11 @@ $font-path: "../assets/fonts/";
 @import '../assets/scss/variables'; // core colors, paths
 $img-path: "../assets/images/";
 
+.btn {
+	width: 100%;
+	height: 50px;
+}
+
 .card {
 	border-radius: 0;
 	.card-header {
@@ -124,17 +129,14 @@ $img-path: "../assets/images/";
 		&.orange {
 			border-top: 0.5rem solid $orange;
 		}
+		&.red {
+			border-top: 0.5rem solid $rusted_red;
+		}
 	}
 	.card-body {
 		text-align: center;
 		padding-left: 2rem;
 		padding-right: 2rem;
-
-		.description {
-			margin-top: 0.625rem;
-			font-family: $base-font-light;
-			text-align: left;
-		}
 	}
 	.card-footer {
 		text-align: center;
@@ -142,18 +144,19 @@ $img-path: "../assets/images/";
 		border-top: none;
 	}
 	.card-icon {
+		margin: .625rem 0 1.25rem 0;
+		display: block;
 		em {
 			font-size: 4rem;
 			height: 5rem;
 		}
 	}
 	.front-body {
-		height: 195px;
-		overflow: hidden;
-		overflow-y: auto;
+		margin: 0 -1.875rem;
+		height: 120px;
 	}
 	.back-body {
-		height: 275px;
+		height: 230px;
 		overflow: hidden;
 		overflow-y: auto;
 	}
@@ -179,12 +182,23 @@ $img-path: "../assets/images/";
 	&.sub {
 		.flip {
 			.card {
+				.card-header {
+					display: none;
+				}
 				.card-body {
+					.card-body-icon {
+						display: none;
+					}
 					.front-body {
-						height: 70px;
+						height: auto;
+						margin-top: 2.5rem;
+						min-height: 5rem;
+						.col {
+							margin: auto 0;
+						}
 					}
 					.back-body {
-						height: 70px;
+						height: 30px;
 					}
 				}
 			}
@@ -198,7 +212,7 @@ $img-path: "../assets/images/";
 	width: 100%;
 	height: 480px;
 	&.sub {
-		height: 275px;
+		height: 220px;
 
 	}
 }

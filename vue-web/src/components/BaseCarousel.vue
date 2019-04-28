@@ -1,6 +1,6 @@
 <template>
 <b-carousel id="carousel" v-model="slide" :interval="interval" controls indicators background="#ababab" img-width="1920" :img-height="height" style="text-shadow: 1px 1px 2px #333;" @sliding-start="onSlideStart" @sliding-end="onSlideEnd">
-	<b-carousel-slide :caption="card.title" v-for="card in cardData" :key="card.id">
+	<b-carousel-slide :caption="card.app_title" v-for="card in cardData" :key="card.id">
 		<img
 		slot="img"
 		class="d-block img-fluid w-100"
@@ -9,8 +9,8 @@
 		:src="card.imgSource"
 		alt="image slot"
 		>
-		<p>{{card.description}}</p>
-		<p class="contact-info">Contact: <span>{{card.contact}}</span></p>
+		<p>{{card.short_description}}</p>
+		<p class="contact-info">Contact: <span>{{card.asset_contacts}}</span></p>
 	</b-carousel-slide>
 </b-carousel>
 </template>
