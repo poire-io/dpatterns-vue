@@ -2,13 +2,16 @@
 	.carousel-inner {
 		.carousel-item {
 			.carousel-caption {
-                left: 5%;
-                right: 5%;
+                position: relative;
+                padding: 1.25rem;
+                right: inherit;
+                left: inherit;
+                bottom: inherit;
 				p {
 					text-align: left;
                     &.contact-info {
-                        position: absolute;
-                        bottom: -1.25rem;
+                        // position: absolute;
+                        // bottom: -1.25rem;
                         font-family: $base-font-light;
                         span {
                             font-family: $base-font-medium;

@@ -1,11 +1,21 @@
 <template>
-<b-carousel id="carousel" v-model="slide" :interval="interval" controls indicators background="#ababab" img-width="1920" :img-height="height" style="text-shadow: 1px 1px 2px #333;" @sliding-start="onSlideStart" @sliding-end="onSlideEnd">
+<b-carousel
+	id="carousel"
+	v-model="slide"
+	:interval="interval"
+	controls
+	indicators
+	background="#1f1f1f"
+	style="text-shadow: 1px 1px 2px #333;"
+	@sliding-start="onSlideStart"
+	@sliding-end="onSlideEnd"
+	>
 	<b-carousel-slide :caption="card.app_title" v-for="card in cardData" :key="card.id">
 		<img
 		slot="img"
 		class="d-block img-fluid w-100"
-		width="1920"
-		:height="height"
+		width="1770"
+		height="560"
 		:src="card.imgSource"
 		alt="image slot"
 		>
@@ -19,7 +29,7 @@
 export default {
 	data () {
 		return {
-			height: 100,
+			height: 50,
 			interval: 10000,
 			slide: 0,
 			sliding: null,
@@ -45,6 +55,8 @@ export default {
 @import '../assets/scss/variables'; // core colors, paths
 
 img {
-	border: .0625rem solid darken( $light-gray, 60% );
+	height: auto;
+	width: auto !important;
+	margin: 0 auto;
 }
 </style>

@@ -4,7 +4,13 @@
 		<div class="front">
 			<div class="card">
 				<div class="card-logo" :class="{ salesforce: cardBranding === 'salesforce' }"></div>
-				<div class="card-header" :class="variant" v-html="title" @click="flipCard" />
+				<div class="card-header" :class="variant" @click="flipCard">
+					<div class="row">
+						<div class="col">
+							<h2>{{title}}</h2>
+						</div>
+					</div>
+				</div>
 				<div class="card-body" @click="flipCard">
 					<div class="row card-body-icon">
 						<div class="col">
@@ -105,27 +111,27 @@ $img-path: "../assets/images/";
 		font-size: 1.2rem;
 		padding-bottom: 0;
 		min-height: 4.75rem;
-
+		.row {
+			height: 3.375rem;
+			.col {
+				margin: auto 0;
+			}
+		}
 		&:first-child {
 			border-radius: 0;
 		}
-
 		&.blue {
 			border-color: $sky_blue;
 		}
-
 		&.green {
 			border-top: 0.5rem solid $green;
 		}
-
 		&.pink {
 			border-top: 0.5rem solid $pink;
 		}
-
 		&.lavender {
 			border-top: 0.5rem solid $lavender;
 		}
-
 		&.orange {
 			border-top: 0.5rem solid $orange;
 		}
@@ -212,7 +218,8 @@ $img-path: "../assets/images/";
 	width: 100%;
 	height: 480px;
 	&.sub {
-		height: 220px;
+		// height: 220px;
+		height: 265px;
 
 	}
 }

@@ -2,7 +2,7 @@
     "categories": [
         {
             "id": "1001",
-            "title": "Case<br>Management",
+            "title": "Case Management",
             "icon": "fa-sitemap",
             "iconModifier": "far",
             "variant": "blue",
@@ -37,7 +37,7 @@
         },
         {
             "id": "1002",
-            "title": "Customer<br>Self-Service",
+            "title": "Customer Self-Service",
             "icon": "fa-user-check",
             "iconModifier": "far",
             "variant": "green",
@@ -90,7 +90,7 @@
         },
         {
             "id": "1003",
-            "title": "Benefits<br>Management",
+            "title": "Benefits Management",
             "icon": "fa-user-alt",
             "iconModifier": "far",
             "variant": "pink",
@@ -122,7 +122,7 @@
         },
         {
             "id": "1004",
-            "title": "IT Services<br>Management",
+            "title": "IT Services Management",
             "icon": "fa-desktop",
             "iconModifier": "far",
             "variant": "lavender",
@@ -160,7 +160,7 @@
         },
         {
             "id": "1005",
-            "title": "Logistics<br>Management",
+            "title": "Logistics Management",
             "icon": "fa-truck-container",
             "iconModifier": "far",
             "variant": "orange",
@@ -195,7 +195,7 @@
         },
         {
             "id": "1006",
-            "title": "Staff<br>Management",
+            "title": "Staff Management",
             "icon": "fa-keyboard",
             "iconModifier": "far",
             "variant": "red",
@@ -558,7 +558,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/HHS NexGen for IE.jpg"
         },
         {
             "id": "3005",
@@ -583,7 +583,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/HHS NextGen For Child Welfare.jpg"
         },
         {
             "id": "3010",
@@ -608,7 +608,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/OneView with Resource Engine.jpg"
         },
         {
             "id": "3015",
@@ -633,7 +633,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/GoCase Worker.jpg"
         },
         {
             "id": "3020",
@@ -658,7 +658,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/Inspections.jpg"
         },
         {
             "id": "3025",
@@ -683,7 +683,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/Controlled Correspondence.jpg"
         },
         {
             "id": "3030",
@@ -708,7 +708,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/Integrated Eligibility Self-Service Web App.jpg"
         },
         {
             "id": "3035",
@@ -733,7 +733,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/Integrated Eligibility Self-Service Mobile App.jpg"
         },
         {
             "id": "3040",
@@ -758,7 +758,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/Child Welfare Self-Service.jpg"
         },
         {
             "id": "3045",
@@ -783,7 +783,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/Child Support Self-Service.jpg"
         },
         {
             "id": "3050",
@@ -808,7 +808,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/Work Requirements Self-Service.jpg"
         },
         {
             "id": "3055",
@@ -833,7 +833,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/EBT Mobile App.jpg"
         },
         {
             "id": "3060",
@@ -858,7 +858,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/1X11 Self-Service.jpg"
         },
         {
             "id": "3065",
@@ -883,7 +883,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/Licensing and Permitting Self-Service.jpg"
         },
         {
             "id": "3070",
@@ -908,7 +908,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/FDA Company Approvals and eSubmissions.jpg"
         },
         {
             "id": "3075",
@@ -933,7 +933,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/VectorXD.jpg"
         },
         {
             "id": "3080",
@@ -958,7 +958,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/HHS NexGen for IE.jpg"
         },
         {
             "id": "3085",
@@ -983,7 +983,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/HHS NextGen For Child Welfare.jpg"
         },
         {
             "id": "3090",
@@ -1008,7 +1008,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/Work Requirements Self-Service.jpg"
         },
         {
             "id": "3095",
@@ -1033,7 +1033,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/Health Insurance Premium Program.jpg"
         },
         {
             "id": "3100",
@@ -1058,7 +1058,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/Hearings and Appeals.jpg"
         },
         {
             "id": "3105",
@@ -1083,7 +1083,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/Nudge Management.jpg"
         },
         {
             "id": "666",
@@ -1108,7 +1108,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/OneView with Resource Engine.jpg"
         },
         {
             "id": "3110",
@@ -1133,7 +1133,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/Acquisition Tracking.jpg"
         },
         {
             "id": "3115",
@@ -1158,7 +1158,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/Conference room App.jpg"
         },
         {
             "id": "3120",
@@ -1183,7 +1183,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/Launch Pad.jpg"
         },
         {
             "id": "3125",
@@ -1208,7 +1208,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/Dynamic Case Management.jpg"
         },
         {
             "id": "3130",
@@ -1233,7 +1233,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/GovConnect Framework.jpg"
         },
         {
             "id": "3135",
@@ -1258,7 +1258,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/Complaints Tracking Management.jpg"
         },
         {
             "id": "3140",
@@ -1283,7 +1283,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/Asset Management.jpg"
         },
         {
             "id": "3145",
@@ -1308,7 +1308,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/Grants Management.jpg"
         },
         {
             "id": "3150",
@@ -1333,7 +1333,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/UI Builder.jpg"
         },
         {
             "id": "3155",
@@ -1358,7 +1358,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": ""
         },
         {
             "id": "3160",
@@ -1383,7 +1383,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": ""
         },
         {
             "id": "3165",
@@ -1408,7 +1408,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": ""
         },
         {
             "id": "3170",
@@ -1433,7 +1433,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/Land Management.jpg"
         },
         {
             "id": "3175",
@@ -1458,7 +1458,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/Tour Management.jpg"
         },
         {
             "id": "3180",
@@ -1483,7 +1483,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/Facilities Management.jpg"
         },
         {
             "id": "3185",
@@ -1508,7 +1508,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/Cost Allocated Time Tracking.jpg"
         },
         {
             "id": "3190",
@@ -1533,7 +1533,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/Hiring Management.jpg"
         },
         {
             "id": "3195",
@@ -1558,7 +1558,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/GoCase Learning.jpg"
         },
         {
             "id": "3200",
@@ -1583,7 +1583,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/GoCase VR.jpg"
         },
         {
             "id": "3205",
@@ -1608,7 +1608,7 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1000_hhs_nextgen_for_ie.jpg"
+            "imgSource": "./qual_images/GoCase Community.jpg"
         }
     ]
 }
