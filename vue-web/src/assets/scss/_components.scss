@@ -9,9 +9,8 @@
                 bottom: inherit;
 				p {
 					text-align: left;
-                    &.contact-info {
-                        // position: absolute;
-                        // bottom: -1.25rem;
+                    &.contact-info,
+                    &.implemented-info {
                         font-family: $base-font-light;
                         span {
                             font-family: $base-font-medium;
@@ -19,7 +18,20 @@
                             color: darken($light-gray, 30%);
                         }
                     }
+                    &.implemented-info {
+                        position: absolute;
+                        right: 1rem;
+                        bottom: 1.2rem;
+                    }
 				}
+                .card-logo {
+                    height: 3.125rem;
+                    width: 3.125rem;
+                    position: absolute;
+                    top: 1.5rem;
+                    right: 1rem;
+                    background-size: contain;
+                }
 			}
 		}
 	}

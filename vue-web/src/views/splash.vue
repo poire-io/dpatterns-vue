@@ -24,8 +24,8 @@ $img-path: "../assets/images/";
 	left: 50%;
 	transform: translate(-50%, -50%);
 	background: url(#{$img-path}logo.png) no-repeat;
-	height: 94px;
-	width: 411px;
+	height: 5.875rem;
+	width: 25.6875rem;
 	cursor: pointer;
 	animation: fadein 3s;
 }

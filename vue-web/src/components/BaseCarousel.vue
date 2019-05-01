@@ -11,6 +11,7 @@
 	@sliding-end="onSlideEnd"
 	>
 	<b-carousel-slide :caption="card.app_title" v-for="card in cardData" :key="card.id">
+		<div class="card-logo" :class="{ salesforce: card.alliance_relationship_1 === 'Salesforce' }"></div>
 		<img
 		slot="img"
 		class="d-block img-fluid w-100"
@@ -20,6 +21,7 @@
 		alt="image slot"
 		>
 		<p>{{card.short_description}}</p>
+		<p class="implemented-info">Implemented In: <span>{{card.implemented}}</span></p>
 		<p class="contact-info">Contact: <span>{{card.asset_contacts}}</span></p>
 	</b-carousel-slide>
 </b-carousel>

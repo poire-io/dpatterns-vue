@@ -4,8 +4,6 @@ import Splash from './views/splash.vue';
 import Home from './views/home.vue';
 import Apps from './views/apps.vue';
 import Details from './views/app_details.vue';
-import IntegratedEligibility from './views/integrated_eligibility.vue';
-import ChildWelfareCCWIS from './views/child_welfare_ccwis.vue';
 
 Vue.use(Router);
 
@@ -31,18 +29,6 @@ export default new Router({
 			path: '/details/:id',
 			name: 'details',
 			component: Details,
-		},
-		{
-			path: '/integratedeligibility',
-			name: 'integratedeligibility',
-			component: IntegratedEligibility,
-			props: { title: 'Integrated Eligibility' },
-		},
-		{
-			path: '/childwelfareccwis',
-			name: 'childwelfareccwis',
-			component: ChildWelfareCCWIS,
-			props: { title: 'Child Welfare CCWIS' },
 		},
 	],
 });

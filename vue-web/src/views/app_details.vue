@@ -23,17 +23,13 @@ export default {
 	},
 	computed: {
 		subCategorySelected () {
-			const subCategory = this.$store.state.subCategories.find(subCategory => {
-				return subCategory.id === this.id;
-			});
+			const subCategory = this.$store.state.subCategories.find(subCategory => subCategory.id === this.id);
 			return subCategory || {};
 		},
 		selectedCard () {
-			const card = this.$store.state.appDetails.filter(card => {
-				return card.sub_category === this.id;
-			});
-			return card || {}
-        }
+			const card = this.$store.state.appDetails.filter(card => card.sub_category === this.id);
+			return card || {};
+		},
 	},
 };
 </script>

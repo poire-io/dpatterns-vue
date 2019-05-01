@@ -33,17 +33,13 @@ export default {
 	},
 	computed: {
 		categorySelected () {
-			const category = this.$store.state.categories.find(category => {
-				return category.id === this.id;
-			});
+			const category = this.$store.state.categories.find(category => category.id === this.id);
 			return category || {};
 		},
 		selectedCard () {
-			const card = this.$store.state.subCategories.filter(card => {
-				return card.category === this.id;
-			});
+			const card = this.$store.state.subCategories.filter(card => card.category === this.id);
 			return card || {};
-		}
+		},
 	},
 };
 </script>

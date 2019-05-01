@@ -29,14 +29,14 @@ $img-path: "../assets/images/";
 	right: 0;
 	left: 0;
 	height: 30rem;
-	background: url(#{$img-path}splash.jpg) fixed 50% 800px;
+	background: url(#{$img-path}splash.jpg) fixed 50% 50rem;
 	border-bottom: .0625rem solid rgba( $light-gray, .2 );
 }
 
 .branding {
 	position: absolute;
 	top: 55%;
-	left: 45px;
+	left: 2.8125rem;
 	transform: translate(0, -50%);
 	background: url(#{$img-path}logo.png);
 	background-size: 18.75rem 4.3125rem;

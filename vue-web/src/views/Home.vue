@@ -48,7 +48,7 @@ export default {
 
 <style lang="scss" scoped>
 	@import '../assets/scss/variables'; // core colors, paths
-	
+
 	.stat {
 		padding: 0 0.625rem 0.625rem 0.625rem;
 		border: 0.0625rem solid darken($light_gray, 5%);
@@ -74,7 +74,7 @@ export default {
 			font-size: 1.1rem;
 		}
 	}
-	
+
 	h2 {
 		display: block;
 		padding: .3125rem;
@@ -85,6 +85,4 @@ export default {
 			margin-top: 0;
 		}
 	}
-
 </style>
-

@@ -46,7 +46,7 @@ export default {
 @import '../assets/scss/variables'; // core colors, paths
 
 .page-body {
-	margin-top: 248px;
+	margin-top: 15.5rem;
 }
 
 .errors {
