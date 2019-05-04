@@ -1,5 +1,5 @@
 <template>
-<PageContainer splashHeight="18rem" splashBgHeight="43.75rem" :title="subCategorySelected.title" :srOnly="true">
+<PageContainer pageHeaderStyle="page-body-details" splashStyle="details" :title="subCategorySelected.title" :srOnly="true">
 	<template slot="pageBody">
 		<div class="row ml-3 mr-3">
 			<div class="col">

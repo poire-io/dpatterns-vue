@@ -1,30 +1,32 @@
 <template>
-<b-carousel
-	id="carousel"
-	v-model="slide"
-	:interval="interval"
-	controls
-	indicators
-	background="#1f1f1f"
-	style="text-shadow: 1px 1px 2px #333;"
-	@sliding-start="onSlideStart"
-	@sliding-end="onSlideEnd"
-	>
-	<b-carousel-slide :caption="card.app_title" v-for="card in cardData" :key="card.id">
-		<div class="card-logo" :class="{ salesforce: card.alliance_relationship_1 === 'Salesforce' }"></div>
-		<img
-		slot="img"
-		class="d-block img-fluid w-100"
-		width="1770"
-		height="560"
-		:src="card.imgSource"
-		alt="image slot"
+<div class="detailed-content">
+	<b-carousel
+		id="carousel"
+		v-model="slide"
+		:interval="interval"
+		controls
+		indicators
+		background="#1f1f1f"
+		@sliding-start="onSlideStart"
+		@sliding-end="onSlideEnd"
 		>
-		<p>{{card.short_description}}</p>
-		<p class="implemented-info">Implemented In: <span>{{card.implemented}}</span></p>
-		<p class="contact-info">Contact: <span>{{card.asset_contacts}}</span></p>
-	</b-carousel-slide>
-</b-carousel>
+		<b-carousel-slide v-for="card in cardData[0].images" :key="card.id">
+			<img
+			slot="img"
+			class="d-block img-fluid w-100"
+			:src="card.imgSource"
+			alt="image slot"
+			>
+		</b-carousel-slide>
+	</b-carousel>
+	<div class="info" v-for="card in cardData" :key="card.id">
+		<div class="card-logo" :class="{ salesforce: card.alliance_relationship_1 === 'Salesforce' }"></div>
+		<p class="title">{{card.app_title}}</p>
+		<p class="description">{{card.short_description}}</p>
+		<p class="implemented">Implemented In: <span>{{card.implemented}}</span></p>
+		<p class="contact">Contact: <span>{{card.asset_contacts}}</span></p>
+	</div>
+</div>
 </template>
 
 <script>
@@ -52,13 +54,3 @@ export default {
 	},
 };
 </script>
-
-<style lang="scss" scoped>
-@import '../assets/scss/variables'; // core colors, paths
-
-img {
-	height: auto;
-	width: auto !important;
-	margin: 0 auto;
-}
-</style>

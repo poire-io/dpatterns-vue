@@ -1,5 +1,5 @@
 <template>
-<PageContainer :title="$attrs.title" :srOnly="true" pageBodyHeight="520px">
+<PageContainer :title="$attrs.title" :srOnly="true">
 	<template slot="pageBody">
 		<div class="row ml-3 mr-3">
 			<div class="col-md-6 col-lg-4 col-xl" v-for="card in cards" :key="card.id">

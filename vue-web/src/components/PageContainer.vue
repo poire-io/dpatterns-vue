@@ -5,8 +5,8 @@
 			<h4>{{serviceErrors}}</h4>
 		</b-alert>
 	</div>
-	<LandingPageHeader :splashHeight="splashHeight" :splashBgHeight="splashBgHeight" />
-	<div class="page-body" :style="{ 'margin-top': pageBodyHeight }">
+	<LandingPageHeader :splashStyle="splashStyle" />
+	<div class="page-body" :class="pageHeaderStyle">
 		<PageHeader :title="title" :srOnly="srOnly" />
 		<slot name="pageBody"></slot>
 	</div>
@@ -21,11 +21,13 @@ export default {
 		title: {
 			type: String,
 		},
-		splashHeight: {
+		pageHeaderStyle: {
 			type: String,
+			default: 'page-header',
 		},
-		splashBgHeight: {
+		splashStyle: {
 			type: String,
+			default: 'home',
 		},
 		srOnly: {
 			type: Boolean,
@@ -44,10 +46,6 @@ export default {
 
 <style lang="scss" scoped>
 @import '../assets/scss/variables'; // core colors, paths
-
-.page-body {
-	margin-top: 15.5rem;
-}
 
 .errors {
 	z-index: 1001;

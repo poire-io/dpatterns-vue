@@ -1,44 +1,158 @@
-.carousel {
-	.carousel-inner {
-		.carousel-item {
-			.carousel-caption {
-                position: relative;
-                padding: 1.25rem;
-                right: inherit;
-                left: inherit;
-                bottom: inherit;
-				p {
-					text-align: left;
-                    &.contact-info,
-                    &.implemented-info {
-                        font-family: $base-font-light;
-                        span {
-                            font-family: $base-font-medium;
-                            padding-left: 0.3125rem;
-                            color: darken($light-gray, 30%);
-                        }
-                    }
-                    &.implemented-info {
-                        position: absolute;
-                        right: 1rem;
-                        bottom: 1.2rem;
-                    }
-				}
-                .card-logo {
-                    height: 3.125rem;
-                    width: 3.125rem;
-                    position: absolute;
-                    top: 1.5rem;
-                    right: 1rem;
-                    background-size: contain;
+.branding {
+	position: absolute;
+	top: 56%;
+	left: 2.8125rem;
+	transform: translate(0, -50%);
+	background: url(#{$img-path}logo.png);
+	background-size: 25.6875rem 3.6875rem;
+	height: $logo-height;
+	width: $logo-width;
+	cursor: pointer;
+}
+
+.page-body {
+	margin-top: $header-height;
+    &.page-body-apps {
+        margin-top: $header-height - 7vh;
+    }
+    &.page-body-details {
+        margin-top: $header-height - 27vh;
+    }
+}
+
+.splash {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	background: url(#{$img-path}splash.jpg) fixed 50% 50rem;
+	border-bottom: .0625rem solid rgba( $light-gray, .2 );
+    &.home {
+        height: $header-height - 4vh;
+        background-position: 50% ($header-height + 40vh);
+    }
+    &.apps {
+        height: $header-height - 10vh;
+        background-position: 50% ($header-height + 34vh);
+    }
+    &.details {
+        height: $header-height - 30vh;
+        background-position: 50% ($header-height + 20vh);
+    }
+}
+
+.detailed-content {
+    .carousel {
+        .carousel-inner {
+            height: 53vh;
+        }
+        .carousel-indicators {
+            li {
+                &.active {
+                    background-color: $green;
                 }
-			}
-		}
-	}
-    .carousel-indicators {
-        li {
-            &.active {
-                background-color: $green;
+            }
+        }
+        .carousel-item {
+            img {
+                height: auto;
+                width: auto !important;
+                margin: 0 auto;
+                object-fit: cover;
+                object-position: left center;
+                overflow: hidden;
+                height: 53vh;
+            }
+        }
+    }
+    .info {
+        position: relative;
+        padding: 1.25rem;
+        right: inherit;
+        left: inherit;
+        bottom: inherit;
+        background: $dark_gray;
+        p {
+            text-align: left;
+            color: $green;
+            &.title {
+                font-size: 1.3rem;
+            }
+            &.description {
+                color: $white;
+                font-family: $base-font-light;
+            }
+            &.contact {
+                font-family: $base-font-light;
+                span {
+                    font-family: $base-font-medium;
+                    padding-left: 0.3125rem;
+                    color: darken($light-gray, 30%);
+                }            }
+            &.implemented {
+                font-family: $base-font-light;
+                float: right;
+                span {
+                    font-family: $base-font-medium;
+                    padding-left: 0.3125rem;
+                    color: darken($light-gray, 30%);
+                }
+            }
+        }
+        .card-logo {
+            height: 3.125rem;
+            width: 3.125rem;
+            position: absolute;
+            top: 1.5rem;
+            right: 1rem;
+            background-size: contain;
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) and (orientation: landscape) {
+// @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+    .branding {
+        top: 70%;
+    }
+
+    .branding {
+        background-size: ($logo-width / 1.5) ($logo-height / 1.5);
+        height: ($logo-height / 1.5);
+        width: ($logo-width / 1.5);
+    }
+
+    .page-body {
+        margin-top: $header-height - 27vh;
+        &.page-body-apps {
+            margin-top: $header-height - 27vh;
+        }
+        &.page-body-details {
+            margin-top: $header-height - 27vh;
+        }
+    }
+
+    .splash {
+        &.home {
+            height: $header-height - 30vh;
+        }
+        &.apps {
+            height: $header-height - 30vh;
+        }
+        &.details {
+            height: $header-height - 30vh;
+        }
+    }
+
+    .detailed-content {
+        .carousel {
+            .carousel-inner {
+                height: 36vh;
+            }
+            .carousel-item {
+                img {
+                    height: 36vh;
+                }
             }
         }
     }

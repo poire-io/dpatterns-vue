@@ -8,7 +8,7 @@
             "variant": "blue",
             "apps": "10",
             "clients": "8",
-            "button": "View Details",
+            "button": "View Solutions",
             "client_list": [
                 {
                     "client_name": "State of Michigan"
@@ -43,7 +43,7 @@
             "variant": "green",
             "apps": "6",
             "clients": "4",
-            "button": "View Details",
+            "button": "View Solutions",
             "client_list": [
                 {
                     "client_name": "State of Michigan"
@@ -96,7 +96,7 @@
             "variant": "pink",
             "apps": "12",
             "clients": "10",
-            "button": "View Details",
+            "button": "View Solutions",
             "client_list": [
                 {
                     "client_name": "State of Michigan"
@@ -128,7 +128,7 @@
             "variant": "lavender",
             "apps": "7",
             "clients": "3",
-            "button": "View Details",
+            "button": "View Solutions",
             "client_list": [
                 {
                     "client_name": "State of Michigan"
@@ -166,7 +166,7 @@
             "variant": "orange",
             "apps": "10",
             "clients": "8",
-            "button": "View Details",
+            "button": "View Solutions",
             "client_list": [
                 {
                     "client_name": "State of Michigan"
@@ -201,7 +201,7 @@
             "variant": "red",
             "apps": "8",
             "clients": "12",
-            "button": "View Details",
+            "button": "View Solutions",
             "client_list": [
                 {
                     "client_name": "State of Michigan"
@@ -244,6 +244,7 @@
             "category": "1001",
             "title": "Child Welfare",
             "cardBranding": "salesforce",
+            "short_description": "Innovative case management system that fuses business processes and operations to promote usability, achieve efficiencies, realize savings, improve workforce mobility, and increase organizational agility. This system focuses on improving child and family outcomes and adhering to Federal CCWIS regulations and principles for future certification.",
             "button": "View Details"
         },
         {
@@ -251,6 +252,7 @@
             "category": "1001",
             "title": "Child Support",
             "cardBranding": "salesforce",
+            "short_description": "Software as a Service (SaaS) solution for Child Support Case Management systems. This solution combines the class-leading capabilities of the Salesforce cloud platform with deep functional capabilities drawn from Deloitte’s 35 years of child support system implementation experience.",
             "button": "View Details"
         },
         {
@@ -258,6 +260,7 @@
             "category": "1001",
             "title": "Lobby Case Management",
             "cardBranding": "",
+            "short_description": "Native iOS tablet application used by human services agencies and partner/providers to provide point-of-interaction assistance with programs such as Medicaid, SNAP, TANF, and Child Care. OneView is a pocket-sized power tool that improves agency efficiency by cutting down back-office workload via speedy front-office engagement by combining capabilities like mobile capture of verification documents with an intelligent recommendation engine to quickly connect customers with community resources.",
             "button": "View Details"
         },
         {
@@ -265,6 +268,7 @@
             "category": "1001",
             "title": "GoCase Worker Field Service Tools",
             "cardBranding": "",
+            "short_description": "Mobile solution that enables online & offline field work including data collection, such as interview, investigation, and assessment by leveraging features that are unique to mobile devices such as GPS, Maps, Audio, and Photo, Digital Signature, and Dictation. The dashboard allows caseworkers to organize and manage their daily appointments, alerts, and communications (chat) while on the move and can integrate with back-end systems.",
             "button": "View Details"
         },
         {
@@ -272,6 +276,7 @@
             "category": "1001",
             "title": "Inspections",
             "cardBranding": "salesforce",
+            "short_description": "Enables examiners in the field to connect with their Headquarters to more efficiently and effectively scope, schedule, plan, conduct and report on examinations. This solution integrates workflow processing, data analytics, and case management best practices on a scalable, enterprise-ready platform built for organizations that frequently experience changing business processes and rules to be flexible enough to cost effectively meet both market and regulatory demands.",
             "button": "View Details"
         },
         {
@@ -279,6 +284,7 @@
             "category": "1001",
             "title": "RFI Case<br>Management",
             "cardBranding": "salesforce",
+            "short_description": "Controlled Correspondence is a suite of inquiry intake and management applications that assist federal agency staff with the intake, assignment, escalation, and response to requests for information from the general public or other agencies. ",
             "button": "View Details"
         },
         {
@@ -286,6 +292,7 @@
             "category": "1002",
             "title": "Integrated Eligibility Web App Self-Service",
             "cardBranding": "salesforce",
+            "short_description": "This solution transforms the self-service delivery model from program-focused to citizen centric through an enhanced user experience designed to be highly available and scaleable utilizing the Salesforce Platform. The portal is intended to provide a holistic and proactive approach dedicated to identifying the root cause of individuals’ problems and improving outcomes for customers.",
             "button": "View Details"
         },
         {
@@ -293,6 +300,7 @@
             "category": "1002",
             "title": "Integrated Eligibility Mobile App Self-Service",
             "cardBranding": "",
+            "short_description": "Enables customers to apply for and manage their benefits from the convenience of their mobile device. This mobile application empowers customers to stay in compliance with program eligibility by having real-time access and capabilities related to their case status, application, and documents anywhere.",
             "button": "View Details"
         },
         {
@@ -300,6 +308,7 @@
             "category": "1002",
             "title": "Child Welfare Self-Service",
             "cardBranding": "salesforce",
+            "short_description": "This solutiom gives customers the ability to report and submit suspected incidents of child abuse and/or neglect directly to a child welfare intake unit. The portal captures the description of the incident, key individuals involved, and reporter contact information.",
             "button": "View Details"
         },
         {
@@ -307,13 +316,15 @@
             "category": "1002",
             "title": "Child Support Self-Service",
             "cardBranding": "salesforce",
+            "short_description": "Provides families and partners with direct access to their case, allowing them to see order information, make payments, and upload documents.",
             "button": "View Details"
         },
         {
             "id": "2050",
             "category": "1002",
-            "title": "Work Participation Requirements Self-Service",
+            "title": "Work Participation Req. Self-Service",
             "cardBranding": "salesforce",
+            "short_description": "Allows the public to maintain compliance with work participation requirements of programs such as Medicaid, SNAP, and TANF from the convenience of a website or mobile device.  Functionality includes features such as reporting activities, reporting job applications, searching for resources, requesting exemptions or good cause, and discovering training opportunities.",
             "button": "View Details"
         },
         {
@@ -321,6 +332,7 @@
             "category": "1002",
             "title": "EBT Mobile App",
             "cardBranding": "",
+            "short_description": "All-in-one solution for providing SNAP, WIC, and TANF recipients a space to plan, spend, and track their nutritional benefits from the convenience of their mobile device.  EBT Mobile includes functionality for budgeting EBT balances as well as organizing shopping trips and meal planning to make every dollar count and last longer.",
             "button": "View Details"
         },
         {
@@ -328,6 +340,7 @@
             "category": "1002",
             "title": "X11/311 Self-Service",
             "cardBranding": "salesforce",
+            "short_description": "The X11 module of govCONNECT provides agencies with a service request solution that prioritizes user experience and enables capabilities empowering them to best serve their residents/citizens.",
             "button": "View Details"
         },
         {
@@ -335,6 +348,7 @@
             "category": "1002",
             "title": "Licensing and Permitting Self-Service",
             "cardBranding": "salesforce",
+            "short_description": "Provides licensed professionals and businesses with a modern, self-service experience to perform functions such as reviewing licensure maintenance requirements, pay fees, submit service requests, and obtain permits. The email communications framework of the Customer Portal allows renewal reminders to be sent automatically and sends email communications to secondary credentialers.",
             "button": "View Details"
         },
         {
@@ -342,13 +356,15 @@
             "category": "1002",
             "title": "FDA Company Approvals and eSubmissions",
             "cardBranding": "salesforce",
+            "short_description": "Custom-designed eSubmission portal to allow software-based medical device companies to apply for and receive FDA Pre-Cert status.  The solution interface guides users through application questions for FDA Pre-Cert, as well as for each product submission.",
             "button": "View Details"
         },
         {
             "id": "2075",
             "category": "1002",
-            "title": "Vector XD: Customer Mapping Delivery Accelerator",
+            "title": "Vector XD: Cust. Mapping Delivery Accelerator",
             "cardBranding": "",
+            "short_description": "Digital application that helps organizations embed human-centered design into the way they deliver products, services, and experience to their customers by providing a structured way to identify customers and their needs, model the complex ways customers currently engage with an organization, its systems, and its partners, and determine how well the organization is meeting customer needs. Allows Deloitte to easily identify opportunities for improvement, determine how any changes might impact existing technologies or processes, and keep the customer front and center as we elevate the human experience.",
             "button": "View Details"
         },
         {
@@ -356,6 +372,7 @@
             "category": "1003",
             "title": "Integrated Eligibility",
             "cardBranding": "salesforce",
+            "short_description": "Industry leading solution for Integrated Eligibility that has been Implemented in over 25 states and transformed integrated case management and eligibility determination for programs such as Medicaid, SNAP, TANF, and Child Care. Today, HHS NextGen has been rearchitected atop the Salesforce cloud platform and infused with the power of the govCONNECT platform to provide world-class user experience, scalability, and functional capability. ",
             "button": "View Details"
         },
         {
@@ -363,6 +380,7 @@
             "category": "1003",
             "title": "Child Care",
             "cardBranding": "salesforce",
+            "short_description": "Software as a Service (SaaS) solution for Child Care Case Management systems. This solution combines the class-leading capabilities of the Salesforce cloud platform with deep functional capabilities drawn from Deloitte’s decades of child care system implementation experience.",
             "button": "View Details"
         },
         {
@@ -370,6 +388,7 @@
             "category": "1003",
             "title": "Work Participation Requirements",
             "cardBranding": "salesforce",
+            "short_description": "Software as a Service (SaaS) solution for work requirements of Medicaid, SNAP, and TANF program that combines the class-leading capabilities of the Salesforce cloud platform with deep functional capabilities drawn from Deloitte’s decades of human services implementation experience. WorkPath helps both customers and agencies remain compliant with work requirements through extensive functionality such as activity tracking, checklists, and integration with business and customer portals. ",
             "button": "View Details"
         },
         {
@@ -377,6 +396,7 @@
             "category": "1003",
             "title": "Health Insurance Premium Payments",
             "cardBranding": "salesforce",
+            "short_description": "Software as a Service (SaaS) solution for enabling state agencies to operationalize HIPP. This solution combines features of eligibility determination with program effectiveness measurements to provide comprehensive capabilities for States to realize significant Medicaid program savings.",
             "button": "View Details"
         },
         {
@@ -384,6 +404,7 @@
             "category": "1003",
             "title": "Hearings and Appeals",
             "cardBranding": "salesforce",
+            "short_description": "Standalone Software as a Service (SaaS) solution for operationalizing processes for managing and scheduling hearings and appeals cases, across any number of programs. Key functionality includes automatic appointment scheduling, electronic dockets, time tracking, case tracking, and contact management. \n",
             "button": "View Details"
         },
         {
@@ -391,6 +412,7 @@
             "category": "1003",
             "title": "Behavioral Nudges Ecosystem",
             "cardBranding": "",
+            "short_description": "Microservice solution that examines large and varied data sets to uncover hidden patterns and data correlations to nudge recipients, case workers, and business partners to make informed decisions.",
             "button": "View Details"
         },
         {
@@ -398,6 +420,7 @@
             "category": "1004",
             "title": "Acquisition Tracking",
             "cardBranding": "salesforce",
+            "short_description": "Enables large contracting providers the ability to track contract details  and status, vendor contact management, planned and actual spend, and reporting/dashboards. The spend management tool has the ability to tie into existing contract management tools such as FPDS, USA Spending, and other source systems that have integration capabilities.",
             "button": "View Details"
         },
         {
@@ -405,6 +428,7 @@
             "category": "1004",
             "title": "Conference Room Scheduling",
             "cardBranding": "salesforce",
+            "short_description": "Simplifies the process of reserving conference rooms and other spaces within an office or shared workplace. The application ensures that organizers have the necessary accommodations for important meetings, and at the same time, office managers maintain an accurate, up-to-date view of how company resources are being utilized. The Conference Room Scheduler consists of a front-end to allow an organizer to submit requests and an administrative back-end to allow administrators to review and manage room reservations and status.",
             "button": "View Details"
         },
         {
@@ -412,6 +436,7 @@
             "category": "1004",
             "title": "CIO Management",
             "cardBranding": "salesforce",
+            "short_description": "One-stop shop for end-users to \"launch\" their day by providing a centralized location to access all of their Salesforce applications, as well as other business applications (i.e., SharePoint, SAP, Oracle, etc.) via data driven app tiles that are controlled by metadata, attributes, and related objects making it flexible, configurable, and easily scalable. This solution is connected to CBP’s Active Directory and provides PIV Authenticated Single Sign-On to allow users to authenticate and access all of their applications without having to login in to different applications multiple time.",
             "button": "View Details"
         },
         {
@@ -419,6 +444,7 @@
             "category": "1004",
             "title": "Dynamic Case Management Delivery Accelerator",
             "cardBranding": "",
+            "short_description": "Tool neutral framework to capture, process, and analyze case-related data, improve customer service, drive process efficiency, and enable streamlined data analysis by allowing organizations to integrate case and work-flow processing, data analytics, and case management best practices on a scalable, technology-neutral, enterprise platform. DCM is able to provide consistent and real-time access to data through a multitude of different channels (web and mobile) while improving the timeliness, quality, and efficiency of services provided to stakeholders. ",
             "button": "View Details"
         },
         {
@@ -426,6 +452,7 @@
             "category": "1004",
             "title": "govCONNECT Framework Delivery Accelerator",
             "cardBranding": "salesforce",
+            "short_description": "Robust collection of framework components that sit atop the Salesforce platform. The govCONNECT Framework enables rapid delivery of complex government solutions with high quality and lower-cost.",
             "button": "View Details"
         },
         {
@@ -433,6 +460,7 @@
             "category": "1004",
             "title": "Complaints Tracking Management",
             "cardBranding": "salesforce",
+            "short_description": "State-of-the-art CRM system on the Salesforce platform that supports the scalability, agility, and quality of consumer inquiry and complaint handling services and tools. Mosaic streamlines complaint submission using a “turbo-tax” like data-driven process, incorporates a complex workflow that efficiently and accurately routes complaints to companies, and provides three portals for company, government, and congressional users to easily manage and track the status of complaints.",
             "button": "View Details"
         },
         {
@@ -440,6 +468,7 @@
             "category": "1004",
             "title": "Asset Management",
             "cardBranding": "salesforce",
+            "short_description": "Enables accurate inventory tracking of assets, management of asset requests, and the assignment of assets to staff. The application provides a single location for operators to manage inventories and items, as well as, requests. The scalability and flexibility of this application allows for a variety of asset types to be tracked within the system. ",
             "button": "View Details"
         },
         {
@@ -447,6 +476,7 @@
             "category": "1004",
             "title": "Grants Management",
             "cardBranding": "salesforce",
+            "short_description": "Salesforce based Award Management Platform (AMP) that promotes effective integrated program management, evaluation, and internal and external stakeholder collaboration for cooperative agreements. AMP provides configurable program-specific communities and standardizes the user experience.",
             "button": "View Details"
         },
         {
@@ -454,6 +484,7 @@
             "category": "1004",
             "title": "UI Builder Delivery Accelerator",
             "cardBranding": "",
+            "short_description": "Cloud-based, low-code application development platform with a built-in UI Framework tool and a configurable code generation script, Figura enables rapid application development in a variety of destination technology stacks such as Salesforce, React, Angular, and Java. ",
             "button": "View Details"
         },
         {
@@ -461,6 +492,7 @@
             "category": "1004",
             "title": "Document Management System",
             "cardBranding": "",
+            "short_description": "Provides standard API to upload, store,  scan, categorize, retrieve, view and annotate documents.",
             "button": "View Details"
         },
         {
@@ -468,6 +500,7 @@
             "category": "1004",
             "title": "MCI",
             "cardBranding": "",
+            "short_description": "Lightweight tool that can be used within our solutions to provide clients with customizable MCI services depending on their functional needs and readiness.​ The MCI Microservice is an efficient, robust, transparent, and configurable single source repository that unifies real-time updates from multiple sources and publishes to subscribing agencies.",
             "button": "View Details"
         },
         {
@@ -475,6 +508,7 @@
             "category": "1004",
             "title": "Client Correspondence",
             "cardBranding": "",
+            "short_description": "Managed Software as a Service platform that provides a secure and compliant system with minimal maintenance overhead for various day to day infrastructure management. CC Microservices is an efficient, robust, transparent, and configurable single source repository that provides platform independent solution for various correspondence needs that can be plugged with any major service provider like OpenText, GMC Software, Xerox (XMPie) etc.",
             "button": "View Details"
         },
         {
@@ -482,6 +516,7 @@
             "category": "1005",
             "title": "Land Management",
             "cardBranding": "salesforce",
+            "short_description": "Tool that manages submission, approval, inspections, and tracking of land claims. The product seamlessly integrates with geo-spatial software and databases along with a rules engine that process complex approval rules and a “concierge” facility to help claimants through the application process",
             "button": "View Details"
         },
         {
@@ -489,6 +524,7 @@
             "category": "1005",
             "title": "Tour Management",
             "cardBranding": "salesforce",
+            "short_description": "Self-service interface which enable an organization's staff to schedule campus/complex tours from an accessible, user-friendly web interface. The system manages tour capacity and availability and can set future schedules based on a set of configurable rules via administrative console (back-end).",
             "button": "View Details"
         },
         {
@@ -496,6 +532,7 @@
             "category": "1005",
             "title": "Facilities Management",
             "cardBranding": "salesforce",
+            "short_description": "Allows any group who provides facilities services to provide their end-users with an easily accessible, web intake form. The Facilities Requests app also provides an administrative back-end application which allows the facilities management service provider to create, review, and manage facilities requests while also tracking the associated costs. ",
             "button": "View Details"
         },
         {
@@ -503,6 +540,7 @@
             "category": "1005",
             "title": "Cost Allocated Time Tracking",
             "cardBranding": "salesforce",
+            "short_description": "Modern time reporting system that allows users to capture their daily time for all user fee funded activities. The system was designed and developed to meet the multi-tier hierarchy structure required by the FDA (CDER) and is scalable to support additional Center requirements with configurable user profiles that limit access to only those activities specific to an individual’s Center/Office/Role. ",
             "button": "View Details"
         },
         {
@@ -510,6 +548,7 @@
             "category": "1006",
             "title": "Hiring Management",
             "cardBranding": "salesforce",
+            "short_description": "Interactive portal that supports tracking of an individual’s onboarding status via two portals: an Applicant-facing community and a back-end Manager view for application management.  This further extends itself to existing data sources through integration with the Personal Identity Verification (PIV) system for data ingestion and the Access Management System (AMS) to support single-sign-on capabilities. ",
             "button": "View Details"
         },
         {
@@ -517,6 +556,7 @@
             "category": "1006",
             "title": "GoCase Interactive Learning",
             "cardBranding": "",
+            "short_description": "Mobile training application that enables professionals to gain the skills they need to be field experts on day one in a safe and consequence-free environment. Users are prompted with multiple choice questions that evaluate their response and provide live feedback on improvement areas. GoCase Learning paired with the Story Editor application allows its users to generate new content to share with their team using the mobile app.",
             "button": "View Details"
         },
         {
@@ -524,6 +564,7 @@
             "category": "1006",
             "title": "GoCase VR Learning",
             "cardBranding": "",
+            "short_description": "Mobile and desktop based application that allows field work trainees to experience real-life scenarios in a virtual reality environment from any location. The application uses 3D images of buildings, homes, furniture, and everyday objects to simulate real-life situations in the field in an interactive space where trainees can explore the environment and identify risks and issues while receiving feedback on areas they need to sharpen their skills.",
             "button": "View Details"
         },
         {
@@ -531,6 +572,7 @@
             "category": "1006",
             "title": "GoCase Community Story Editor",
             "cardBranding": "",
+            "short_description": "Cloud-based online site for content collaboration shared throughout the country by allowing users to share their custom characters, stories, and lesson plans for GoCase applications. By creating a virtual team environment, GoCase Community allows users the ability to download user created content to share with their teams.",
             "button": "View Details"
         }
     ],
@@ -558,7 +600,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/HHS NexGen for IE.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/HHS NexGen for IE.jpg"
+                }
+            ]
         },
         {
             "id": "3005",
@@ -583,7 +629,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/HHS NextGen For Child Welfare.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/HHS NextGen For Child Welfare.jpg"
+                }
+            ]
         },
         {
             "id": "3010",
@@ -608,7 +658,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/OneView with Resource Engine.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/OneView with Resource Engine.jpg"
+                }
+            ]
         },
         {
             "id": "3015",
@@ -633,7 +687,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/GoCase Worker.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/GoCase Worker.jpg"
+                }
+            ]
         },
         {
             "id": "3020",
@@ -658,7 +716,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/Inspections.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/Inspections.jpg"
+                }
+            ]
         },
         {
             "id": "3025",
@@ -683,7 +745,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/Controlled Correspondence.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/Controlled Correspondence.jpg"
+                }
+            ]
         },
         {
             "id": "3030",
@@ -708,7 +774,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/Integrated Eligibility Self-Service Web App.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/Integrated Eligibility Self-Service Web App.jpg"
+                }
+            ]
         },
         {
             "id": "3035",
@@ -733,7 +803,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/Integrated Eligibility Self-Service Mobile App.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/Integrated Eligibility Self-Service Mobile App.jpg"
+                }
+            ]
         },
         {
             "id": "3040",
@@ -758,7 +832,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/Child Welfare Self-Service.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/Child Welfare Self-Service.jpg"
+                }
+            ]
         },
         {
             "id": "3045",
@@ -783,7 +861,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/Child Support Self-Service.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/Child Support Self-Service.jpg"
+                }
+            ]
         },
         {
             "id": "3050",
@@ -808,7 +890,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/Work Requirements Self-Service.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/Work Requirements Self-Service.jpg"
+                }
+            ]
         },
         {
             "id": "3055",
@@ -833,7 +919,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/EBT Mobile App.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/EBT Mobile App.jpg"
+                }
+            ]
         },
         {
             "id": "3060",
@@ -858,7 +948,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/1X11 Self-Service.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/1X11 Self-Service.jpg"
+                }
+            ]
         },
         {
             "id": "3065",
@@ -883,7 +977,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/Licensing and Permitting Self-Service.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/Licensing and Permitting Self-Service.jpg"
+                }
+            ]
         },
         {
             "id": "3070",
@@ -908,7 +1006,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/FDA Company Approvals and eSubmissions.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/FDA Company Approvals and eSubmissions.jpg"
+                }
+            ]
         },
         {
             "id": "3075",
@@ -933,7 +1035,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/VectorXD.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/VectorXD.jpg"
+                }
+            ]
         },
         {
             "id": "3080",
@@ -958,7 +1064,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/HHS NexGen for IE.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/HHS NexGen for IE.jpg"
+                }
+            ]
         },
         {
             "id": "3085",
@@ -983,7 +1093,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/HHS NextGen For Child Welfare.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/HHS NextGen For Child Welfare.jpg"
+                }
+            ]
         },
         {
             "id": "3090",
@@ -1008,7 +1122,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/Work Requirements Self-Service.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/Work Requirements Self-Service.jpg"
+                }
+            ]
         },
         {
             "id": "3095",
@@ -1033,7 +1151,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/Health Insurance Premium Program.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/Health Insurance Premium Program.jpg"
+                }
+            ]
         },
         {
             "id": "3100",
@@ -1058,7 +1180,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/Hearings and Appeals.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/Hearings and Appeals.jpg"
+                }
+            ]
         },
         {
             "id": "3105",
@@ -1083,7 +1209,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/Nudge Management.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/Nudge Management.jpg"
+                }
+            ]
         },
         {
             "id": "666",
@@ -1108,7 +1238,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/OneView with Resource Engine.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/OneView with Resource Engine.jpg"
+                }
+            ]
         },
         {
             "id": "3110",
@@ -1133,7 +1267,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/Acquisition Tracking.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/Acquisition Tracking.jpg"
+                }
+            ]
         },
         {
             "id": "3115",
@@ -1158,7 +1296,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/Conference room App.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/Conference room App.jpg"
+                }
+            ]
         },
         {
             "id": "3120",
@@ -1183,7 +1325,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/Launch Pad.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/Launch Pad.jpg"
+                }
+            ]
         },
         {
             "id": "3125",
@@ -1208,7 +1354,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/Dynamic Case Management.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/Dynamic Case Management.jpg"
+                }
+            ]
         },
         {
             "id": "3130",
@@ -1233,7 +1383,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/GovConnect Framework.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/GovConnect Framework.jpg"
+                }
+            ]
         },
         {
             "id": "3135",
@@ -1258,7 +1412,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/Complaints Tracking Management.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/Complaints Tracking Management.jpg"
+                }
+            ]
         },
         {
             "id": "3140",
@@ -1283,7 +1441,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/Asset Management.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/Asset Management.jpg"
+                }
+            ]
         },
         {
             "id": "3145",
@@ -1308,7 +1470,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/Grants Management.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/Grants Management.jpg"
+                }
+            ]
         },
         {
             "id": "3150",
@@ -1333,7 +1499,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/UI Builder.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/UI Builder.jpg"
+                }
+            ]
         },
         {
             "id": "3155",
@@ -1358,7 +1528,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": ""
+            "images": [
+                {
+                    "imgSource": ""
+                }
+            ]
         },
         {
             "id": "3160",
@@ -1383,7 +1557,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": ""
+            "images": [
+                {
+                    "imgSource": ""
+                }
+            ]
         },
         {
             "id": "3165",
@@ -1408,7 +1586,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": ""
+            "images": [
+                {
+                    "imgSource": ""
+                }
+            ]
         },
         {
             "id": "3170",
@@ -1433,7 +1615,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/Land Management.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/Land Management.jpg"
+                }
+            ]
         },
         {
             "id": "3175",
@@ -1458,7 +1644,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/Tour Management.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/Tour Management.jpg"
+                }
+            ]
         },
         {
             "id": "3180",
@@ -1483,7 +1673,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/Facilities Management.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/Facilities Management.jpg"
+                }
+            ]
         },
         {
             "id": "3185",
@@ -1508,7 +1702,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/Cost Allocated Time Tracking.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/Cost Allocated Time Tracking.jpg"
+                }
+            ]
         },
         {
             "id": "3190",
@@ -1533,7 +1731,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/Hiring Management.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/Hiring Management.jpg"
+                }
+            ]
         },
         {
             "id": "3195",
@@ -1558,7 +1760,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/GoCase Learning.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/GoCase Learning.jpg"
+                }
+            ]
         },
         {
             "id": "3200",
@@ -1583,7 +1789,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/GoCase VR.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/GoCase VR.jpg"
+                }
+            ]
         },
         {
             "id": "3205",
@@ -1608,7 +1818,11 @@
             "alliance_relationship_3": "",
             "comments": "",
             "additional_comments": "",
-            "imgSource": "./qual_images/GoCase Community.jpg"
+            "images": [
+                {
+                    "imgSource": "./qual_images/GoCase Community.jpg"
+                }
+            ]
         }
     ]
 }

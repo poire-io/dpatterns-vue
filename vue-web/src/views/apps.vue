@@ -1,5 +1,5 @@
 <template>
-<PageContainer :title="categorySelected.title" pageBodyHeight="512px">
+<PageContainer :title="categorySelected.title" pageHeaderStyle="page-body-apps" splashStyle="apps">
 	<template slot="pageBody">
 		<div class="row ml-3 mr-3">
 			<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2" v-for="card in selectedCard" :key="card.id">
@@ -12,7 +12,7 @@
 						</div>
 					</template>
 					<template slot="flipped-body">
-						<p>{{card.detailed_description}}</p>
+						<p>{{card.short_description}}</p>
 					</template>
 				</CardService>
 			</div>

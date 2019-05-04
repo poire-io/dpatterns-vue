@@ -187,6 +187,12 @@ $img-path: "../assets/images/";
 	}
 	&.sub {
 		.flip {
+			.front {
+				height: auto;
+			}
+			.back {
+				height: auto;
+			}
 			.card {
 				.card-header {
 					display: none;
@@ -197,14 +203,16 @@ $img-path: "../assets/images/";
 					}
 					.front-body {
 						height: auto;
-						margin-top: 2.5rem;
+						margin-top: 1.5rem;
 						min-height: 5rem;
+						margin-bottom: -1rem;
 						.col {
 							margin: auto 0;
 						}
 					}
 					.back-body {
-						height: 30px;
+						height: 5.625rem;
+						font-size: 0.8rem;
 					}
 				}
 			}
@@ -216,10 +224,11 @@ $img-path: "../assets/images/";
 .front,
 .back {
 	width: 100%;
-	height: 480px;
+	height: 450px;
 	&.sub {
 		// height: 220px;
-		height: 265px;
+		// height: 265px;
+		height: 14.5625rem;
 
 	}
 }

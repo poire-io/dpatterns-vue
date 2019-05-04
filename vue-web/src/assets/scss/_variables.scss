@@ -6,6 +6,12 @@
 /* ++++ Path Variables ++++ */
 $img-path: "assets/images/";
 
+/* ++++ Config Settings ++++ */
+// $header-height: 34vh;
+$header-height: 56vh;
+$logo-height: 3.6875rem;
+$logo-width: 25.6875rem;
+
 /* ++++ Primary Colors ++++ */
 $navy: #2A578D;
 $dark_blue: #003146;
@@ -16,6 +22,7 @@ $aqua: #1CB0B5;
 $light_gray: #F4F4F4;
 $gray: #989898;
 $charcoal: #58585B;
+$dark_gray: #1f1f1f;
 
 /* ++++ Secondary Colors ++++ */
 $rusted_red: darken(#E64C3C, 10%);
