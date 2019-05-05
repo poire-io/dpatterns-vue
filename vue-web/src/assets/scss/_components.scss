@@ -65,6 +65,18 @@
             }
         }
     }
+    &.all-details {
+        .carousel {
+            .carousel-inner {
+                height: 68vh;
+            }
+            .carousel-item {
+                img {
+                    height: 62vh;
+                }
+            }
+        }
+    }
     .info {
         position: relative;
         padding: 1.25rem;
@@ -152,6 +164,18 @@
             .carousel-item {
                 img {
                     height: 36vh;
+                }
+            }
+        }
+        &.all-details {
+            .carousel {
+                .carousel-inner {
+                    height: 68vh;
+                }
+                .carousel-item {
+                    img {
+                        height: 56vh;
+                    }
                 }
             }
         }

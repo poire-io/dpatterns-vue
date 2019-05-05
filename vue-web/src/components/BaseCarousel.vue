@@ -20,11 +20,11 @@
 		</b-carousel-slide>
 	</b-carousel>
 	<div class="info" v-for="card in cardData" :key="card.id">
-		<div class="card-logo" :class="{ salesforce: card.alliance_relationship_1 === 'Salesforce' }"></div>
-		<p class="title">{{card.app_title}}</p>
-		<p class="description">{{card.short_description}}</p>
-		<p class="implemented">Implemented In: <span>{{card.implemented}}</span></p>
-		<p class="contact">Contact: <span>{{card.asset_contacts}}</span></p>
+		<div class="card-logo" v-if="card.alliance_relationship_1 !== ''" :class="{ salesforce: card.alliance_relationship_1 === 'Salesforce' }"></div>
+		<p class="title" v-if="card.app_title !== ''">{{card.app_title}}</p>
+		<p class="description" v-if="card.short_description !== ''">{{card.short_description}}</p>
+		<p class="implemented" v-if="card.implemented !== ''">Implemented In: <span>{{card.implemented}}</span></p>
+		<p class="contact" v-if="card.asset.contacts !== ''">Contact: <span>{{card.asset_contacts}}</span></p>
 	</div>
 </div>
 </template>
@@ -33,7 +33,6 @@
 export default {
 	data () {
 		return {
-			height: 50,
 			interval: 10000,
 			slide: 0,
 			sliding: null,

@@ -689,7 +689,10 @@
             "additional_comments": "",
             "images": [
                 {
-                    "imgSource": "./qual_images/GoCase Worker.jpg"
+                    "imgSource": "./qual_images/GoCase Worker 1.jpg"
+                },
+                {
+                    "imgSource": "./qual_images/GoCase Worker 2.jpg"
                 }
             ]
         },
@@ -718,7 +721,10 @@
             "additional_comments": "",
             "images": [
                 {
-                    "imgSource": "./qual_images/Inspections.jpg"
+                    "imgSource": "./qual_images/Inspections 1.jpg"
+                },
+                {
+                    "imgSource": "./qual_images/Inspections 2.jpg"
                 }
             ]
         },
@@ -1153,7 +1159,10 @@
             "additional_comments": "",
             "images": [
                 {
-                    "imgSource": "./qual_images/Health Insurance Premium Program.jpg"
+                    "imgSource": "./qual_images/Health Insurance Premium Program 1.jpg"
+                },
+                {
+                    "imgSource": "./qual_images/Health Insurance Premium Program 2.jpg"
                 }
             ]
         },
@@ -1327,7 +1336,10 @@
             "additional_comments": "",
             "images": [
                 {
-                    "imgSource": "./qual_images/Launch Pad.jpg"
+                    "imgSource": "./qual_images/Launch Pad 1.jpg"
+                },
+                {
+                    "imgSource": "./qual_images/Launch Pad 2.jpg"
                 }
             ]
         },
@@ -1443,7 +1455,10 @@
             "additional_comments": "",
             "images": [
                 {
-                    "imgSource": "./qual_images/Asset Management.jpg"
+                    "imgSource": "./qual_images/Asset Management 1.jpg"
+                },
+                {
+                    "imgSource": "./qual_images/Asset Management 2.jpg"
                 }
             ]
         },
@@ -1472,7 +1487,10 @@
             "additional_comments": "",
             "images": [
                 {
-                    "imgSource": "./qual_images/Grants Management.jpg"
+                    "imgSource": "./qual_images/Grants Management 1.jpg"
+                },
+                {
+                    "imgSource": "./qual_images/Grants Management 2.jpg"
                 }
             ]
         },
@@ -1617,7 +1635,10 @@
             "additional_comments": "",
             "images": [
                 {
-                    "imgSource": "./qual_images/Land Management.jpg"
+                    "imgSource": "./qual_images/Land Management 1.jpg"
+                },
+                {
+                    "imgSource": "./qual_images/Land Management 2.jpg"
                 }
             ]
         },
@@ -1675,7 +1696,10 @@
             "additional_comments": "",
             "images": [
                 {
-                    "imgSource": "./qual_images/Facilities Management.jpg"
+                    "imgSource": "./qual_images/Facilities Management 1.jpg"
+                },
+                {
+                    "imgSource": "./qual_images/Facilities Management 2.jpg"
                 }
             ]
         },
@@ -1762,7 +1786,10 @@
             "additional_comments": "",
             "images": [
                 {
-                    "imgSource": "./qual_images/GoCase Learning.jpg"
+                    "imgSource": "./qual_images/GoCase Learning 1.jpg"
+                },
+                {
+                    "imgSource": "./qual_images/GoCase Learning 2.jpg"
                 }
             ]
         },
@@ -1791,7 +1818,10 @@
             "additional_comments": "",
             "images": [
                 {
-                    "imgSource": "./qual_images/GoCase VR.jpg"
+                    "imgSource": "./qual_images/GoCase VR 1.jpg"
+                },
+                {
+                    "imgSource": "./qual_images/GoCase VR 2.jpg"
                 }
             ]
         },

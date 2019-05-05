@@ -3,7 +3,7 @@
 	<template slot="pageBody">
 		<div class="row ml-3 mr-3">
 			<div class="col">
-				<BaseCarousel :cardData="selectedCard" height="40" />
+				<BaseCarousel :cardData="selectedCard" />
 			</div>
 		</div>
 	</template>

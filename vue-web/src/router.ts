@@ -4,6 +4,7 @@ import Splash from './views/splash.vue';
 import Home from './views/home.vue';
 import Apps from './views/apps.vue';
 import Details from './views/app_details.vue';
+import All from './views/all_details.vue';
 
 Vue.use(Router);
 
@@ -29,6 +30,11 @@ export default new Router({
 			path: '/details/:id',
 			name: 'details',
 			component: Details,
+		},
+		{
+			path: '/all',
+			name: 'all',
+			component: All,
 		},
 	],
 });
