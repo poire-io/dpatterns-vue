@@ -21,7 +21,21 @@
                             :src="card.images[0].imgSource"
                             alt="image slot"
                             >
+                            <div class="info all">
+                                <div class="card-logo" v-if="card.alliance_relationship_1 !== ''" :class="{ salesforce: card.alliance_relationship_1 === 'Salesforce' }"></div>
+                                <p class="title" v-if="card.app_title !== ''">{{card.app_title}}</p>
+                                <p class="description" v-if="card.short_description !== ''">{{card.short_description}}</p>
+                                <p class="implemented" v-if="card.implemented !== ''">Implemented In: <span>{{card.implemented}}</span></p>
+                                <p class="contact" v-if="card.asset.contacts !== ''">Contact: <span>{{card.asset_contacts}}</span></p>
+                            </div>
                         </b-carousel-slide>
+                        <!-- <div class="info" v-for="card in selectedCard" :key="card.id">
+                            <div class="card-logo" v-if="card.alliance_relationship_1 !== ''" :class="{ salesforce: card.alliance_relationship_1 === 'Salesforce' }"></div>
+                            <p class="title" v-if="card.app_title !== ''">{{card.app_title}}</p>
+                            <p class="description" v-if="card.short_description !== ''">{{card.short_description}}</p>
+                            <p class="implemented" v-if="card.implemented !== ''">Implemented In: <span>{{card.implemented}}</span></p>
+                            <p class="contact" v-if="card.asset.contacts !== ''">Contact: <span>{{card.asset_contacts}}</span></p>
+                        </div> -->
                     </b-carousel>
                 </div>
 			</div>

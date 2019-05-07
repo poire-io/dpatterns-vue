@@ -72,8 +72,11 @@
             }
             .carousel-item {
                 img {
-                    height: 62vh;
+                    height: 47vh;
                 }
+            }
+            .carousel-indicators {
+                bottom: -4vh;
             }
         }
     }
@@ -84,6 +87,12 @@
         left: inherit;
         bottom: inherit;
         background: $dark_gray;
+        &.all {
+            position: absolute;
+            top: 10vh;
+            left: -15vh;
+            right: -15vh;
+        }
         p {
             text-align: left;
             color: $green;
@@ -157,14 +166,26 @@
     }
 
     .detailed-content {
+        .info {
+            p {
+                &.description {
+                    height: 7vh;
+                    overflow: hidden;
+                    font-size: 0.8rem;
+                }
+            }
+        }
         .carousel {
             .carousel-inner {
-                height: 36vh;
+                height: 43vh; // 36vh
             }
             .carousel-item {
                 img {
                     height: 36vh;
                 }
+            }
+            .carousel-indicators {
+                bottom: -5vh;
             }
         }
         &.all-details {
@@ -174,7 +195,7 @@
                 }
                 .carousel-item {
                     img {
-                        height: 56vh;
+                        height: 44vh;
                     }
                 }
             }
