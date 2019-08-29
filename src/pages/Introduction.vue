@@ -21,6 +21,7 @@
 						<span class="fa fa-box-open"></span>
 						<span class="fa fa-eye"></span>
 						<span class="fa fa-trash-alt"></span>
+						<span class="fa fa-info-circle"></span>
 					</div>
 				</div>
 			</b-card>
