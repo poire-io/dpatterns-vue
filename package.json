@@ -1,6 +1,16 @@
 {
-  "name": "@poire-io/dpatterns-vue",
+  "name": "dpatterns-vue",
   "version": "0.1.37",
+  "description": "DPatterns is a Deloitte pattern library that can be used to rapidly build consistent, well designed applications.",
+  "bugs": {
+    "url": "https://gitlab.usdc/USDC/USDCFEPL",
+    "email": "coobrien@deloitte.com"
+  },
+  "author": {
+    "name": "Corey O'Brien",
+    "email": "coobrien@deloitte.com",
+    "url": "https://gitlab.usdc/USDC/USDCFEPL"
+  },
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
